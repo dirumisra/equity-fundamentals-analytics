@@ -1,0 +1,822 @@
+s_no,industry,company_name,cmp_rs,market_cap_cr,debt_to_eq,sales_cr,sales_growth_pct,sales_qtr_cr,profit_growth_pct,profit_var_5yrs_pct,roe_pct,opm_pct,eps_12m_rs,peg,pe,pat_12m_cr,roce_pct,cmp_to_bv,is_valuation_known,valuation_bucket,is_profitable,profitability_bucket,capital_efficiency_flag,is_growth_company,growth_bucket,is_basic_screen_pass,is_quality_screen_pass,is_growth_screen_pass
+2,Auto Components Companies,Bosch,36870.0,108780.78,0.01,18959.7,10.55,4794.8,13.42,12.76,15.55,13.11,909.18,2.61,47.89,2271.53,21.11,7.76,True,expensive,True,moderate,True,True,moderate,True,False,False
+3,Auto Components Companies,Uno Minda,1305.1,75253.94,0.46,18015.43,17.14,4814.03,21.44,40.73,17.5,11.54,19.02,1.74,68.82,1093.46,18.83,12.08,True,expensive,True,moderate,True,True,moderate,True,False,False
+6,Auto Components Companies,Schaeffler India,4108.8,64214.29,0.01,8834.57,12.56,2360.14,17.75,21.59,19.17,18.98,71.5,3.63,57.46,1117.62,25.67,11.66,True,expensive,True,moderate,True,True,moderate,True,False,False
+8,Auto Components Companies,Balkrishna Inds,2317.6,44807.08,0.35,10466.18,3.72,2393.45,-15.32,12.99,15.78,21.32,71.36,13.48,32.48,1379.52,16.67,4.29,True,expensive,True,moderate,True,False,weak,True,False,False
+9,Auto Components Companies,Endurance Tech.,2736.7,38463.58,0.2,12724.36,15.84,3582.82,13.57,7.19,14.63,13.48,62.78,2.36,44.03,873.65,17.26,6.15,True,expensive,True,moderate,True,True,moderate,True,False,False
+12,Auto Components Companies,Motherson Wiring,48.64,32276.4,0.14,10065.69,13.64,2761.86,-7.1,,35.9,10.26,0.92,5.34,52.62,613.35,42.53,17.51,True,expensive,True,moderate,True,False,weak,True,False,False
+13,Auto Components Companies,Sona BLW Precis.,506.95,31521.37,0.04,3724.86,7.06,1138.29,8.94,31.47,14.37,25.63,9.86,2.72,50.27,626.99,17.82,5.52,True,expensive,True,moderate,True,False,weak,True,False,False
+15,Auto Components Companies,ZF Commercial,12963.0,24612.34,0.02,3824.11,3.71,901.8,16.49,27.06,15.09,15.9,251.34,1.0,51.63,476.74,20.15,7.22,True,expensive,True,moderate,True,False,weak,True,False,False
+16,Auto Components Companies,Sundram Fasten.,960.05,20193.88,0.18,6026.12,3.59,1521.02,1.37,10.69,14.93,15.8,26.37,6.19,36.45,554.01,17.14,4.98,True,expensive,True,moderate,True,False,weak,True,False,False
+17,Auto Components Companies,Amara Raja Ener.,960.1,17573.19,0.04,12875.97,7.79,3388.18,-16.47,6.14,12.34,12.04,53.27,1.1,21.78,806.96,16.75,2.26,True,fair,True,moderate,True,False,weak,True,False,False
+19,Auto Components Companies,CIE Automotive,424.1,16075.51,0.07,9123.42,0.32,2371.84,-2.09,18.31,13.15,14.54,21.32,0.73,20.06,801.2,16.59,2.32,True,fair,True,moderate,True,False,weak,True,False,False
+21,Auto Components Companies,CEAT,3894.6,15759.78,0.68,14022.58,12.61,3772.65,-12.57,14.63,11.77,11.55,122.37,0.38,30.06,524.21,15.4,3.45,True,expensive,True,moderate,True,False,weak,True,False,False
+26,Auto Components Companies,Shriram Pistons,2727.7,12026.72,0.2,3816.09,14.43,1016.5,15.57,47.8,23.2,20.53,122.59,0.49,22.27,540.01,25.7,4.56,True,fair,True,strong,True,True,moderate,True,True,False
+27,Auto Components Companies,Banco Products,787.45,11266.37,0.45,3521.99,17.66,1038.19,25.88,38.94,32.18,17.14,30.26,0.73,26.03,432.85,32.36,6.89,True,fair,True,moderate,True,True,moderate,True,False,False
+31,Auto Components Companies,Lumax Auto Tech.,1397.3,9540.78,1.05,4221.21,36.7,1156.36,36.23,24.69,20.25,13.12,31.03,1.27,45.12,211.47,19.02,9.02,True,expensive,True,moderate,True,True,strong,True,False,True
+32,Auto Components Companies,ASK Automotive,474.35,9364.15,0.53,3709.76,9.75,1053.7,21.44,18.44,26.63,12.7,13.66,0.79,34.76,269.37,27.58,8.07,True,expensive,True,moderate,True,False,weak,True,False,False
+33,Auto Components Companies,Pricol Ltd,661.1,8065.24,0.15,3305.36,35.16,1006.86,14.52,29.55,17.6,11.26,15.61,0.92,42.39,190.28,22.87,7.11,True,expensive,True,moderate,True,True,moderate,True,False,False
+35,Auto Components Companies,Fiem Industries,2315.5,6089.32,0.06,2606.8,16.64,715.39,20.68,21.89,20.99,13.48,86.27,0.94,27.16,224.2,27.8,5.64,True,fair,True,moderate,True,True,moderate,True,False,False
+36,Auto Components Companies,L G Balakrishnan,1799.5,5747.39,0.09,2790.14,14.37,787.02,11.4,29.89,16.06,16.1,100.32,2.5,18.94,303.46,19.86,2.87,True,fair,True,moderate,True,True,moderate,True,False,False
+37,Auto Components Companies,SJS Enterprises,1758.3,5587.24,0.05,830.49,13.95,241.76,32.84,,18.9,26.56,44.21,1.44,40.32,138.57,22.8,7.33,True,expensive,True,moderate,True,False,moderate,True,False,False
+38,Auto Components Companies,Sharda Motor,969.4,5567.38,0.04,2983.3,6.96,787.21,-0.48,40.13,26.54,13.23,57.79,0.82,17.7,314.54,34.6,4.8,True,fair,True,moderate,True,False,weak,True,False,False
+40,Auto Components Companies,Jamna Auto Inds.,110.03,4396.0,0.01,2304.4,-0.42,530.88,-8.29,30.31,19.25,13.27,4.5,2.69,24.47,179.64,20.74,4.24,True,fair,True,moderate,True,False,weak,True,False,False
+44,Auto Components Companies,Steel Str. Wheel,202.61,3184.63,0.55,4695.96,9.22,1200.57,-6.61,55.22,14.54,10.37,12.86,19.46,15.76,202.01,16.76,1.95,True,fair,True,moderate,True,False,weak,True,False,False
+46,Auto Components Companies,Federal-Mogul Go,536.2,2982.88,0.0,1866.01,6.57,490.5,30.48,37.99,14.05,16.32,32.49,0.37,16.5,180.77,19.6,2.19,True,fair,True,moderate,True,False,weak,True,False,False
+47,Auto Components Companies,Rolex Rings,106.13,2891.08,0.0,1106.73,-7.82,271.38,1.0,28.78,19.05,19.87,6.18,1.29,16.1,179.61,22.81,2.48,True,fair,True,moderate,True,False,weak,True,False,False
+48,Auto Components Companies,NRB Bearings,292.15,2834.53,0.14,1243.06,9.63,325.2,32.14,28.79,12.74,16.9,9.49,1.42,20.2,140.36,15.88,2.97,True,fair,True,moderate,True,False,weak,True,False,False
+50,Auto Components Companies,Automotive Axles,1645.9,2489.6,0.01,2041.52,-2.78,461.76,2.55,29.71,16.58,10.59,104.01,0.57,15.84,157.18,22.32,2.47,True,fair,True,moderate,True,False,weak,True,False,False
+56,Auto Components Companies,NDR Auto Compon.,870.35,2067.39,0.16,752.42,13.68,199.96,33.49,51.81,19.06,10.75,24.47,0.7,35.5,58.23,22.85,6.22,True,expensive,True,moderate,True,True,moderate,True,False,False
+58,Auto Components Companies,India Nipp.Elec.,862.1,1946.37,0.0,945.69,22.67,272.56,24.5,12.56,12.33,11.18,39.52,0.8,21.77,89.39,15.43,2.49,True,fair,True,moderate,True,True,strong,True,False,True
+61,Auto Components Companies,Frontier Springs,4494.6,1770.87,0.04,286.43,59.0,82.74,125.55,19.83,32.5,25.04,129.08,0.52,34.83,50.84,41.83,11.39,True,expensive,True,strong,True,True,strong,True,True,True
+62,Auto Components Companies,Talbros Auto.,281.65,1746.94,0.13,827.24,0.74,213.15,10.2,46.88,15.93,15.75,15.5,0.65,18.25,95.7,19.31,2.55,True,fair,True,moderate,True,False,weak,True,False,False
+73,Auto Components Companies,Kross Ltd,164.48,1059.48,0.13,605.29,-1.91,130.92,11.15,86.28,16.51,12.8,7.68,0.37,21.39,49.53,21.72,2.34,True,fair,True,moderate,True,False,weak,True,False,False
+75,Auto Components Companies,Saint-Gob. Sekur,111.35,1014.51,0.01,222.12,11.1,60.39,32.39,25.25,14.47,20.8,4.56,2.92,24.4,41.57,20.03,4.64,True,fair,True,moderate,True,True,moderate,True,False,False
+82,Auto Components Companies,OBSC Perfection,332.15,812.18,0.37,163.79,29.2,88.64,47.6,,24.96,17.89,8.18,0.61,40.61,20.0,23.41,7.09,True,expensive,True,moderate,True,False,moderate,True,False,False
+86,Auto Components Companies,Menon Bearings,114.31,645.73,0.33,251.93,13.38,62.51,13.99,,16.33,16.85,4.87,,23.65,27.3,19.63,4.03,True,fair,True,moderate,True,False,moderate,True,False,False
+87,Auto Components Companies,Tolins Tyres,161.92,637.69,0.05,295.11,-6.41,66.1,0.41,,18.2,16.3,9.22,,17.51,36.42,21.3,1.88,True,fair,True,moderate,True,False,weak,True,False,False
+89,Auto Components Companies,Maxvolt Energy,472.15,514.82,0.5,197.23,190.94,130.04,108.21,,25.25,13.68,16.75,0.03,28.19,18.26,31.92,6.31,True,fair,True,moderate,True,False,moderate,True,False,False
+95,Auto Components Companies,Pradeep Metals,245.4,423.8,0.46,329.37,12.45,85.66,-5.19,20.56,20.48,14.77,15.44,2.46,15.89,26.67,20.62,2.9,True,fair,True,moderate,True,False,weak,True,False,False
+96,Auto Components Companies,RNIT AI Solution,54.81,409.93,0.13,40.47,245.01,13.72,325.24,,25.1,35.36,1.19,,45.91,8.93,15.77,4.88,True,expensive,True,strong,True,False,moderate,True,True,False
+103,Auto Components Companies,Menon Pistons,60.64,309.27,0.09,273.7,7.44,74.54,-2.29,,16.11,16.57,4.86,1.51,12.48,24.79,21.58,1.85,True,fair,True,moderate,True,False,weak,True,False,False
+104,Auto Components Companies,Emmforce Auto.,149.0,305.44,0.46,106.06,41.19,53.57,16.87,,16.27,21.35,4.26,,34.99,8.73,16.02,3.55,True,expensive,True,moderate,True,False,moderate,True,False,False
+108,Auto Components Companies,G G Automotive,286.75,286.46,0.39,124.25,23.64,33.26,104.2,35.45,19.7,17.91,10.96,0.16,26.77,10.7,20.44,5.42,True,fair,True,moderate,True,True,strong,True,False,True
+111,Auto Components Companies,Thaai,106.05,245.29,1.11,131.0,29.11,62.25,-12.73,,15.56,24.55,5.13,,20.68,11.86,16.31,2.33,True,fair,True,moderate,True,False,weak,True,False,False
+125,Auto Components Companies,Bhagwati Auto,583.75,168.12,0.22,153.66,21.63,42.7,72.41,22.87,13.53,12.09,36.45,0.16,16.01,10.5,17.64,3.23,True,fair,True,moderate,True,True,strong,True,False,True
+132,Auto Components Companies,SNL Bearings,387.3,139.82,0.0,53.43,11.85,14.77,23.64,20.73,16.19,26.02,31.43,2.32,12.32,11.35,21.03,1.98,True,fair,True,moderate,True,True,moderate,True,False,False
+133,Auto Components Companies,Hindustan Hardy,883.55,132.53,0.21,97.08,36.06,25.33,70.16,177.73,25.03,12.79,58.59,0.69,15.09,8.78,28.37,3.89,True,fair,True,moderate,True,True,strong,True,False,True
+134,Auto Components Companies,Sellowrap Indus.,88.0,120.95,0.5,161.27,18.09,86.58,70.0,,21.55,13.05,9.88,0.05,11.4,10.03,20.85,1.56,True,fair,True,moderate,True,False,moderate,True,False,False
+147,Auto Components Companies,Premium Plast,37.25,71.13,0.17,63.75,25.2,38.5,34.94,,18.45,19.12,3.38,0.09,9.15,6.45,23.81,1.24,True,cheap,True,moderate,True,False,moderate,True,False,False
+168,Automobiles Companies,Maruti Suzuki,15768.0,495785.77,0.0,160633.8,10.62,42344.2,5.41,34.67,15.89,12.22,470.08,0.46,33.55,14779.4,21.7,4.97,True,expensive,True,moderate,True,False,weak,True,False,False
+170,Automobiles Companies,Bajaj Auto,8884.5,248280.36,0.58,54683.29,11.83,15734.74,13.01,7.02,22.77,19.62,298.29,2.87,29.81,8329.97,28.06,7.26,True,fair,True,moderate,True,True,moderate,True,False,False
+171,Automobiles Companies,Hyundai Motor I,2421.1,196621.48,0.05,66889.41,-1.01,17061.03,-3.7,18.46,42.18,13.2,69.08,1.45,35.03,5612.65,54.25,11.58,True,expensive,True,moderate,True,False,weak,True,False,False
+172,Automobiles Companies,Eicher Motors,6896.5,189241.29,0.02,21427.66,25.37,6171.59,19.66,20.98,24.1,24.14,186.26,0.9,37.05,5107.32,29.81,8.56,True,expensive,True,strong,True,True,moderate,True,True,False
+173,Automobiles Companies,TVS Motor Co.,3477.7,165280.41,2.08,48838.15,17.19,14051.22,39.27,27.31,28.39,15.25,55.14,1.56,63.44,2605.48,15.35,20.36,True,expensive,True,moderate,True,True,moderate,True,False,False
+175,Automobiles Companies,Hero Motocorp,5876.5,117591.14,0.03,42175.84,5.18,12218.39,27.67,7.08,23.06,14.31,264.12,0.93,22.26,5283.06,30.34,5.6,True,fair,True,moderate,True,False,weak,True,False,False
+177,Automobiles Companies,Force Motors,17618.0,23221.13,0.0,8624.15,14.54,2081.4,72.17,46.83,20.82,14.46,817.39,0.28,28.31,820.18,29.99,6.62,True,fair,True,moderate,True,True,moderate,True,False,False
+179,Automobiles Companies,Olectra Greentec,1387.4,11390.77,0.33,1968.13,34.02,656.62,27.3,123.4,14.27,13.68,17.41,1.43,79.71,142.91,20.52,10.15,True,expensive,True,moderate,True,True,strong,True,False,True
+189,Automobiles Companies,Delta Auto.,52.0,79.51,0.05,94.47,31.51,42.13,22.81,,18.49,11.07,6.11,,8.51,9.34,23.37,1.04,True,cheap,True,moderate,True,False,moderate,True,False,False
+190,Automobiles Companies,Supertech EV,50.42,62.32,0.07,74.94,16.15,42.55,24.7,,46.61,12.76,6.77,,9.47,6.16,41.32,1.24,True,cheap,True,moderate,True,False,moderate,True,False,False
+194,BSE Capital Goods,Hind.Aeronautics,4744.2,317237.34,0.0,32104.78,3.05,6628.61,-0.52,24.46,26.07,30.58,126.64,2.07,37.46,8469.33,33.88,8.55,True,expensive,True,strong,True,False,weak,True,True,False
+195,BSE Capital Goods,Bharat Electron,423.2,309386.59,0.0,25152.11,16.58,5792.09,25.45,23.8,29.22,29.52,7.79,1.79,54.32,5695.67,38.88,14.34,True,expensive,True,strong,True,True,moderate,True,True,False
+196,BSE Capital Goods,Cummins India,4261.3,118184.38,0.0,11643.62,20.23,3170.27,18.12,22.45,28.15,20.97,83.48,1.47,51.28,2304.5,36.32,14.96,True,expensive,True,strong,True,True,moderate,True,True,False
+197,BSE Capital Goods,Polycab India,7688.0,115704.41,0.02,24595.05,22.19,6477.21,37.18,20.93,21.44,14.73,163.6,1.6,47.0,2461.81,29.72,10.92,True,expensive,True,moderate,True,True,strong,True,False,True
+198,BSE Capital Goods,Siemens,3211.5,114362.82,0.01,17364.2,-21.92,5171.2,-32.78,17.04,11.81,11.56,59.09,19.82,67.77,1687.44,15.83,8.65,True,expensive,True,moderate,True,False,weak,True,False,False
+199,BSE Capital Goods,CG Power & Ind,724.1,114075.8,0.02,11069.29,25.63,2922.79,19.13,33.57,27.66,12.97,6.93,9.72,106.77,1068.45,37.48,15.28,True,expensive,True,moderate,True,True,moderate,True,False,False
+200,BSE Capital Goods,Mazagon Dock,2783.4,112306.88,0.0,11872.86,12.22,2929.24,-9.22,38.3,34.02,16.03,57.86,0.84,48.12,2333.96,43.19,12.6,True,expensive,True,moderate,True,False,weak,True,False,False
+201,BSE Capital Goods,A B B,5083.0,107728.93,0.01,13010.65,12.35,3310.72,4.69,40.25,28.82,16.56,83.24,0.97,60.97,1766.99,38.65,14.97,True,expensive,True,moderate,True,False,weak,True,False,False
+203,BSE Capital Goods,Hitachi Energy,21624.0,96401.06,0.02,6815.4,16.49,1832.55,259.8,14.55,13.79,12.6,162.51,4.67,134.41,717.23,19.44,21.03,True,expensive,True,moderate,True,True,moderate,True,False,False
+204,BSE Capital Goods,Suzlon Energy,56.53,76902.74,0.05,13767.27,74.67,3870.78,221.65,22.93,41.44,18.25,2.34,0.12,24.24,3172.9,32.52,9.78,True,fair,True,moderate,True,True,strong,True,False,True
+205,BSE Capital Goods,Bharat Dynamics,1536.8,56364.07,0.0,4004.08,82.69,1147.03,18.17,0.55,14.38,14.19,17.84,52.22,86.17,654.13,19.66,13.36,True,expensive,True,moderate,True,True,moderate,True,False,False
+206,BSE Capital Goods,Supreme Inds.,3591.0,45622.91,0.06,10540.03,1.68,2393.87,-22.27,14.56,17.14,12.73,66.75,-38.99,53.8,847.95,22.04,7.97,True,expensive,True,moderate,True,False,weak,True,False,False
+207,BSE Capital Goods,Cochin Shipyard,1699.3,44705.31,0.18,4649.73,14.7,951.3,-14.51,5.79,15.85,16.88,28.81,4.59,58.98,757.94,20.35,7.74,True,expensive,True,moderate,True,False,weak,True,False,False
+209,BSE Capital Goods,KEI Industries,4119.1,39369.78,0.04,10703.71,22.5,2726.35,26.6,22.11,15.58,10.04,82.73,2.19,49.8,790.62,21.29,6.36,True,expensive,True,moderate,True,True,strong,True,False,True
+210,BSE Capital Goods,Astral,1448.2,38944.87,0.07,6017.0,4.66,1577.4,-3.08,15.44,14.89,16.0,18.96,38.43,76.47,509.3,19.71,10.3,True,expensive,True,moderate,True,False,weak,True,False,False
+212,BSE Capital Goods,AIA Engineering,3733.4,35231.6,0.14,4309.96,-1.68,1047.76,6.67,13.23,15.42,27.56,119.47,1.63,31.26,1126.89,18.92,4.78,True,expensive,True,moderate,True,False,weak,True,False,False
+214,BSE Capital Goods,Honeywell Auto,34795.0,30718.25,0.02,4537.8,13.28,1149.4,-2.2,1.27,13.7,12.66,583.72,3.81,59.52,516.1,18.4,7.34,True,expensive,True,moderate,True,False,weak,True,False,False
+217,BSE Capital Goods,Timken India,3084.0,23208.69,0.01,3193.03,4.81,772.99,15.08,12.63,16.95,18.7,60.47,4.69,51.03,454.83,20.93,8.38,True,expensive,True,moderate,True,False,weak,True,False,False
+218,BSE Capital Goods,Jyoti CNC Auto.,976.9,22216.96,0.4,1943.26,19.91,507.9,26.1,42.76,21.16,26.5,15.22,0.61,64.19,346.13,24.35,12.14,True,expensive,True,strong,True,True,moderate,True,True,False
+219,BSE Capital Goods,Triveni Turbine,546.7,17380.45,0.03,1918.9,3.49,506.2,8.54,23.36,30.59,21.77,10.76,1.19,50.82,342.0,41.36,13.37,True,expensive,True,strong,True,False,weak,True,True,False
+221,BSE Capital Goods,Grindwell Norton,1531.9,16961.2,0.04,2890.32,5.08,774.74,1.69,15.09,16.04,18.04,34.38,6.31,44.55,380.69,20.9,7.43,True,expensive,True,moderate,True,False,weak,True,False,False
+223,BSE Capital Goods,Elgi Equipments,504.55,15991.23,0.26,3675.19,9.45,968.0,18.9,52.48,20.06,14.43,12.29,1.51,41.05,389.58,21.91,7.96,True,expensive,True,moderate,True,False,weak,True,False,False
+224,BSE Capital Goods,Carborundum Uni.,839.55,15980.09,0.08,4989.67,4.51,1298.08,-37.32,6.03,10.85,12.04,10.52,25.89,63.95,249.89,16.12,4.27,True,expensive,True,moderate,True,False,weak,True,False,False
+225,BSE Capital Goods,Zen Technologies,1401.7,12655.54,0.01,808.97,9.71,173.57,21.57,36.63,26.08,38.44,27.46,0.12,51.19,247.25,37.22,7.04,True,expensive,True,strong,True,False,weak,True,True,False
+226,BSE Capital Goods,Finolex Cables,775.7,11871.06,0.0,5548.0,7.42,1375.79,10.86,6.27,12.39,10.26,39.33,1.89,19.74,601.51,16.21,2.47,True,fair,True,moderate,True,False,weak,True,False,False
+228,BSE Capital Goods,SKF India,1975.6,9763.26,0.0,5061.68,6.66,1309.06,-0.94,,21.43,14.59,108.6,1.38,17.58,555.21,28.83,3.54,True,fair,True,moderate,True,False,weak,True,False,False
+230,BSE Capital Goods,Median: 36 Co.,1837.45,36360.54,0.04,5304.84,11.99,1342.42,9.52,22.96,15.71,15.37,40.39,1.71,54.06,576.11,20.62,7.96,True,expensive,True,moderate,True,False,weak,True,False,False
+232,Power,Adani Power,151.61,292277.54,0.83,55474.57,1.51,13456.84,-5.41,65.69,26.1,37.26,6.24,0.64,24.29,12031.82,22.54,5.0,True,fair,True,strong,True,False,weak,True,True,False
+240,Power,Torrent Power,1300.8,65567.74,0.55,28738.09,-1.26,7876.0,33.3,13.28,19.03,18.2,59.34,0.46,21.93,2990.38,15.95,3.48,True,fair,True,moderate,True,False,weak,True,False,False
+246,Power,Nava,535.85,15551.86,0.2,4017.64,1.03,963.73,-13.2,18.68,15.03,43.19,31.78,0.7,16.81,925.28,17.17,1.92,True,fair,True,moderate,True,False,weak,True,False,False
+250,Power,KPI Green Energy,462.35,9124.06,0.96,2265.01,70.66,634.3,71.36,118.33,19.73,32.21,20.12,0.24,22.98,397.03,17.5,3.44,True,fair,True,moderate,True,True,strong,True,False,True
+251,Power,Powergrid Infra.,95.94,8732.37,0.14,1260.86,-0.64,316.63,81.66,,15.41,155.6,14.86,0.2,6.46,1352.24,16.05,1.14,True,cheap,True,moderate,True,False,weak,True,False,False
+257,Power,Insolation Ener,160.85,3545.05,0.37,1498.48,39.94,776.75,42.56,,34.87,12.17,6.58,0.15,24.45,145.0,34.73,5.15,True,fair,True,moderate,True,False,moderate,True,False,False
+258,Power,K.P. Energy,408.4,2733.18,0.79,1133.13,84.09,300.69,72.73,152.69,45.44,20.07,19.99,0.23,20.47,133.54,41.72,7.24,True,fair,True,strong,True,True,strong,True,True,True
+317,IT - Software Companies,TCS,3147.7,1139400.58,0.1,257688.0,3.62,65799.0,4.43,8.48,52.38,26.72,136.64,2.77,22.66,50289.69,64.63,10.7,True,fair,True,strong,True,False,weak,True,True,False
+318,IT - Software Companies,Infosys,1541.1,640558.0,0.08,169458.0,7.9,44490.0,4.36,10.01,28.83,23.88,67.71,3.53,22.78,28124.0,37.5,6.2,True,fair,True,strong,True,False,weak,True,True,False
+319,IT - Software Companies,HCL Technologies,1662.6,451301.27,0.1,122427.0,7.52,31942.0,0.88,9.49,25.0,21.17,62.56,3.04,26.58,16976.0,31.61,6.33,True,fair,True,strong,True,False,weak,True,True,False
+320,IT - Software Companies,Wipro,246.07,258094.7,0.19,89654.9,1.1,22697.3,14.98,6.13,16.59,19.82,12.89,8.35,19.12,13500.0,19.51,3.01,True,fair,True,moderate,True,False,weak,True,False,False
+321,IT - Software Companies,LTIMindtree,5972.0,177051.07,0.1,39667.5,8.72,10394.3,4.63,24.78,21.53,17.06,164.31,6.98,36.36,4869.1,27.63,7.56,True,expensive,True,moderate,True,False,weak,True,False,False
+322,IT - Software Companies,Tech Mahindra,1433.9,140562.5,0.07,54015.7,3.3,13994.9,37.03,-0.38,14.62,14.34,45.8,-2.91,31.34,4485.0,18.56,5.11,True,expensive,True,moderate,True,False,weak,True,False,False
+323,IT - Software Companies,Persistent Systems,6316.0,99677.53,0.06,13218.7,23.27,3580.72,35.06,32.77,24.08,18.28,107.02,2.22,59.86,1665.16,30.44,13.82,True,expensive,True,moderate,True,True,strong,True,False,True
+324,IT - Software Companies,Oracle Fin.Serv.,8333.0,72491.23,0.0,7072.5,2.78,1788.8,-4.89,10.23,29.34,43.55,273.16,3.82,30.55,2373.2,40.6,9.83,True,expensive,True,strong,True,False,weak,True,True,False
+325,IT - Software Companies,Coforge,1858.2,62274.34,0.14,14342.3,43.07,3985.7,39.18,12.59,15.98,15.84,35.16,8.37,54.68,1138.86,20.34,9.02,True,expensive,True,moderate,True,True,strong,True,False,True
+326,IT - Software Companies,Mphasis,2713.7,51650.09,0.21,14905.78,8.73,3901.91,11.94,7.24,18.22,18.82,93.92,5.11,28.93,1785.07,22.71,5.37,True,fair,True,moderate,True,False,weak,True,False,False
+327,IT - Software Companies,Hexaware Tech.,731.5,44552.69,0.1,13106.6,14.61,3483.6,32.93,12.23,23.34,15.44,22.95,1.99,31.91,1396.2,29.52,7.68,True,expensive,True,moderate,True,True,moderate,True,False,False
+328,IT - Software Companies,Tata Elxsi,5347.5,33297.08,0.06,3657.71,-1.19,918.1,-17.9,24.68,29.27,22.81,107.67,3.92,49.65,670.62,36.26,12.33,True,expensive,True,strong,True,False,weak,True,True,False
+329,IT - Software Companies,KPIT Technologi.,1203.1,32996.05,0.16,6132.77,13.34,1587.71,6.42,40.42,33.2,19.92,28.19,0.97,42.7,772.69,40.88,10.11,True,expensive,True,moderate,True,False,weak,True,False,False
+330,IT - Software Companies,Zensar Tech.,709.5,16124.23,0.03,5490.8,9.16,1421.3,7.99,19.81,16.43,15.48,30.83,1.53,23.02,700.4,21.28,3.77,True,fair,True,moderate,True,False,weak,True,False,False
+331,IT - Software Companies,Intellect Design,1142.8,15929.07,0.03,2795.32,15.87,758.09,35.45,129.24,12.73,22.05,28.95,-50.13,39.6,402.27,16.76,5.38,True,expensive,True,moderate,True,True,moderate,True,False,False
+332,IT - Software Companies,Newgen Software,921.0,13112.46,0.03,1532.45,11.47,400.79,12.79,33.45,22.5,25.64,23.27,1.69,39.88,328.8,27.97,8.19,True,expensive,True,strong,True,True,moderate,True,True,False
+333,IT - Software Companies,Birlasoft Ltd,391.3,10916.63,0.04,5293.39,-2.0,1328.9,-25.41,18.38,15.59,13.41,16.62,6.94,23.65,461.58,20.95,2.94,True,fair,True,moderate,True,False,weak,True,False,False
+335,IT - Software Companies,Latent View,494.25,10204.75,0.02,953.58,31.5,257.54,11.74,19.8,11.58,22.21,9.23,3.66,53.54,190.61,15.22,6.28,True,expensive,True,moderate,True,True,moderate,True,False,False
+336,IT - Software Companies,C.E. Info System,1694.5,9284.38,0.01,493.47,22.12,113.77,8.0,44.27,17.62,35.9,26.74,2.48,63.75,145.63,24.13,11.13,True,expensive,True,moderate,True,False,weak,True,False,False
+337,IT - Software Companies,Rategain Travel,712.15,8420.84,0.01,1107.38,5.96,295.06,11.31,62.27,13.27,20.35,17.73,0.19,40.24,209.29,17.3,4.63,True,expensive,True,moderate,True,False,weak,True,False,False
+338,IT - Software Companies,Tanla Platforms,610.0,8085.67,0.03,4143.93,3.31,1078.48,-11.53,38.24,24.1,16.13,35.74,-8.35,16.87,479.3,29.19,3.58,True,fair,True,moderate,True,False,weak,True,False,False
+339,IT - Software Companies,Happiest Minds,506.05,7704.34,0.78,2198.85,21.31,573.57,-8.76,18.43,12.61,16.85,12.82,30.4,38.0,202.73,15.25,4.73,True,expensive,True,moderate,True,False,weak,True,False,False
+340,IT - Software Companies,Mastek,2301.5,7129.89,0.2,3630.02,11.89,940.37,2.55,24.87,16.14,15.49,118.08,2.18,19.34,368.63,17.28,2.66,True,fair,True,moderate,True,False,weak,True,False,False
+341,IT - Software Companies,Aurionpro Sol.,1134.5,6289.15,0.02,1327.55,30.47,357.67,23.58,38.33,15.3,20.33,36.83,0.81,30.93,203.33,18.07,3.9,True,expensive,True,moderate,True,True,strong,True,False,True
+342,IT - Software Companies,ASM Technologies,3657.65,5335.29,0.18,456.63,117.58,154.46,805.73,104.62,16.85,20.45,42.39,4.57,96.3,55.4,19.3,18.1,True,expensive,True,moderate,True,True,strong,True,False,True
+343,IT - Software Companies,Magellanic Cloud,66.9,3945.15,0.47,636.17,14.0,164.44,-4.51,77.04,22.23,33.25,1.84,0.71,36.79,107.24,22.91,6.76,True,expensive,True,strong,True,False,weak,True,True,False
+346,IT - Software Companies,Saksoft,214.39,2843.19,0.07,974.27,21.17,258.49,28.6,22.59,18.94,17.54,9.46,1.2,22.68,125.37,24.04,4.04,True,fair,True,moderate,True,True,strong,True,False,True
+347,IT - Software Companies,Nucleus Soft.,946.8,2534.5,0.01,865.89,6.64,213.51,2.88,9.56,16.82,19.07,60.22,0.22,15.72,161.23,22.6,2.99,True,fair,True,moderate,True,False,weak,True,False,False
+349,IT - Software Companies,Ceinsys Tech,1205.2,2150.22,0.16,574.23,88.44,163.45,113.18,23.08,19.46,19.83,55.32,0.25,22.15,97.06,26.61,4.61,True,fair,True,moderate,True,True,strong,True,False,True
+350,IT - Software Companies,Accelya Solution,1337.2,1993.41,0.22,537.78,5.25,136.2,8.33,8.03,45.47,36.12,84.53,0.84,15.8,126.17,53.61,7.19,True,fair,True,strong,True,False,weak,True,True,False
+351,IT - Software Companies,TAC Infosec,844.4,1769.79,0.01,47.59,149.95,29.49,78.96,,41.27,57.87,9.31,,90.48,19.56,43.69,26.24,True,expensive,True,strong,True,False,moderate,True,True,False
+354,IT - Software Companies,Unicommerce,128.98,1442.54,0.06,174.32,59.53,51.38,31.34,,24.78,19.57,1.84,,74.51,19.36,31.37,8.11,True,expensive,True,moderate,True,False,moderate,True,False,False
+355,IT - Software Companies,InfoBeans Tech.,567.7,1373.76,0.04,436.84,14.57,125.44,80.35,13.23,12.37,20.2,26.15,-1.98,21.35,64.35,16.81,3.74,True,fair,True,moderate,True,True,moderate,True,False,False
+357,IT - Software Companies,Silver Touch,818.55,1038.75,0.33,308.77,17.06,85.52,38.8,32.77,17.6,15.53,20.48,0.8,40.0,25.97,22.0,7.16,True,expensive,True,moderate,True,True,moderate,True,False,False
+358,IT - Software Companies,Innovana Think.,480.35,981.37,0.19,120.32,25.99,32.72,19.17,15.1,22.92,51.4,23.77,0.69,20.14,48.73,25.6,3.79,True,fair,True,strong,True,True,moderate,True,True,False
+359,IT - Software Companies,Xchanging Sol.,87.05,972.11,0.24,199.18,13.52,52.81,101.98,-1.95,13.91,32.58,5.31,-8.43,16.43,59.16,15.44,2.64,True,fair,True,moderate,True,False,moderate,True,False,False
+361,IT - Software Companies,NINtec Systems,406.25,751.99,0.03,153.56,26.02,41.69,35.9,,52.37,23.37,15.93,,25.4,29.6,67.11,9.73,True,fair,True,strong,True,False,moderate,True,True,False
+362,IT - Software Companies,Trident Techlabs,434.45,750.78,0.22,119.0,39.49,63.5,21.98,,21.96,24.75,11.24,0.24,38.66,19.42,26.67,12.93,True,expensive,True,strong,True,False,moderate,True,True,False
+364,IT - Software Companies,Ksolves India,310.05,736.26,0.08,148.38,18.46,39.67,-14.97,119.08,153.9,30.08,13.08,0.81,23.73,31.02,157.26,22.13,True,fair,True,strong,True,False,weak,True,True,False
+368,IT - Software Companies,Systango Tech,358.05,525.21,0.0,83.85,43.51,45.49,74.95,53.98,23.38,40.12,22.04,0.35,16.25,32.33,28.74,4.34,True,fair,True,strong,True,True,strong,True,True,True
+370,IT - Software Companies,Cybertech Sys.,150.52,467.8,0.02,237.04,4.44,58.79,22.95,21.87,14.94,10.78,11.39,0.82,13.19,35.47,19.45,2.43,True,fair,True,moderate,True,False,weak,True,False,False
+371,IT - Software Companies,All E Tech,230.75,465.98,0.0,138.34,6.83,33.35,28.1,66.26,22.39,21.92,15.35,0.33,15.35,30.36,29.6,3.0,True,fair,True,strong,True,False,weak,True,True,False
+374,IT - Software Companies,Virtual Galaxy,176.05,437.81,0.24,134.66,95.48,86.13,97.06,78.96,47.74,46.71,15.95,0.09,12.51,35.0,44.99,2.22,True,fair,True,strong,True,True,strong,True,True,True
+376,IT - Software Companies,Alphalogic Tech.,65.1,407.64,0.1,63.57,-14.83,16.8,4.69,19.91,11.49,12.32,0.78,1.75,83.02,4.91,16.28,8.21,True,expensive,True,moderate,True,False,weak,True,False,False
+381,IT - Software Companies,Artificial Elect,167.55,284.26,0.0,61.2,845.9,33.05,3362.16,63.71,17.78,25.56,7.55,0.13,22.19,12.81,22.89,6.78,True,fair,True,moderate,True,True,strong,True,False,True
+382,IT - Software Companies,CapitalNumbers,115.15,281.27,0.0,102.21,5.61,52.67,6.87,36.35,20.0,25.76,11.02,0.81,10.45,26.91,26.47,1.64,True,fair,True,moderate,True,False,weak,True,False,False
+384,IT - Software Companies,Axis Solution,55.75,263.48,0.4,211.79,45.08,48.47,-1.73,411.46,39.84,12.36,4.93,0.02,11.3,23.32,30.37,2.15,True,fair,True,moderate,True,False,weak,True,False,False
+385,IT - Software Companies,DRC Systems,18.19,262.22,0.04,75.0,20.62,22.83,2.66,,26.81,31.47,1.24,0.09,15.79,16.61,30.01,3.22,True,fair,True,strong,True,False,weak,True,True,False
+389,IT - Software Companies,Shradha AI Tech,35.0,213.33,0.01,18.69,27.23,4.43,43.6,112.4,13.3,66.51,1.9,0.6,18.45,11.56,17.45,2.73,True,fair,True,moderate,True,True,strong,True,False,True
+390,IT - Software Companies,Atishay,182.3,200.19,0.1,58.21,11.28,17.95,14.39,23.53,15.43,17.97,7.24,0.08,25.18,7.95,20.35,3.91,True,fair,True,moderate,True,True,moderate,True,False,False
+395,IT - Software Companies,ACE Alpha Tech,107.0,187.87,0.0,16.51,-17.49,8.98,-8.28,,41.01,86.37,7.93,0.04,14.87,12.63,54.34,3.06,True,expensive,True,strong,True,False,weak,True,True,False
+398,IT - Software Companies,Naapbooks,150.0,161.8,0.03,18.13,89.45,9.73,180.69,69.52,17.09,53.72,6.08,0.15,24.74,6.54,23.65,4.12,True,fair,True,moderate,True,True,strong,True,False,True
+402,IT - Software Companies,Trust Fintech,55.3,131.76,0.0,34.86,5.93,20.29,-22.33,,11.57,28.28,3.42,0.18,16.19,8.14,15.67,1.15,True,fair,True,moderate,True,False,weak,True,False,False
+403,IT - Software Companies,CG-VAK Software,260.05,131.33,0.04,76.12,1.12,18.28,46.97,19.22,13.8,20.51,22.55,9.15,11.53,11.39,18.73,1.84,True,fair,True,moderate,True,False,weak,True,False,False
+405,IT - Software Companies,Secmark Consult.,121.24,127.98,0.0,36.48,28.54,9.33,67.24,32.01,23.26,23.44,3.72,1.95,32.98,3.88,22.26,6.12,True,expensive,True,strong,True,True,strong,True,True,True
+410,IT - Software Companies,Edvenswa Enter,37.0,108.1,0.0,140.55,49.08,29.97,51.25,,12.99,11.06,4.42,0.13,8.1,13.34,16.63,0.79,True,cheap,True,moderate,True,False,moderate,True,False,False
+418,IT - Software Companies,Identixweb,67.55,70.53,0.0,10.16,26.05,5.78,42.11,,24.76,64.07,4.83,,16.33,4.32,34.33,2.24,True,fair,True,strong,True,False,moderate,True,True,False
+422,IT - Software Companies,Austere Sys.,56.0,58.67,0.01,18.62,0.27,10.34,-3.37,,31.74,31.2,5.24,0.14,10.06,4.01,42.31,1.81,True,fair,True,strong,True,False,weak,True,True,False
+436,IT - Software Companies,AccelerateBS Ind,80.0,27.5,0.0,6.9,-5.74,3.37,104.17,,17.63,31.45,4.28,,18.71,1.47,22.18,5.32,True,fair,True,moderate,True,False,weak,True,False,False
+442,IT - Software Companies,Infronics Sys.,26.83,21.26,0.0,1.04,-67.4,0.0,-94.32,44.54,40.14,26.92,0.13,1.17,212.63,0.1,49.7,7.18,True,expensive,True,strong,True,False,weak,True,True,False
+475,IT - Services Companies,L&T Technology,4440.0,47078.41,0.1,11480.9,14.88,2979.5,-2.47,9.04,22.16,16.75,120.64,3.48,36.84,1277.9,28.29,7.6,True,expensive,True,moderate,True,False,weak,True,False,False
+476,IT - Services Companies,Tata Technolog.,682.3,27687.87,0.07,5170.65,0.29,1323.33,7.17,21.37,19.91,16.93,17.09,2.54,39.94,693.29,25.8,7.76,True,expensive,True,moderate,True,False,weak,True,False,False
+477,IT - Services Companies,Inventurus Knowl,1594.6,27378.54,0.34,2902.31,17.51,781.09,63.21,28.66,32.87,31.55,35.54,1.81,44.9,609.74,27.2,12.21,True,expensive,True,strong,True,True,moderate,True,True,False
+478,IT - Services Companies,Affle 3i,1686.6,23732.93,0.01,2471.38,19.55,646.72,22.28,42.26,14.03,22.3,29.83,2.66,56.6,419.3,16.82,7.28,True,expensive,True,moderate,True,True,moderate,True,False,False
+480,IT - Services Companies,Netweb Technol.,3288.0,18613.24,0.03,1353.57,47.18,303.72,38.88,96.32,23.93,14.29,23.83,1.92,138.04,134.84,32.45,32.19,True,expensive,True,moderate,True,True,strong,True,False,True
+481,IT - Services Companies,Cyient,1152.6,12810.32,0.08,7328.4,1.68,1781.0,-18.78,12.34,12.81,13.9,51.69,4.15,22.72,563.86,16.58,2.3,True,fair,True,moderate,True,False,weak,True,False,False
+483,IT - Services Companies,Datamatics Glob.,900.05,5335.16,0.13,1880.41,18.81,490.23,11.85,17.2,12.49,15.63,39.34,7.63,26.18,203.82,15.01,3.66,True,fair,True,moderate,True,True,moderate,True,False,False
+486,IT - Services Companies,eMudhra,615.7,5105.44,0.02,605.91,40.67,172.88,17.44,38.43,12.08,23.21,11.47,2.0,53.73,95.02,15.32,6.27,True,expensive,True,moderate,True,True,moderate,True,False,False
+487,IT - Services Companies,R Systems Intl.,422.8,5010.82,0.19,1852.07,8.37,498.62,36.75,17.7,21.24,15.3,15.95,-10.53,26.54,188.78,20.81,7.23,True,fair,True,moderate,True,False,weak,True,False,False
+488,IT - Services Companies,Cigniti Tech.,1793.9,4916.54,0.02,2148.2,13.58,567.3,85.99,12.67,25.96,16.74,104.14,0.51,17.23,285.27,34.09,4.37,True,fair,True,moderate,True,True,moderate,True,False,False
+490,IT - Services Companies,Network People,1619.1,3135.4,0.02,127.89,-36.28,46.68,-44.02,112.63,56.01,30.35,14.53,0.53,111.26,28.18,69.23,7.53,True,expensive,True,strong,True,False,weak,True,True,False
+491,IT - Services Companies,String Metaverse,263.15,3063.92,0.0,700.9,408.52,232.5,421.97,123.02,25.85,10.47,4.58,,49.04,62.48,26.0,12.04,True,expensive,True,moderate,True,True,strong,True,False,True
+496,IT - Services Companies,Genesys Intl.,457.25,1907.08,0.21,331.07,28.18,76.95,24.11,98.37,10.76,45.86,14.55,-9.81,32.47,58.73,15.03,2.79,True,fair,True,moderate,True,True,strong,True,False,True
+497,IT - Services Companies,Ivalue Infosolut,323.6,1731.75,0.19,895.76,20.01,312.81,15.22,21.74,19.88,12.57,19.72,0.87,19.02,83.03,25.77,3.44,True,fair,True,moderate,True,True,moderate,True,False,False
+498,IT - Services Companies,Expleo Solutions,1091.9,1689.05,0.03,1055.73,3.8,282.7,-4.65,20.52,16.26,14.68,67.04,1.12,16.23,104.05,21.47,2.41,True,fair,True,moderate,True,False,weak,True,False,False
+503,IT - Services Companies,Kellton Tech,20.58,1087.3,0.18,1160.36,13.11,299.69,21.16,2.48,16.29,11.63,1.74,2.97,12.52,86.82,17.11,1.51,True,fair,True,moderate,True,True,moderate,True,False,False
+504,IT - Services Companies,Sahana Systems,1075.1,950.08,0.07,228.97,134.79,114.16,126.8,,30.52,32.47,71.45,,15.05,63.14,42.14,4.71,True,fair,True,strong,True,False,moderate,True,True,False
+508,IT - Services Companies,Unified Data,413.95,831.63,0.0,263.44,-15.41,149.03,18.57,,36.49,12.65,14.62,0.62,28.32,29.37,47.86,7.22,True,fair,True,moderate,True,False,weak,True,False,False
+509,IT - Services Companies,Onward Technolog,285.1,649.65,0.17,522.8,10.49,138.97,70.62,34.1,12.54,11.87,18.11,3.26,15.8,41.12,15.65,2.79,True,fair,True,moderate,True,True,moderate,True,False,False
+513,IT - Services Companies,Sigma Solve,49.84,511.32,0.05,89.37,36.42,25.59,27.47,68.02,47.61,31.7,2.23,0.77,22.35,22.88,58.79,8.26,True,fair,True,strong,True,True,strong,True,True,True
+514,IT - Services Companies,TechD Cybersec.,660.7,494.18,0.0,29.8,97.74,18.18,159.26,,62.36,39.8,15.39,0.24,47.11,8.4,81.46,7.7,True,expensive,True,strong,True,False,moderate,True,True,False
+520,IT - Services Companies,Meta Infotech,138.95,262.36,0.44,218.82,43.84,210.15,57.95,64.23,42.6,11.48,8.22,0.27,19.48,15.89,51.14,3.6,True,fair,True,moderate,True,True,strong,True,False,True
+524,IT - Services Companies,Optivalue Tek,87.9,205.78,0.15,56.08,53.39,30.49,121.86,,49.18,29.19,7.04,0.49,15.78,12.18,54.9,2.41,True,fair,True,strong,True,False,moderate,True,True,False
+526,IT - Services Companies,Sattrix Infor.,290.0,197.2,0.09,50.5,34.95,28.06,345.67,,16.13,17.8,8.32,1.48,34.84,5.66,23.63,5.11,True,expensive,True,moderate,True,False,moderate,True,False,False
+532,IT - Services Companies,Matrix Geo Sol.,99.0,144.36,0.11,22.09,61.36,14.06,74.63,,35.15,37.8,5.47,0.32,21.07,5.85,44.27,2.21,True,fair,True,strong,True,False,moderate,True,True,False
+533,IT - Services Companies,Elnet Technolog,350.25,140.1,0.03,23.45,-4.64,6.25,10.28,10.24,11.87,63.75,47.72,0.63,7.34,19.09,15.36,0.85,True,cheap,True,moderate,True,False,weak,True,False,False
+537,IT - Services Companies,Handson Global,74.74,94.15,0.06,43.87,126.02,18.95,61.26,44.56,18.03,12.15,3.87,0.76,19.33,4.87,20.13,3.91,True,fair,True,moderate,True,True,strong,True,False,True
+539,IT - Services Companies,Icodex Publish.,55.0,86.01,0.08,21.88,110.38,13.89,103.64,,64.83,61.38,7.32,0.09,8.49,8.96,82.77,1.57,True,fair,True,strong,True,False,moderate,True,True,False
+553,IT - Services Companies,Takyon Networks,38.72,55.45,0.13,99.4,-0.49,42.09,78.21,,23.09,11.81,6.06,0.4,8.69,6.38,24.21,1.03,True,cheap,True,moderate,True,False,weak,True,False,False
+558,IT - Services Companies,Saven Tech.,45.4,49.39,0.0,16.83,26.26,4.71,22.63,0.08,13.48,19.73,3.09,-4.88,14.7,3.36,17.99,2.26,True,fair,True,moderate,True,True,strong,True,False,True
+559,IT - Services Companies,Globtier Infotec,29.71,44.93,0.04,95.5,7.04,42.39,47.06,,31.73,14.03,4.61,0.11,7.46,6.02,31.11,0.92,True,cheap,True,moderate,True,False,weak,True,False,False
+560,IT - Services Companies,Infonative Solu.,34.55,40.94,0.11,22.51,22.34,12.07,0.26,,45.35,23.37,3.92,0.28,10.72,3.82,51.41,1.09,True,cheap,True,strong,True,False,weak,True,True,False
+571,IT - Services Companies,Euphoria Infotec,39.83,11.55,0.17,12.57,34.87,6.31,16.54,50.74,11.54,18.93,5.1,0.07,7.81,1.48,16.2,0.68,True,cheap,True,moderate,True,True,moderate,True,False,False
+582,IT - Hardware Companies,Control Print,769.25,1240.45,0.02,448.66,15.38,111.96,93.34,27.37,26.86,18.7,63.74,0.32,12.4,100.03,18.46,2.74,True,fair,True,moderate,True,True,moderate,True,False,False
+586,IT - Hardware Companies,B C C Fuba India,196.45,300.76,0.57,58.63,68.48,17.01,40.06,40.13,17.41,15.44,3.08,1.04,63.72,4.72,18.72,11.6,True,expensive,True,moderate,True,True,strong,True,False,True
+589,IT - Hardware Companies,Aztec Fluids,114.25,155.38,0.19,78.08,11.21,42.47,-8.52,,18.44,10.34,4.82,0.74,23.72,6.55,22.3,2.9,True,fair,True,moderate,True,False,weak,True,False,False
+602,Industrial Manufacturing,Mazagon Dock,2783.4,112306.88,0.0,11872.86,12.22,2929.24,-9.22,38.3,34.02,16.03,57.86,0.84,48.12,2333.96,43.19,12.6,True,expensive,True,moderate,True,False,weak,True,False,False
+603,Industrial Manufacturing,Cochin Shipyard,1699.3,44705.31,0.18,4649.73,14.7,951.3,-14.51,5.79,15.85,16.88,28.81,4.59,58.98,757.94,20.35,7.74,True,expensive,True,moderate,True,False,weak,True,False,False
+605,Industrial Manufacturing,Honeywell Auto,34795.0,30718.25,0.02,4537.8,13.28,1149.4,-2.2,1.27,13.7,12.66,583.72,3.81,59.52,516.1,18.4,7.34,True,expensive,True,moderate,True,False,weak,True,False,False
+606,Industrial Manufacturing,Jyoti CNC Auto.,976.9,22216.96,0.4,1943.26,19.91,507.9,26.1,42.76,21.16,26.5,15.22,0.61,64.19,346.13,24.35,12.14,True,expensive,True,strong,True,True,moderate,True,True,False
+610,Industrial Manufacturing,Jupiter Wagons,302.85,12879.18,0.21,3120.18,-19.53,707.25,-23.18,124.77,16.96,13.61,6.61,0.48,45.87,280.75,21.49,4.6,True,expensive,True,moderate,True,False,weak,True,False,False
+611,Industrial Manufacturing,Tega Inds.,1912.8,12705.71,0.21,1706.82,10.8,405.35,39.85,24.79,15.47,21.45,35.54,2.73,53.74,236.44,17.8,8.62,True,expensive,True,moderate,True,True,moderate,True,False,False
+619,Industrial Manufacturing,Kennametal India,2340.95,5144.99,0.0,1196.0,7.52,296.0,0.19,21.55,12.91,15.27,49.73,-8.62,47.07,109.3,17.55,6.88,True,expensive,True,moderate,True,False,weak,True,False,False
+621,Industrial Manufacturing,WPIL,398.1,3888.27,0.39,1758.07,-6.26,426.02,-51.25,18.39,10.04,14.65,9.88,3.84,40.47,96.07,15.56,2.63,True,fair,True,moderate,True,False,weak,True,False,False
+623,Industrial Manufacturing,Shanthi Gears,470.15,3607.18,0.0,577.52,0.77,131.91,2.81,30.94,25.65,21.29,12.11,1.24,38.81,92.94,34.87,8.36,True,expensive,True,strong,True,False,weak,True,True,False
+627,Industrial Manufacturing,Pitti Engg.,886.0,3341.79,0.85,1564.32,13.63,396.22,-5.99,44.62,15.93,17.13,28.53,1.12,31.11,107.42,15.7,3.64,True,expensive,True,moderate,True,False,weak,True,False,False
+628,Industrial Manufacturing,Standard Glass,166.41,3318.34,0.18,662.32,2.5,182.78,2.42,,11.55,16.27,3.63,1.27,46.64,71.15,16.48,4.44,True,expensive,True,moderate,True,False,weak,True,False,False
+631,Industrial Manufacturing,Kilburn Engg.,570.05,2932.21,0.19,518.06,28.83,153.6,23.45,,17.16,25.58,17.12,,35.0,83.77,21.68,5.22,True,expensive,True,moderate,True,False,moderate,True,False,False
+632,Industrial Manufacturing,Jash Engineering,465.85,2922.52,0.23,766.21,25.52,157.54,-1.08,34.17,22.35,15.08,12.32,0.95,37.83,77.26,24.95,6.75,True,expensive,True,moderate,True,False,weak,True,False,False
+634,Industrial Manufacturing,Hind Rectifiers,1529.2,2621.79,1.09,795.91,35.04,227.15,57.13,14.65,25.72,11.04,27.79,0.81,54.94,47.72,21.6,13.79,True,expensive,True,moderate,True,True,strong,True,False,True
+638,Industrial Manufacturing,Concord Control,2237.6,2264.5,0.13,156.26,84.23,81.55,101.59,84.83,27.39,22.78,30.1,0.71,74.49,30.4,36.78,16.29,True,expensive,True,strong,True,True,strong,True,True,True
+639,Industrial Manufacturing,Spectrum Electr.,1392.2,2152.24,0.76,442.56,23.22,116.06,26.59,39.0,13.7,13.79,19.68,1.49,69.95,30.77,15.66,10.15,True,expensive,True,moderate,True,True,strong,True,False,True
+641,Industrial Manufacturing,Aimtron,970.95,1982.09,0.0,224.08,72.0,122.58,88.32,,24.8,22.04,17.02,,57.05,34.74,29.16,9.96,True,expensive,True,strong,True,False,moderate,True,True,False
+642,Industrial Manufacturing,Disa India,12999.5,1890.4,0.0,410.64,23.32,103.54,15.72,13.84,21.74,14.65,356.62,2.65,35.82,52.77,29.25,6.91,True,expensive,True,moderate,True,True,moderate,True,False,False
+645,Industrial Manufacturing,Thejo Engg.,1659.5,1799.97,0.12,577.44,4.11,153.11,3.06,14.44,18.24,15.55,48.77,3.48,34.03,52.9,22.1,5.58,True,expensive,True,moderate,True,False,weak,True,False,False
+650,Industrial Manufacturing,Rajoo Engineers,78.48,1406.47,0.05,323.3,46.66,92.25,102.9,90.73,26.12,20.79,3.22,0.71,26.09,53.91,32.62,4.28,True,fair,True,strong,True,True,strong,True,True,True
+651,Industrial Manufacturing,Bajaj Steel Inds,555.9,1156.28,0.12,573.7,-3.25,174.62,-7.44,21.9,17.87,15.74,29.06,0.92,19.13,60.45,21.29,2.79,True,fair,True,moderate,True,False,weak,True,False,False
+655,Industrial Manufacturing,Mamata Machinery,422.4,1038.46,0.04,276.51,31.55,53.37,26.27,108.67,26.89,21.37,17.5,1.03,24.11,43.07,34.92,5.88,True,fair,True,strong,True,True,strong,True,True,True
+656,Industrial Manufacturing,Eimco Elecon(I),1704.8,985.33,0.0,210.94,-21.56,33.24,-18.59,38.73,11.8,20.64,70.89,0.31,24.1,40.89,15.95,2.19,True,fair,True,moderate,True,False,weak,True,False,False
+657,Industrial Manufacturing,Macpower CNC,960.95,961.35,0.01,286.86,10.82,85.71,-2.23,57.18,19.85,15.3,27.0,1.28,34.88,27.56,27.07,6.19,True,expensive,True,moderate,True,False,weak,True,False,False
+659,Industrial Manufacturing,Gala Precis. Eng,745.9,950.23,0.09,267.92,26.82,71.41,17.5,85.23,14.96,15.4,23.77,0.54,31.24,30.42,17.07,3.5,True,expensive,True,moderate,True,True,moderate,True,False,False
+660,Industrial Manufacturing,Airfloa Rail,386.5,926.44,0.27,192.39,61.27,90.54,79.2,,31.02,25.11,14.64,0.26,33.25,25.5,31.89,4.42,True,expensive,True,strong,True,False,moderate,True,True,False
+661,Industrial Manufacturing,Forbes Precision,178.35,920.18,0.13,239.03,1.4,63.27,-7.31,,18.84,22.14,5.56,,32.1,28.67,24.96,6.03,True,expensive,True,moderate,True,False,weak,True,False,False
+663,Industrial Manufacturing,Shree Refrigerat,219.15,780.84,0.13,98.73,23.01,50.39,12.88,43.49,15.03,27.4,4.88,1.87,112.68,13.76,17.83,3.9,True,expensive,True,moderate,True,True,moderate,True,False,False
+664,Industrial Manufacturing,Axtel Industries,465.15,751.44,0.0,172.58,-16.42,67.34,-19.52,9.44,14.45,14.01,12.4,2.86,37.5,20.04,19.76,6.03,True,expensive,True,moderate,True,False,weak,True,False,False
+665,Industrial Manufacturing,Integra Engg.,196.0,674.74,0.32,175.8,16.69,41.04,24.11,26.23,21.48,18.97,5.46,1.35,35.91,18.79,24.45,6.49,True,expensive,True,moderate,True,True,moderate,True,False,False
+668,Industrial Manufacturing,True Colors,246.4,607.49,0.37,291.88,45.97,151.11,199.27,,70.47,19.07,17.4,0.06,16.69,36.39,43.84,3.08,True,fair,True,moderate,True,False,moderate,True,False,False
+670,Industrial Manufacturing,Intl. Conveyors,89.42,567.64,0.3,161.45,34.91,45.3,-19.41,58.6,26.37,16.8,10.69,0.11,8.38,67.74,27.09,1.45,True,cheap,True,moderate,True,False,weak,True,False,False
+672,Industrial Manufacturing,Sunita Tools Ltd,811.55,509.69,0.14,29.55,-10.1,15.26,-29.13,58.23,13.33,26.43,7.73,1.32,107.98,4.72,16.7,9.85,True,expensive,True,moderate,True,False,weak,True,False,False
+673,Industrial Manufacturing,Mazda,246.35,493.81,0.0,200.77,-1.81,50.84,-13.69,8.34,11.24,16.07,12.72,3.62,19.39,25.47,15.17,2.1,True,fair,True,moderate,True,False,weak,True,False,False
+674,Industrial Manufacturing,Bemco Hydraulics,108.05,472.54,0.21,95.04,17.49,22.33,92.86,158.39,19.89,22.34,3.2,1.15,33.66,14.04,23.73,6.29,True,expensive,True,moderate,True,True,moderate,True,False,False
+675,Industrial Manufacturing,Danlaw Tech.,885.1,431.1,0.37,237.35,9.67,65.58,-3.59,50.91,28.31,14.67,40.86,0.18,21.66,19.9,28.03,5.03,True,fair,True,moderate,True,False,weak,True,False,False
+679,Industrial Manufacturing,Aaron Industries,186.63,390.92,0.72,83.92,21.31,22.24,-3.05,43.87,20.95,19.17,3.35,1.83,55.85,7.0,18.62,8.84,True,expensive,True,moderate,True,False,weak,True,False,False
+681,Industrial Manufacturing,Kalyani Cast-Tec,538.05,386.35,0.0,161.43,39.81,92.4,34.24,197.32,24.25,12.38,21.95,0.19,24.51,15.76,29.55,5.21,True,fair,True,moderate,True,True,strong,True,False,True
+682,Industrial Manufacturing,Fluidomat,778.95,384.02,0.0,66.38,5.58,16.4,12.58,47.06,31.44,33.93,39.23,0.32,19.87,19.33,42.24,4.51,True,fair,True,strong,True,False,weak,True,True,False
+684,Industrial Manufacturing,Captain Techno.,157.9,366.64,0.48,113.7,50.34,62.48,93.06,35.69,25.03,14.6,4.79,0.77,32.97,11.12,29.96,7.8,True,expensive,True,moderate,True,True,strong,True,False,True
+688,Industrial Manufacturing,Prizor Viztech,330.65,353.5,0.42,82.07,35.18,42.01,32.51,,41.01,22.08,11.02,0.06,30.01,11.78,45.27,7.25,True,expensive,True,strong,True,False,moderate,True,True,False
+690,Industrial Manufacturing,L. T. Elevator,179.55,344.07,0.07,83.86,40.81,46.89,170.91,,31.83,26.32,9.12,0.13,24.04,14.31,32.96,3.73,True,fair,True,strong,True,False,moderate,True,True,False
+693,Industrial Manufacturing,Cryogenic OGS,206.95,295.52,0.0,40.56,35.68,21.07,18.45,,23.53,24.73,7.02,1.55,37.46,7.89,32.02,5.91,True,expensive,True,strong,True,False,moderate,True,True,False
+694,Industrial Manufacturing,GTV Engineering,61.43,287.85,0.1,87.53,-22.79,24.5,115.57,69.85,27.38,21.27,3.01,0.12,20.39,14.12,28.49,5.45,True,fair,True,strong,True,False,weak,True,True,False
+696,Industrial Manufacturing,Taurian MPS,309.3,274.75,0.12,73.53,95.61,32.29,53.77,,35.01,20.51,14.85,0.39,29.48,9.38,39.32,3.69,True,fair,True,strong,True,False,moderate,True,True,False
+697,Industrial Manufacturing,Jasch Gauging,593.0,268.75,0.0,56.79,2.47,17.12,1.96,,17.73,30.22,35.55,,16.68,16.11,24.34,2.89,True,fair,True,moderate,True,False,weak,True,False,False
+699,Industrial Manufacturing,Revathi Equip,801.75,245.03,0.42,151.89,-35.41,22.83,-71.28,,17.37,11.8,34.07,1.31,23.45,10.45,25.71,1.93,True,fair,True,moderate,True,False,weak,True,False,False
+701,Industrial Manufacturing,KPT Industries,651.9,221.64,0.21,162.74,0.2,43.89,-13.7,23.12,22.5,14.62,36.88,0.52,17.68,12.54,25.53,2.99,True,fair,True,moderate,True,False,weak,True,False,False
+702,Industrial Manufacturing,Laxmipati Engg,365.0,209.87,1.73,55.11,18.57,28.61,1155.41,30.92,122.18,24.35,16.15,0.11,22.59,9.29,18.57,18.34,True,fair,True,strong,True,True,moderate,True,True,False
+703,Industrial Manufacturing,Energy-Mission,185.25,209.82,0.33,153.34,8.31,75.35,9.21,,21.05,15.05,11.94,0.28,15.52,13.52,21.45,2.29,True,fair,True,moderate,True,False,weak,True,False,False
+704,Industrial Manufacturing,Loyal Equipments,192.85,208.09,0.11,72.59,6.16,13.61,-5.82,29.92,26.5,19.33,8.25,0.39,23.38,8.9,28.26,3.92,True,fair,True,moderate,True,False,weak,True,False,False
+718,Industrial Manufacturing,Crown Lifters,133.73,150.09,0.67,39.44,19.59,9.53,51.19,36.67,19.96,58.11,9.71,0.09,13.85,10.84,18.88,2.04,True,fair,True,moderate,True,True,moderate,True,False,False
+722,Industrial Manufacturing,Cenlub Industrie,256.2,119.46,0.06,72.49,-4.52,21.12,-9.64,34.04,14.72,13.88,17.29,1.78,14.82,8.06,20.47,1.75,True,fair,True,moderate,True,False,weak,True,False,False
+727,Industrial Manufacturing,Atam Valves,88.11,101.11,0.33,55.87,-3.41,11.41,-6.55,174.9,18.6,17.09,5.1,0.25,17.28,5.85,20.27,2.77,True,fair,True,moderate,True,False,weak,True,False,False
+728,Industrial Manufacturing,Shri Balaji,120.05,97.96,0.48,85.39,3.81,41.35,17.64,,15.82,16.88,9.4,0.21,12.77,7.67,15.16,2.05,True,fair,True,moderate,True,False,weak,True,False,False
+735,Industrial Manufacturing,M E T S,121.65,67.03,0.08,29.18,-13.03,5.89,-25.25,65.91,13.45,11.0,6.82,0.35,17.83,3.76,16.68,1.81,True,fair,True,moderate,True,False,weak,True,False,False
+736,Industrial Manufacturing,Vruddhi Engineer,230.0,58.04,0.44,31.37,19.28,13.4,292.73,,26.75,13.45,8.56,0.17,26.87,2.16,27.0,6.17,True,fair,True,moderate,True,False,moderate,True,False,False
+754,Industrial Manufacturing,Quality RO Indu.,127.8,32.59,0.61,16.81,12.22,8.71,100.0,,16.24,20.7,10.05,,16.8,1.94,18.62,2.09,True,fair,True,moderate,True,False,moderate,True,False,False
+756,Industrial Manufacturing,Faalcon Concepts,44.24,30.22,0.12,29.92,36.0,14.1,13.98,,18.62,16.24,3.94,0.28,11.23,2.69,22.97,0.69,True,cheap,True,moderate,True,False,moderate,True,False,False
+761,Industrial Manufacturing,Boss Packaging,47.2,20.99,0.01,19.87,34.8,9.99,30.88,,16.72,13.94,4.0,0.22,11.79,1.78,22.69,1.42,True,cheap,True,moderate,True,False,moderate,True,False,False
+784,Industrial Products,Cummins India,4261.3,118184.38,0.0,11643.62,20.23,3170.27,18.12,22.45,28.15,20.97,83.48,1.47,51.28,2304.5,36.32,14.96,True,expensive,True,strong,True,True,moderate,True,True,False
+785,Industrial Products,Polycab India,7688.0,115704.41,0.02,24595.05,22.19,6477.21,37.18,20.93,21.44,14.73,163.6,1.6,47.0,2461.81,29.72,10.92,True,expensive,True,moderate,True,True,strong,True,False,True
+787,Industrial Products,Supreme Inds.,3591.0,45622.91,0.06,10540.03,1.68,2393.87,-22.27,14.56,17.14,12.73,66.75,-38.99,53.8,847.95,22.04,7.97,True,expensive,True,moderate,True,False,weak,True,False,False
+788,Industrial Products,KEI Industries,4119.1,39369.78,0.04,10703.71,22.5,2726.35,26.6,22.11,15.58,10.04,82.73,2.19,49.8,790.62,21.29,6.36,True,expensive,True,moderate,True,True,strong,True,False,True
+789,Industrial Products,Astral,1448.2,38944.87,0.07,6017.0,4.66,1577.4,-3.08,15.44,14.89,16.0,18.96,38.43,76.47,509.3,19.71,10.3,True,expensive,True,moderate,True,False,weak,True,False,False
+790,Industrial Products,AIA Engineering,3733.4,35231.6,0.14,4309.96,-1.68,1047.76,6.67,13.23,15.42,27.56,119.47,1.63,31.26,1126.89,18.92,4.78,True,expensive,True,moderate,True,False,weak,True,False,False
+791,Industrial Products,HBL Engineering,935.4,25921.25,0.04,2750.81,22.24,1222.9,90.68,64.63,20.58,33.04,23.09,0.82,39.22,661.0,27.33,13.06,True,expensive,True,strong,True,True,strong,True,True,True
+793,Industrial Products,Welspun Corp,896.75,23586.71,0.19,15463.58,-1.19,4373.61,60.74,13.17,18.59,13.0,82.33,0.33,13.3,1773.93,21.24,2.88,True,fair,True,moderate,True,False,weak,True,False,False
+795,Industrial Products,Timken India,3084.0,23208.69,0.01,3193.03,4.81,772.99,15.08,12.63,16.95,18.7,60.47,4.69,51.03,454.83,20.93,8.38,True,expensive,True,moderate,True,False,weak,True,False,False
+796,Industrial Products,Godawari Power,255.7,17720.84,0.04,5396.61,-0.96,1307.68,-16.74,36.29,17.23,20.82,11.11,-1.44,23.84,743.44,23.25,3.27,True,fair,True,moderate,True,False,weak,True,False,False
+798,Industrial Products,Grindwell Norton,1531.9,16961.2,0.04,2890.32,5.08,774.74,1.69,15.09,16.04,18.04,34.38,6.31,44.55,380.69,20.9,7.43,True,expensive,True,moderate,True,False,weak,True,False,False
+799,Industrial Products,Ratnamani Metals,2365.1,16551.64,0.06,5374.76,9.51,1191.69,14.31,12.03,16.01,16.84,86.53,1.44,27.29,606.49,21.51,4.28,True,fair,True,moderate,True,False,weak,True,False,False
+800,Industrial Products,Elgi Equipments,504.55,15991.23,0.26,3675.19,9.45,968.0,18.9,52.48,20.06,14.43,12.29,1.51,41.05,389.58,21.91,7.96,True,expensive,True,moderate,True,False,weak,True,False,False
+801,Industrial Products,Carborundum Uni.,839.55,15980.09,0.08,4989.67,4.51,1298.08,-37.32,6.03,10.85,12.04,10.52,25.89,63.95,249.89,16.12,4.27,True,expensive,True,moderate,True,False,weak,True,False,False
+803,Industrial Products,Gallantt Ispat L,631.2,15239.68,0.21,4331.0,-0.26,1012.75,54.87,77.96,15.11,17.56,20.42,0.98,30.93,492.7,19.2,4.9,True,expensive,True,moderate,True,False,weak,True,False,False
+804,Industrial Products,Kirl. Brothers,1752.0,13992.65,0.1,4432.2,4.16,1027.7,0.58,41.86,21.62,12.98,49.36,0.55,35.33,396.05,27.59,6.3,True,expensive,True,moderate,True,False,weak,True,False,False
+805,Industrial Products,Usha Martin,448.9,13663.25,0.09,3551.37,6.21,907.56,-1.31,-0.1,15.83,16.89,13.26,2.1,32.38,421.99,18.75,4.61,True,expensive,True,moderate,True,False,weak,True,False,False
+806,Industrial Products,KSB,724.3,12610.78,0.0,2638.1,9.5,649.6,14.52,21.96,17.72,12.98,15.09,2.64,48.02,262.6,23.82,8.22,True,expensive,True,moderate,True,False,weak,True,False,False
+807,Industrial Products,Ingersoll-Rand,3858.5,12179.4,0.02,1341.12,5.79,321.94,9.74,26.3,45.01,25.05,83.83,1.33,46.02,264.65,60.02,18.74,True,expensive,True,strong,True,False,weak,True,True,False
+808,Industrial Products,Shaily Engineer.,2596.9,11940.86,0.3,918.75,31.18,256.65,99.7,,18.49,26.99,31.81,2.14,81.7,146.16,19.52,18.78,True,expensive,True,moderate,True,False,moderate,True,False,False
+809,Industrial Products,Finolex Cables,775.7,11871.06,0.0,5548.0,7.42,1375.79,10.86,6.27,12.39,10.26,39.33,1.89,19.74,601.51,16.21,2.47,True,fair,True,moderate,True,False,weak,True,False,False
+812,Industrial Products,Jindal Saw,166.87,10668.25,0.43,18636.17,-13.69,4233.6,-30.49,23.92,16.31,15.01,21.48,0.12,7.77,1373.63,19.37,0.88,True,cheap,True,moderate,True,False,weak,True,False,False
+813,Industrial Products,Inox India,1159.0,10524.72,0.1,1400.87,19.72,358.22,22.65,22.9,28.99,21.71,27.09,2.26,44.05,238.93,37.98,10.73,True,expensive,True,strong,True,True,moderate,True,True,False
+814,Industrial Products,Time Technoplast,206.52,10192.58,0.22,5720.24,7.53,1511.11,16.37,18.02,14.22,14.54,9.27,0.89,24.22,420.82,17.35,3.08,True,fair,True,moderate,True,False,weak,True,False,False
+817,Industrial Products,Vesuvius India,481.2,9767.48,0.01,2062.2,16.07,547.04,-6.83,24.24,19.3,16.91,12.01,0.73,40.07,243.78,25.47,6.42,True,expensive,True,moderate,True,False,weak,True,False,False
+818,Industrial Products,SKF India,1975.6,9763.26,0.0,5061.68,6.66,1309.06,-0.94,,21.43,14.59,108.6,1.38,17.58,555.21,28.83,3.54,True,fair,True,moderate,True,False,weak,True,False,False
+819,Industrial Products,Happy Forgings,1033.5,9719.18,0.1,1437.48,3.57,377.39,4.8,27.44,15.46,29.27,28.79,1.53,35.81,271.42,19.17,4.97,True,expensive,True,moderate,True,False,weak,True,False,False
+820,Industrial Products,Garware Hi Tech,4106.9,9553.13,0.01,2078.99,4.2,569.69,2.14,31.28,15.0,19.94,134.67,1.05,30.53,312.86,20.57,3.81,True,expensive,True,moderate,True,False,weak,True,False,False
+821,Industrial Products,Shakti Pumps,701.75,8667.97,0.38,2602.94,12.83,666.35,22.16,98.77,42.64,22.97,33.23,0.25,21.57,401.82,55.31,5.32,True,fair,True,strong,True,True,moderate,True,True,False
+823,Industrial Products,Esab India,5553.6,8539.29,0.01,1438.78,9.78,381.55,8.19,19.74,52.34,17.54,135.09,1.67,46.48,183.72,70.03,20.52,True,expensive,True,moderate,True,False,weak,True,False,False
+824,Industrial Products,Mah. Seamless,565.45,7577.9,0.0,5129.82,0.81,1158.67,-7.11,36.46,12.9,16.47,58.49,2.41,9.67,783.69,16.63,1.15,True,cheap,True,moderate,True,False,weak,True,False,False
+825,Industrial Products,Kirl.Pneumatic,1131.6,7342.2,0.0,1572.73,4.54,378.1,-2.54,31.77,21.12,16.05,28.95,1.01,38.49,190.75,28.27,6.45,True,expensive,True,moderate,True,False,weak,True,False,False
+827,Industrial Products,Oswal Pumps,632.45,7215.1,0.08,1797.98,88.55,539.64,182.14,,87.5,27.03,31.37,0.14,21.44,336.47,77.91,4.82,True,fair,True,strong,True,False,moderate,True,True,False
+828,Industrial Products,Balu Forge,629.35,7169.29,0.07,1058.14,49.78,299.51,79.69,,25.38,28.14,21.83,0.33,29.41,243.77,31.26,5.74,True,fair,True,strong,True,False,moderate,True,True,False
+829,Industrial Products,EPL Ltd,195.54,6251.97,0.32,4433.5,8.19,1205.9,40.11,11.09,16.27,20.48,12.9,0.79,15.05,415.43,17.48,2.39,True,fair,True,moderate,True,False,weak,True,False,False
+832,Industrial Products,Kingfa Science,4197.2,5708.97,0.01,1837.54,12.53,465.69,17.32,44.08,23.21,12.53,126.41,0.76,36.26,157.46,30.55,4.39,True,expensive,True,moderate,True,True,moderate,True,False,False
+833,Industrial Products,Technocraf.Inds.,2412.3,5557.85,0.44,2731.46,16.03,752.0,-2.45,15.19,14.46,16.05,114.37,-11.69,21.16,262.62,15.77,2.94,True,fair,True,moderate,True,False,weak,True,False,False
+834,Industrial Products,KRN Heat Exchan,866.35,5391.58,0.06,510.32,52.55,152.07,33.57,,16.82,16.18,9.5,,91.32,59.04,20.75,10.19,True,expensive,True,moderate,True,False,moderate,True,False,False
+836,Industrial Products,AGI Greenpac,764.35,4951.84,0.21,2652.55,10.04,601.58,31.87,46.54,16.24,23.18,54.42,0.76,14.06,352.1,19.89,2.23,True,fair,True,moderate,True,True,moderate,True,False,False
+838,Industrial Products,Raghav Product.,1054.85,4837.49,0.03,227.72,38.69,63.59,47.02,,20.51,27.83,9.9,3.85,106.41,45.46,25.8,22.53,True,expensive,True,strong,True,False,moderate,True,True,False
+840,Industrial Products,Swaraj Engines,3781.8,4602.64,0.0,1787.8,18.18,504.04,19.7,18.83,41.94,13.5,145.73,1.72,26.0,177.02,56.21,11.72,True,fair,True,moderate,True,True,moderate,True,False,False
+847,Industrial Products,Kalyani Steels,787.1,3443.03,0.22,1927.18,-0.46,456.07,4.56,12.99,14.04,19.12,58.98,10.05,13.37,257.46,15.58,1.74,True,fair,True,moderate,True,False,weak,True,False,False
+849,Industrial Products,Man Industries,447.0,3353.67,0.29,3526.65,10.26,834.09,57.96,21.41,10.01,10.5,24.84,1.39,20.1,166.87,15.98,1.7,True,fair,True,moderate,True,True,moderate,True,False,False
+853,Industrial Products,TCPL Packaging,3222.8,2960.53,0.97,1714.4,9.37,437.7,5.88,30.97,23.84,16.28,136.89,0.56,23.77,124.57,20.03,4.35,True,fair,True,moderate,True,False,weak,True,False,False
+856,Industrial Products,Shivalik Bimetal,457.25,2635.07,0.11,529.72,4.56,137.4,8.11,42.17,20.6,21.91,15.09,2.56,30.32,86.92,25.57,5.93,True,expensive,True,strong,True,False,weak,True,True,False
+857,Industrial Products,Venus Pipes,1265.5,2628.09,0.36,1057.39,17.45,291.54,-7.04,86.31,19.78,16.17,45.18,0.66,28.4,92.53,24.95,4.86,True,fair,True,moderate,True,False,weak,True,False,False
+863,Industrial Products,Aeroflex,183.95,2376.37,0.03,386.69,15.21,110.87,5.98,44.84,16.57,21.19,3.7,2.02,49.67,47.84,22.34,6.61,True,expensive,True,moderate,True,False,weak,True,False,False
+864,Industrial Products,Steelcast,225.5,2277.95,0.0,435.24,27.45,106.65,42.85,55.61,24.24,28.35,8.8,0.86,25.57,89.07,32.94,6.34,True,fair,True,strong,True,True,strong,True,True,True
+869,Industrial Products,R M Drip & Sprin,80.11,2001.15,0.41,157.87,107.7,61.66,281.43,53.59,39.7,29.71,1.26,0.32,63.67,31.43,44.66,23.1,True,expensive,True,strong,True,True,strong,True,True,True
+870,Industrial Products,Pix Transmission,1446.8,1970.22,0.05,562.78,2.84,138.79,-15.85,29.48,20.73,22.93,70.68,1.14,20.46,96.3,26.87,3.09,True,fair,True,strong,True,False,weak,True,True,False
+874,Industrial Products,Advait Energy,1698.2,1857.04,0.27,567.07,137.94,156.87,62.15,131.15,22.49,11.49,36.92,0.57,46.37,40.05,26.87,8.1,True,expensive,True,moderate,True,True,strong,True,False,True
+877,Industrial Products,Amic Forging,1549.5,1799.56,0.05,124.23,-10.17,66.58,-14.3,116.81,21.8,27.66,22.35,0.41,71.33,25.23,27.89,11.96,True,expensive,True,strong,True,False,weak,True,True,False
+878,Industrial Products,V-Marc India,729.55,1781.62,1.07,1251.2,70.25,691.54,86.89,48.91,24.34,11.27,25.05,0.31,29.13,61.17,26.43,7.89,True,fair,True,moderate,True,True,strong,True,False,True
+879,Industrial Products,Dynamic Cables,361.9,1754.68,0.19,1126.28,28.58,281.56,65.19,28.99,22.07,10.43,15.92,0.81,22.73,77.21,26.37,4.27,True,fair,True,moderate,True,True,strong,True,False,True
+881,Industrial Products,Wendt India,8484.0,1707.03,0.0,237.75,3.69,56.58,-33.28,30.95,15.11,18.23,137.95,6.22,61.87,27.59,19.81,6.83,True,expensive,True,moderate,True,False,weak,True,False,False
+884,Industrial Products,Tinna Rubber,840.75,1514.05,0.38,501.5,9.86,119.52,-18.23,65.45,31.2,14.87,24.63,0.83,34.2,44.27,28.05,5.57,True,expensive,True,moderate,True,False,weak,True,False,False
+889,Industrial Products,Tembo Global,802.25,1240.85,1.06,932.02,76.09,245.41,158.66,84.41,36.74,12.6,49.45,0.09,17.71,70.07,31.45,4.94,True,fair,True,moderate,True,True,strong,True,False,True
+893,Industrial Products,Monolithisch Ind,562.9,1223.52,0.0,113.63,41.18,57.28,66.01,113.99,53.3,21.38,9.53,0.89,69.6,17.58,61.16,10.5,True,expensive,True,strong,True,True,strong,True,True,True
+901,Industrial Products,Roto Pumps,57.78,1088.11,0.13,282.32,0.55,64.76,-18.88,22.33,15.97,20.1,1.54,11.44,37.41,29.09,19.03,4.76,True,expensive,True,moderate,True,False,weak,True,False,False
+904,Industrial Products,Vilas Transcore,431.65,1056.68,0.03,419.38,34.02,228.76,74.4,56.57,15.14,13.82,18.37,0.99,23.5,44.96,21.91,3.37,True,fair,True,moderate,True,True,strong,True,False,True
+905,Industrial Products,GRP,1907.6,1015.02,1.12,548.71,8.55,132.36,11.59,61.21,17.44,12.04,51.64,0.52,36.86,27.54,17.52,5.62,True,expensive,True,moderate,True,False,weak,True,False,False
+906,Industrial Products,Scoda Tubes,168.74,1012.74,0.55,496.38,21.26,145.27,73.44,,29.66,15.53,7.26,0.16,26.92,37.62,20.35,2.7,True,fair,True,moderate,True,False,moderate,True,False,False
+909,Industrial Products,Gandhi Spl. Tube,776.75,944.82,0.0,179.22,5.34,48.01,14.22,19.2,21.03,41.6,54.65,1.13,14.23,66.41,27.53,3.29,True,expensive,True,strong,True,False,weak,True,True,False
+913,Industrial Products,Morganite Crucib,1571.1,879.81,0.02,175.45,4.99,45.93,-3.55,16.21,21.35,22.19,45.14,-4.76,34.8,25.28,30.39,6.49,True,expensive,True,strong,True,False,weak,True,True,False
+916,Industrial Products,Synergy Green,546.65,862.43,1.79,350.15,3.53,72.0,19.74,38.79,21.88,14.12,9.99,0.41,55.53,15.53,20.85,7.6,True,expensive,True,moderate,True,False,weak,True,False,False
+918,Industrial Products,Arrow Greentech,565.3,845.47,0.01,215.07,4.16,61.07,-5.39,53.45,39.57,32.06,33.76,0.16,16.6,50.94,53.25,4.03,True,fair,True,strong,True,False,weak,True,True,False
+922,Industrial Products,Kamdhenu,26.77,754.32,0.0,759.7,7.64,191.14,17.63,18.83,21.99,11.74,2.49,0.34,10.83,69.66,28.91,2.07,True,fair,True,moderate,True,False,weak,True,False,False
+923,Industrial Products,Sh. Rama Multi.,56.43,751.67,0.13,229.43,23.44,62.02,277.12,26.87,40.38,17.45,4.22,0.1,13.33,56.38,15.34,4.5,True,expensive,True,moderate,True,True,strong,True,False,True
+929,Industrial Products,Uni Abex Alloy,3317.6,655.22,0.12,197.47,16.66,55.78,17.39,44.24,26.26,23.09,175.65,0.48,18.89,34.69,31.9,4.33,True,fair,True,strong,True,True,moderate,True,True,False
+930,Industrial Products,Prakash Pipes,258.25,614.04,0.03,759.86,4.38,180.99,-45.96,27.35,20.5,11.19,22.19,0.55,11.57,53.07,26.83,1.35,True,cheap,True,moderate,True,False,weak,True,False,False
+935,Industrial Products,TPL Plastech,70.47,549.69,0.14,380.49,14.78,106.87,19.69,17.36,16.98,11.61,3.34,1.0,21.08,26.08,19.85,3.61,True,fair,True,moderate,True,True,moderate,True,False,False
+939,Industrial Products,Creative Graphic,206.4,501.27,0.65,313.92,59.7,175.89,87.49,,29.12,12.76,9.81,0.33,21.04,23.83,25.73,4.21,True,fair,True,moderate,True,False,moderate,True,False,False
+946,Industrial Products,Neetu Yoshi,117.0,454.11,0.11,79.53,49.14,44.15,30.65,,51.01,32.65,5.94,0.04,22.68,20.02,46.01,3.67,True,fair,True,strong,True,False,moderate,True,True,False
+949,Industrial Products,Megatherm Indu.,231.45,436.07,0.23,331.61,7.9,159.05,7.13,30.97,16.27,10.9,12.76,0.12,18.14,24.04,21.13,2.84,True,fair,True,moderate,True,False,weak,True,False,False
+951,Industrial Products,Captain Polyplas,72.35,433.58,0.48,318.17,18.05,79.73,25.4,8.4,15.41,11.16,3.53,0.24,21.26,20.39,16.37,2.54,True,fair,True,moderate,True,True,moderate,True,False,False
+953,Industrial Products,Dhabriya Poly.,396.3,428.96,0.48,247.45,10.7,66.99,43.9,30.82,19.77,18.23,21.56,0.35,18.38,23.34,20.41,3.76,True,fair,True,moderate,True,True,moderate,True,False,False
+954,Industrial Products,Simplex Castings,545.05,423.73,0.81,215.63,83.02,55.41,214.64,20.7,33.69,17.15,27.49,0.17,20.98,20.2,24.1,5.22,True,fair,True,moderate,True,True,strong,True,False,True
+955,Industrial Products,Magna Electrocas,990.3,419.1,0.09,189.5,18.96,52.33,3.28,28.12,19.38,17.99,51.39,0.44,19.27,21.75,25.07,3.02,True,fair,True,moderate,True,False,weak,True,False,False
+957,Industrial Products,Sealmatic India,443.05,400.96,0.04,110.67,42.01,53.63,64.2,26.18,16.73,20.58,17.64,1.05,25.12,15.96,21.99,3.71,True,fair,True,moderate,True,True,strong,True,False,True
+958,Industrial Products,Premier Polyfilm,38.28,399.84,0.0,272.69,3.37,73.6,6.49,33.11,24.45,15.15,2.51,0.4,15.22,26.27,29.86,3.04,True,fair,True,moderate,True,False,weak,True,False,False
+959,Industrial Products,JD Cables,175.5,395.77,0.34,250.53,148.47,121.26,383.62,,117.16,13.62,4430.0,0.06,16.65,22.15,65.58,3.13,True,fair,True,moderate,True,False,moderate,True,False,False
+961,Industrial Products,ANB Metal,297.5,352.09,0.3,162.57,45.0,87.8,91.95,,45.92,10.78,11.87,0.14,27.46,10.25,29.6,4.12,True,fair,True,moderate,True,False,moderate,True,False,False
+977,Industrial Products,Kaka Industries,224.05,306.05,0.95,227.22,27.59,124.89,16.74,55.65,22.24,13.25,11.13,0.55,20.13,15.2,19.48,4.18,True,fair,True,moderate,True,True,moderate,True,False,False
+979,Industrial Products,GSM Foils,209.4,295.1,0.24,191.77,227.7,58.14,604.38,,45.66,11.63,10.19,,20.55,14.36,45.64,4.73,True,fair,True,moderate,True,False,moderate,True,False,False
+981,Industrial Products,RDB Rasayans,164.15,290.79,0.0,118.66,-17.16,34.09,27.76,17.88,13.08,18.57,18.5,1.42,8.87,32.77,17.77,1.25,True,cheap,True,moderate,True,False,weak,True,False,False
+983,Industrial Products,Ahm. Steelcraft,183.75,277.31,0.0,240.81,525.32,64.68,12400.0,68.11,18.35,10.74,24.69,0.08,13.87,20.0,21.44,2.24,True,fair,True,moderate,True,True,strong,True,False,True
+986,Industrial Products,Envirotech Sys.,140.0,263.06,0.21,57.35,30.82,26.04,43.57,,26.61,34.47,9.15,0.13,15.29,17.2,31.63,3.76,True,fair,True,strong,True,False,moderate,True,True,False
+989,Industrial Products,Krishca Strapp.,179.0,254.76,0.76,178.17,48.34,92.55,-4.0,48.56,16.55,15.78,8.78,0.21,20.41,12.48,20.37,2.33,True,fair,True,moderate,True,False,weak,True,False,False
+992,Industrial Products,Agarwal Toughene,137.6,243.2,0.2,78.9,44.3,45.88,76.6,,27.42,34.99,12.16,0.05,11.31,21.5,24.38,2.28,True,fair,True,strong,True,False,moderate,True,True,False
+994,Industrial Products,Galaxy Bearings,759.5,241.52,0.25,77.52,-37.3,15.1,-68.21,19.6,13.63,14.13,19.21,40.75,39.53,6.11,16.13,2.25,True,fair,True,moderate,True,False,weak,True,False,False
+998,Industrial Products,Panasonic Carbon,497.1,238.6,0.0,58.94,10.02,17.12,8.13,4.2,12.66,33.36,46.02,1.01,10.8,22.09,17.0,1.34,True,cheap,True,moderate,True,False,weak,True,False,False
+1001,Industrial Products,Gayatri Rubbers,389.95,223.75,0.39,35.58,30.47,17.31,89.64,,22.45,18.58,7.34,,53.15,4.21,31.91,13.36,True,expensive,True,moderate,True,False,moderate,True,False,False
+1006,Industrial Products,Aluwind Infra,85.0,211.2,0.36,128.23,46.5,64.46,79.77,68.1,18.8,12.06,4.4,0.18,19.32,10.93,21.7,3.26,True,fair,True,moderate,True,True,strong,True,False,True
+1009,Industrial Products,Prime Cable Ind.,109.9,201.39,0.84,140.84,70.92,90.71,310.38,,69.25,10.6,5.46,0.13,19.13,7.51,30.49,3.73,True,fair,True,moderate,True,False,moderate,True,False,False
+1013,Industrial Products,GLEN Industries,81.0,194.9,0.84,166.04,18.83,95.56,114.0,,36.35,24.24,10.37,0.16,10.92,18.04,20.42,1.41,True,cheap,True,strong,True,False,moderate,True,True,False
+1021,Industrial Products,Sharvaya Metals,182.2,182.75,0.22,112.52,57.61,89.97,712.34,,82.28,17.24,16.61,0.05,10.27,12.51,65.49,2.43,True,fair,True,moderate,True,False,moderate,True,False,False
+1024,Industrial Products,Royal Arc Ele.,160.75,178.43,0.07,108.87,1.98,52.84,-21.37,51.38,16.45,15.29,9.17,0.26,16.91,10.55,22.18,2.35,True,fair,True,moderate,True,False,weak,True,False,False
+1029,Industrial Products,Hind.Adhesive,335.65,171.86,0.82,268.58,-7.53,65.87,14.86,18.06,17.99,14.47,35.49,1.47,9.46,18.16,17.25,1.68,True,fair,True,moderate,True,False,weak,True,False,False
+1030,Industrial Products,Rappid Valves,331.0,171.85,0.28,61.33,25.47,28.82,23.16,,22.95,17.72,13.52,0.14,24.48,7.02,24.31,3.54,True,fair,True,moderate,True,False,moderate,True,False,False
+1037,Industrial Products,Shri Techtex,64.5,160.93,0.11,79.73,6.75,36.99,-11.03,26.31,15.61,20.63,5.24,0.62,12.31,13.07,21.64,1.54,True,fair,True,moderate,True,False,weak,True,False,False
+1038,Industrial Products,Classic Electrod,88.0,158.09,0.36,222.41,8.27,122.16,2.39,45.72,29.39,10.12,7.77,0.12,13.2,11.98,22.3,1.79,True,fair,True,moderate,True,False,weak,True,False,False
+1041,Industrial Products,B. D. Industries,108.95,154.82,0.14,82.38,51.85,47.83,139.31,,43.89,17.31,7.6,0.14,20.34,7.61,45.54,2.32,True,fair,True,moderate,True,False,moderate,True,False,False
+1046,Industrial Products,Bhadora Indust.,79.85,148.52,0.13,111.27,35.21,46.93,117.54,,69.41,14.41,6.95,0.07,14.62,10.16,57.48,1.97,True,fair,True,moderate,True,False,moderate,True,False,False
+1048,Industrial Products,Krishanveer Forg,133.85,146.43,0.0,82.6,-9.54,20.98,18.76,4.3,13.84,11.78,5.96,1.55,22.46,6.52,20.04,3.37,True,fair,True,moderate,True,False,weak,True,False,False
+1051,Industrial Products,Master Component,362.0,144.8,0.28,61.44,94.86,36.77,69.76,25.25,15.62,14.42,20.15,0.42,25.54,5.67,20.16,4.44,True,fair,True,moderate,True,True,strong,True,False,True
+1054,Industrial Products,Gujarat Intrux,411.05,141.21,0.0,62.75,2.95,16.37,11.9,17.5,16.56,20.51,28.73,0.28,14.31,9.87,22.05,2.08,True,fair,True,moderate,True,False,weak,True,False,False
+1061,Industrial Products,United Heat,69.7,132.45,0.3,59.85,-12.42,21.44,-54.64,26.44,13.42,12.5,1.62,0.9,43.0,3.08,15.69,2.23,True,fair,True,moderate,True,False,weak,True,False,False
+1065,Industrial Products,DCG Cables,71.95,130.58,0.54,140.42,30.09,72.44,2.12,229.43,15.03,15.13,5.05,0.08,14.24,9.17,17.15,1.54,True,fair,True,moderate,True,False,weak,True,False,False
+1071,Industrial Products,De Neers Tools,144.25,124.15,0.77,142.5,18.83,67.04,36.82,,32.56,19.76,20.51,0.13,7.03,17.65,21.94,1.52,True,fair,True,moderate,True,False,moderate,True,False,False
+1080,Industrial Products,Jyoti Global,58.0,114.96,0.45,93.48,7.14,50.66,77.26,,33.22,12.64,3.92,0.34,17.21,6.08,23.71,2.28,True,fair,True,moderate,True,False,weak,True,False,False
+1087,Industrial Products,Shri Techtex,64.5,160.93,0.11,79.73,6.75,36.99,-11.03,26.31,15.61,20.63,5.24,0.62,12.31,13.07,21.64,1.54,True,fair,True,moderate,True,False,weak,True,False,False
+1088,Industrial Products,Classic Electrod,88.0,158.09,0.36,222.41,8.27,122.16,2.39,45.72,29.39,10.12,7.77,0.12,13.2,11.98,22.3,1.79,True,fair,True,moderate,True,False,weak,True,False,False
+1091,Industrial Products,B. D. Industries,108.95,154.82,0.14,82.38,51.85,47.83,139.31,,43.89,17.31,7.6,0.14,20.34,7.61,45.54,2.32,True,fair,True,moderate,True,False,moderate,True,False,False
+1096,Industrial Products,Bhadora Indust.,79.85,148.52,0.13,111.27,35.21,46.93,117.54,,69.41,14.41,6.95,0.07,14.62,10.16,57.48,1.97,True,fair,True,moderate,True,False,moderate,True,False,False
+1098,Industrial Products,Krishanveer Forg,133.85,146.43,0.0,82.6,-9.54,20.98,18.76,4.3,13.84,11.78,5.96,1.55,22.46,6.52,20.04,3.37,True,fair,True,moderate,True,False,weak,True,False,False
+1101,Industrial Products,Master Component,362.0,144.8,0.28,61.44,94.86,36.77,69.76,25.25,15.62,14.42,20.15,0.42,25.54,5.67,20.16,4.44,True,fair,True,moderate,True,True,strong,True,False,True
+1104,Industrial Products,Gujarat Intrux,411.05,141.21,0.0,62.75,2.95,16.37,11.9,17.5,16.56,20.51,28.73,0.28,14.31,9.87,22.05,2.08,True,fair,True,moderate,True,False,weak,True,False,False
+1111,Industrial Products,United Heat,69.7,132.45,0.3,59.85,-12.42,21.44,-54.64,26.44,13.42,12.5,1.62,0.9,43.0,3.08,15.69,2.23,True,fair,True,moderate,True,False,weak,True,False,False
+1115,Industrial Products,DCG Cables,71.95,130.58,0.54,140.42,30.09,72.44,2.12,229.43,15.03,15.13,5.05,0.08,14.24,9.17,17.15,1.54,True,fair,True,moderate,True,False,weak,True,False,False
+1121,Industrial Products,De Neers Tools,144.25,124.15,0.77,142.5,18.83,67.04,36.82,,32.56,19.76,20.51,0.13,7.03,17.65,21.94,1.52,True,fair,True,moderate,True,False,moderate,True,False,False
+1130,Industrial Products,Jyoti Global,58.0,114.96,0.45,93.48,7.14,50.66,77.26,,33.22,12.64,3.92,0.34,17.21,6.08,23.71,2.28,True,fair,True,moderate,True,False,weak,True,False,False
+1135,Industrial Products,Refractory Shap.,51.1,111.4,0.42,69.67,55.1,34.43,52.89,,18.54,18.27,3.39,0.53,15.05,7.4,16.82,2.25,True,fair,True,moderate,True,False,moderate,True,False,False
+1137,Industrial Products,Raaj Medisafe,84.0,110.98,1.79,73.22,68.9,18.4,115.08,72.62,32.48,14.61,5.83,0.53,14.41,7.7,15.02,3.81,True,expensive,True,moderate,True,True,strong,True,False,True
+1142,Industrial Products,G M Polyplast,80.0,107.68,0.05,97.86,6.9,44.57,30.25,26.25,20.97,11.87,5.44,0.69,14.71,7.32,28.81,2.52,True,fair,True,moderate,True,False,weak,True,False,False
+1144,Industrial Products,Ideal Technopl.,211.0,105.5,1.01,31.58,5.06,17.3,43.65,,19.3,20.04,7.24,,29.14,3.62,20.19,4.13,True,fair,True,moderate,True,False,weak,True,False,False
+1152,Industrial Products,Narmada Macplast,26.19,94.89,0.0,12.23,346.35,3.13,4185.71,,17.91,13.9,1.66,0.05,15.82,6.0,20.83,11.17,True,fair,True,moderate,True,False,moderate,True,False,False
+1154,Industrial Products,ARC Insulation,87.85,90.46,0.0,32.72,15.33,10.02,40.49,,45.5,38.84,11.82,0.05,10.56,8.57,52.61,1.53,True,fair,True,strong,True,False,moderate,True,True,False
+1155,Industrial Products,Holmarc Opto,89.1,89.54,0.01,36.34,-0.33,16.18,-25.76,,14.67,11.56,2.74,0.98,33.41,2.68,19.73,3.27,True,expensive,True,moderate,True,False,weak,True,False,False
+1156,Industrial Products,Vigor Plast,83.0,85.92,0.18,45.58,7.3,16.89,75.77,,59.37,26.5,6.56,0.08,13.06,5.15,30.41,2.38,True,fair,True,strong,True,False,weak,True,True,False
+1161,Industrial Products,Ameya Precision,112.4,84.3,0.0,39.91,5.33,20.23,38.7,18.89,16.58,18.29,7.07,0.38,15.79,5.34,22.55,2.78,True,fair,True,moderate,True,False,weak,True,False,False
+1162,Industrial Products,Malpani Pipes,77.0,82.98,0.59,152.79,22.53,69.56,91.09,,26.24,10.41,8.16,0.09,9.44,8.79,23.27,1.64,True,fair,True,moderate,True,False,moderate,True,False,False
+1172,Industrial Products,Marco Cables,38.9,72.74,1.35,116.7,17.07,54.03,13.46,,17.58,12.05,2.93,0.09,13.27,5.48,20.13,2.07,True,fair,True,moderate,True,False,moderate,True,False,False
+1181,Industrial Products,Swastika Castal,80.19,65.47,0.3,29.66,30.72,16.54,301.54,,27.91,15.61,4.38,0.3,18.49,2.61,25.22,2.72,True,fair,True,moderate,True,False,moderate,True,False,False
+1184,Industrial Products,Abha Power,35.0,65.06,0.37,70.35,8.16,34.57,-3.88,,18.22,12.76,2.8,0.1,12.51,5.2,18.29,1.23,True,cheap,True,moderate,True,False,weak,True,False,False
+1230,Industrial Products,Rajeshwari Cans,28.92,30.35,0.62,43.01,10.88,22.42,24.71,62.39,17.42,12.39,2.07,0.2,13.99,2.17,19.7,2.28,True,fair,True,moderate,True,True,moderate,True,False,False
+1233,Industrial Products,SP Refractories,163.1,29.19,0.1,32.15,9.76,16.3,86.52,39.19,18.1,15.77,18.55,0.31,8.79,3.32,19.43,1.97,True,fair,True,moderate,True,False,weak,True,False,False
+1268,Industrial Products,Taparia Tools,10.5,15.94,0.0,978.77,13.38,259.39,15.96,32.04,35.65,17.72,90.12,0.0,0.12,136.79,47.88,0.04,True,cheap,True,moderate,True,True,moderate,True,False,False
+1273,Industrial Products,Anuroop Packagin,13.54,14.97,0.43,18.08,-37.53,3.08,-10.18,10.52,13.87,39.16,3.59,0.19,3.77,3.97,16.62,0.44,True,cheap,True,moderate,True,False,weak,True,False,False
+1276,Industrial Products,Associated Coat.,102.7,13.89,0.01,5.96,10.78,3.1,4.95,,25.12,28.69,7.84,0.13,12.18,1.06,32.62,1.91,True,fair,True,strong,True,False,weak,True,True,False
+1321,Engineering Services,Knowledge Marine,2813.2,3431.66,0.61,203.73,33.74,50.17,55.85,61.33,25.77,39.89,45.65,2.01,69.59,49.31,24.67,12.67,True,expensive,True,strong,True,True,strong,True,True,True
+1324,Electrical Equipment,Siemens,3211.5,114362.82,0.01,17364.2,-21.92,5171.2,-32.78,17.04,11.81,11.56,59.09,19.82,67.77,1687.44,15.83,8.65,True,expensive,True,moderate,True,False,weak,True,False,False
+1325,Electrical Equipment,CG Power & Ind,724.1,114075.8,0.02,11069.29,25.63,2922.79,19.13,33.57,27.66,12.97,6.93,9.72,106.77,1068.45,37.48,15.28,True,expensive,True,moderate,True,True,moderate,True,False,False
+1326,Electrical Equipment,A B B,5083.0,107728.93,0.01,13010.65,12.35,3310.72,4.69,40.25,28.82,16.56,83.24,0.97,60.97,1766.99,38.65,14.97,True,expensive,True,moderate,True,False,weak,True,False,False
+1328,Electrical Equipment,Hitachi Energy,21624.0,96401.06,0.02,6815.4,16.49,1832.55,259.8,14.55,13.79,12.6,162.51,4.67,134.41,717.23,19.44,21.03,True,expensive,True,moderate,True,True,moderate,True,False,False
+1329,Electrical Equipment,Waaree Energies,3174.4,91273.97,0.26,17952.69,55.9,6065.64,138.9,113.45,27.42,22.55,93.92,0.18,33.78,2702.29,34.94,7.95,True,expensive,True,strong,True,True,strong,True,True,True
+1330,Electrical Equipment,GE Vernova T&D,3044.2,77963.66,0.01,5094.78,33.42,1538.46,132.99,34.77,40.35,23.87,35.93,1.05,84.76,919.85,54.74,37.36,True,expensive,True,strong,True,True,strong,True,True,True
+1331,Electrical Equipment,Suzlon Energy,56.53,76902.74,0.05,13767.27,74.67,3870.78,221.65,22.93,41.44,18.25,2.34,0.12,24.24,3172.9,32.52,9.78,True,fair,True,moderate,True,True,strong,True,False,True
+1332,Electrical Equipment,Premier Energies,994.1,45027.65,0.47,6991.77,39.18,1836.87,116.63,90.49,53.55,30.77,26.46,0.13,37.7,1194.26,41.12,13.04,True,expensive,True,strong,True,True,strong,True,True,True
+1336,Electrical Equipment,Schneider Elect.,782.2,18703.62,0.8,2715.86,12.77,650.14,24.65,59.03,73.96,13.99,10.82,0.74,76.2,245.47,40.9,28.41,True,expensive,True,moderate,True,True,moderate,True,False,False
+1337,Electrical Equipment,Triveni Turbine,546.7,17380.45,0.03,1918.9,3.49,506.2,8.54,23.36,30.59,21.77,10.76,1.19,50.82,342.0,41.36,13.37,True,expensive,True,strong,True,False,weak,True,True,False
+1339,Electrical Equipment,Elecon Engg.Co,538.7,12087.29,0.11,2395.16,23.55,578.13,26.51,35.57,22.96,24.79,23.05,0.64,26.9,449.26,28.46,5.39,True,fair,True,strong,True,True,strong,True,True,True
+1340,Electrical Equipment,TD Power Systems,762.2,11914.31,0.04,1522.91,40.14,452.47,53.6,55.63,22.31,18.27,13.33,1.46,57.22,208.21,30.35,12.38,True,expensive,True,moderate,True,True,strong,True,False,True
+1341,Electrical Equipment,Waaree Renewab.,1106.9,11534.45,0.12,2214.9,63.06,774.78,78.88,142.51,65.56,21.39,33.58,0.17,32.66,353.17,82.31,17.53,True,expensive,True,strong,True,True,strong,True,True,True
+1342,Electrical Equipment,Vikram Solar,300.05,10858.57,0.09,3423.45,36.34,1109.91,58.23,46.46,16.57,14.37,4.42,0.68,41.61,139.83,26.45,3.68,True,expensive,True,moderate,True,True,strong,True,False,True
+1344,Electrical Equipment,Genus Power,334.55,10168.18,0.93,3632.39,129.76,1149.0,232.97,25.78,17.49,21.18,15.6,0.17,21.5,472.85,19.21,5.43,True,fair,True,moderate,True,True,strong,True,False,True
+1345,Electrical Equipment,T R I L,303.3,9106.99,0.27,2225.2,33.6,460.03,104.92,250.57,23.45,15.99,8.33,0.25,36.78,247.63,27.97,6.77,True,expensive,True,moderate,True,True,strong,True,False,True
+1346,Electrical Equipment,Volt.Transform.,8513.5,8618.08,0.0,2014.47,15.87,482.56,-4.28,29.72,21.68,18.95,324.83,0.73,26.22,328.63,29.11,5.24,True,fair,True,moderate,True,False,weak,True,False,False
+1347,Electrical Equipment,Transrail Light,632.05,8494.4,0.39,6524.38,54.1,1560.96,63.27,26.62,21.55,12.23,31.03,0.29,20.39,416.61,35.22,4.1,True,fair,True,moderate,True,True,strong,True,False,True
+1349,Electrical Equipment,Atlanta Electric,923.3,7099.12,0.46,1244.18,43.41,316.96,87.34,56.25,40.8,15.56,16.58,0.65,58.2,118.64,50.2,9.04,True,expensive,True,moderate,True,True,strong,True,False,True
+1351,Electrical Equipment,Quality Power El,786.4,6088.28,0.08,563.39,67.18,205.76,19.62,,22.06,17.92,10.68,1.29,73.75,82.55,26.6,12.96,True,expensive,True,moderate,True,False,moderate,True,False,False
+1352,Electrical Equipment,Saatvik Green,442.15,5619.34,0.52,2158.39,98.39,768.03,114.66,,94.06,14.91,19.11,,23.65,215.56,52.33,4.67,True,fair,True,moderate,True,False,moderate,True,False,False
+1354,Electrical Equipment,Oriana Power Ltd,2677.85,5441.16,0.5,1408.8,107.68,781.18,138.11,188.74,48.35,24.1,113.88,0.13,23.51,231.4,42.31,8.55,True,fair,True,strong,True,True,strong,True,True,True
+1355,Electrical Equipment,Websol Energy,115.7,5019.04,0.41,707.27,152.12,168.22,276.26,68.54,80.17,45.49,4.68,0.15,24.68,203.33,59.25,12.84,True,fair,True,strong,True,True,strong,True,True,True
+1356,Electrical Equipment,Shilchar Tech.,4283.1,4899.95,0.0,715.63,55.25,171.28,64.68,151.28,52.93,30.79,155.48,0.23,27.6,177.56,71.3,11.67,True,fair,True,strong,True,True,strong,True,True,True
+1358,Electrical Equipment,Alpex Solar,1223.35,3124.81,0.37,1418.26,205.03,522.92,305.73,93.79,47.72,16.3,61.89,0.02,20.32,153.77,50.48,6.61,True,fair,True,moderate,True,True,strong,True,False,True
+1361,Electrical Equipment,Marsons,162.7,2800.07,0.02,206.8,184.03,59.8,144.85,60.7,36.47,14.59,1.89,0.48,85.92,32.59,33.82,20.04,True,expensive,True,moderate,True,True,strong,True,False,True
+1362,Electrical Equipment,KP Green Engg.,510.25,2551.25,0.53,964.35,90.03,532.07,103.67,98.54,25.08,17.26,20.86,0.16,24.31,104.93,30.04,6.67,True,fair,True,moderate,True,True,strong,True,False,True
+1364,Electrical Equipment,Indosolar,556.9,2316.91,0.02,693.03,2366.3,202.55,4088.97,53.64,420.2,30.12,51.3,0.14,10.86,213.41,77.05,11.38,True,expensive,True,strong,True,True,strong,True,True,True
+1367,Electrical Equipment,Solex Energy,1826.7,1973.29,1.63,784.76,43.72,397.8,147.82,54.76,38.74,12.51,48.5,0.16,37.67,52.39,28.22,10.94,True,expensive,True,moderate,True,True,strong,True,False,True
+1369,Electrical Equipment,Indo Tech.Trans.,1742.5,1848.82,0.04,730.19,34.58,182.86,40.61,101.56,25.66,13.68,79.28,0.3,21.96,84.2,37.8,5.7,True,fair,True,moderate,True,True,strong,True,False,True
+1374,Electrical Equipment,Danish Power,707.95,1394.06,0.01,472.64,27.82,211.06,54.89,100.5,28.94,18.5,33.98,0.18,20.83,66.92,40.21,4.02,True,fair,True,moderate,True,True,strong,True,False,True
+1376,Electrical Equipment,Mangal Electrica,442.45,1220.86,0.12,549.04,22.15,154.33,126.21,74.3,34.13,14.91,23.08,0.27,26.36,47.3,30.43,2.17,True,fair,True,moderate,True,True,strong,True,False,True
+1378,Electrical Equipment,Prostarm Info,161.17,950.44,0.06,269.15,35.12,64.61,27.43,36.72,30.0,13.9,5.11,1.02,38.56,24.65,29.95,3.42,True,expensive,True,moderate,True,True,strong,True,False,True
+1379,Electrical Equipment,Australian Prem,454.25,915.77,0.23,570.41,139.26,300.77,234.51,100.09,57.82,13.79,27.15,0.12,16.9,54.19,70.83,6.86,True,fair,True,moderate,True,True,strong,True,False,True
+1383,Electrical Equipment,Permanent Magnet,823.65,708.34,0.19,197.31,-8.04,49.13,-34.23,,11.49,14.21,14.14,,58.25,12.16,15.2,4.69,True,expensive,True,moderate,True,False,weak,True,False,False
+1387,Electrical Equipment,RMC Switchgears,555.45,584.71,0.59,406.48,113.95,194.96,137.94,148.72,37.54,16.23,38.61,0.05,14.39,40.64,37.19,4.63,True,expensive,True,moderate,True,True,strong,True,False,True
+1389,Electrical Equipment,Supreme Power,221.35,553.18,0.28,170.63,50.07,80.66,42.33,116.62,22.36,15.68,8.35,0.12,26.49,20.88,27.5,5.16,True,fair,True,moderate,True,True,strong,True,False,True
+1390,Electrical Equipment,Modison,148.03,481.11,0.38,530.58,15.27,145.16,56.36,8.28,12.13,10.09,9.8,1.04,15.17,31.71,15.48,2.12,True,fair,True,moderate,True,True,moderate,True,False,False
+1392,Electrical Equipment,Sahaj Solar,166.2,365.18,0.8,314.58,43.85,102.26,75.75,131.27,37.78,13.16,12.03,0.06,13.81,26.45,31.6,3.31,True,expensive,True,moderate,True,True,strong,True,False,True
+1396,Electrical Equipment,Kaycee Inds.,979.1,310.72,0.11,56.06,8.5,14.91,1.41,30.9,22.25,15.25,18.09,1.16,54.13,5.74,30.55,9.93,True,expensive,True,moderate,True,False,weak,True,False,False
+1399,Electrical Equipment,Sugs Lloyd,108.27,251.34,0.68,175.21,169.02,123.03,68.0,,53.98,14.72,10.33,0.12,11.73,16.33,34.52,2.06,True,fair,True,moderate,True,False,moderate,True,False,False
+1400,Electrical Equipment,Eppeltone Ene.,183.05,237.22,0.36,124.13,58.21,46.28,18.82,,33.95,14.33,11.51,0.07,18.12,10.86,32.04,2.8,True,fair,True,moderate,True,False,moderate,True,False,False
+1404,Electrical Equipment,Star Delta Trans,664.25,199.29,0.07,144.24,-0.46,43.61,14.84,19.35,13.45,10.48,38.13,0.41,17.41,11.45,18.77,2.2,True,fair,True,moderate,True,False,weak,True,False,False
+1405,Electrical Equipment,Shivalic Power,81.65,196.91,0.04,133.07,6.73,54.22,-22.24,65.18,16.12,12.84,4.61,0.19,17.71,11.12,19.39,1.67,True,fair,True,moderate,True,False,weak,True,False,False
+1416,Electrical Equipment,Vdeal System,212.4,103.88,0.38,41.11,48.79,16.76,21.08,,24.99,15.96,8.22,0.16,25.84,4.02,25.57,3.86,True,fair,True,moderate,True,False,moderate,True,False,False
+1420,Electrical Equipment,ATC Energies,42.0,85.63,0.25,41.71,-12.34,12.89,-42.67,,18.67,25.56,3.05,-10.05,13.77,6.22,19.27,0.95,True,cheap,True,moderate,True,False,weak,True,False,False
+1423,Electrical Equipment,Sungarner Energ.,260.0,60.28,1.12,47.04,114.7,25.27,8.77,,15.95,10.23,8.02,,32.41,1.86,17.99,4.92,True,expensive,True,moderate,True,False,weak,True,False,False
+1468,Construction,Afcons Infrastr.,388.95,14299.57,0.66,12793.14,-0.64,2988.39,4.28,14.18,11.06,11.12,13.66,2.66,28.47,502.26,19.59,2.65,True,fair,True,moderate,True,False,weak,True,False,False
+1470,Construction,Techno Elec.Engg,1182.5,13809.13,0.02,2821.27,78.23,843.43,40.6,18.85,12.81,14.9,40.48,2.43,30.99,445.57,16.54,3.53,True,expensive,True,moderate,True,True,strong,True,False,True
+1471,Construction,Rites,249.69,12004.5,0.0,2229.67,-5.23,548.74,3.23,-8.96,14.66,24.52,8.55,-3.15,29.2,411.11,21.82,4.56,True,fair,True,moderate,True,False,weak,True,False,False
+1473,Construction,Engineers India,201.96,11352.14,0.01,3566.47,19.46,921.29,45.21,6.16,23.17,16.56,9.56,0.35,21.12,537.43,25.01,4.2,True,fair,True,moderate,True,True,moderate,True,False,False
+1475,Construction,Power Mech Proj.,2402.3,7588.28,0.42,5722.53,28.54,1237.87,19.57,20.08,16.33,11.9,103.34,0.72,23.23,326.71,22.93,3.32,True,fair,True,moderate,True,True,moderate,True,False,False
+1476,Construction,Welspun Enterp,535.9,7421.02,0.72,3549.8,8.45,783.92,8.44,17.34,13.26,18.73,25.08,0.54,20.28,365.96,18.17,2.77,True,fair,True,moderate,True,False,weak,True,False,False
+1482,Construction,H.G. Infra Engg.,868.95,5651.33,1.84,5012.43,-8.92,904.5,-23.15,24.23,18.28,19.78,63.4,1.55,14.04,402.62,16.76,1.83,True,fair,True,moderate,True,False,weak,True,False,False
+1484,Construction,Man Infra,127.9,5159.72,0.01,867.78,-21.85,148.75,0.42,111.14,17.49,28.18,7.09,2.01,19.01,271.47,23.52,2.36,True,fair,True,moderate,True,False,weak,True,False,False
+1485,Construction,Ashoka Buildcon,181.41,5086.04,0.47,8820.56,-17.28,1851.18,70.03,60.11,54.78,29.47,49.24,0.07,3.36,1512.07,39.7,1.21,True,cheap,True,strong,True,False,weak,True,True,False
+1486,Construction,KNR Construct.,168.19,4730.92,0.49,3082.53,-42.27,646.5,-38.26,32.46,27.24,27.66,21.9,0.15,6.86,689.58,28.58,0.99,True,cheap,True,strong,True,False,weak,True,True,False
+1487,Construction,J Kumar Infra,613.15,4631.59,0.24,5935.25,13.76,1336.97,13.7,16.29,13.83,14.56,53.93,0.48,11.35,408.06,19.98,1.46,True,cheap,True,moderate,True,True,moderate,True,False,False
+1489,Construction,Ramky Infra,629.85,4354.24,0.3,1798.87,-15.09,471.64,-15.98,24.5,10.87,13.9,29.09,0.21,21.63,201.33,16.85,2.12,True,fair,True,moderate,True,False,weak,True,False,False
+1490,Construction,Ceigall India,247.7,4326.44,0.69,3486.9,7.85,806.57,-22.81,,20.87,13.59,14.84,0.53,16.74,258.47,19.38,2.23,True,fair,True,moderate,True,False,weak,True,False,False
+1493,Construction,GK Energy,184.21,3732.98,0.53,1094.83,166.32,358.5,269.13,,100.52,18.24,7.83,0.08,25.65,133.22,74.29,4.79,True,fair,True,moderate,True,False,moderate,True,False,False
+1495,Construction,Patel Engineerin,35.14,2964.58,0.4,5259.3,12.37,1208.47,42.54,178.98,10.4,13.81,3.13,0.13,7.62,388.94,15.43,0.75,True,cheap,True,moderate,True,True,moderate,True,False,False
+1496,Construction,Vikran Engg.,108.35,2796.75,0.27,915.85,16.53,176.29,4.03,17.79,20.49,17.67,4.24,0.35,32.97,77.77,27.15,2.41,True,fair,True,moderate,True,False,weak,True,False,False
+1497,Construction,Solarworld Ene.,304.6,2638.26,0.27,544.77,8.73,137.88,48.88,,40.21,19.6,10.39,0.19,41.25,76.94,40.36,3.52,True,expensive,True,moderate,True,False,weak,True,False,False
+1498,Construction,Capacit'e Infra.,296.05,2505.55,0.23,2497.31,15.23,646.16,11.18,17.44,12.57,15.46,23.56,0.2,12.57,199.34,18.01,1.38,True,cheap,True,moderate,True,True,moderate,True,False,False
+1500,Construction,M & B Engineer.,405.4,2313.77,0.19,988.55,24.34,306.85,68.16,48.25,28.49,12.8,15.41,0.53,30.77,76.85,26.06,3.89,True,expensive,True,moderate,True,True,strong,True,False,True
+1501,Construction,GHV Infra,320.35,2308.93,2.43,448.06,42572.38,183.77,32780.0,,82.12,12.32,4.57,0.2,70.22,32.88,68.53,23.79,True,expensive,True,moderate,True,False,moderate,True,False,False
+1502,Construction,Garuda Cons,230.93,2146.18,0.0,384.78,92.75,116.46,85.12,102.29,22.09,29.16,9.25,0.65,24.94,86.06,30.09,5.55,True,fair,True,strong,True,True,strong,True,True,True
+1506,Construction,SRM Contractors,620.6,1423.22,0.2,711.74,106.88,191.52,184.59,68.79,25.63,14.79,30.19,0.51,20.55,69.27,31.05,4.77,True,fair,True,moderate,True,True,strong,True,False,True
+1507,Construction,GPT Infraproject,104.65,1324.16,0.33,1250.12,15.97,278.67,38.8,40.0,19.58,11.92,7.2,0.3,14.56,90.94,21.87,2.41,True,fair,True,moderate,True,True,moderate,True,False,False
+1508,Construction,Sathlokhar Sys.,540.4,1304.42,0.18,506.48,47.9,248.99,40.36,79.58,40.17,14.26,22.5,0.09,24.01,54.32,53.42,6.51,True,fair,True,moderate,True,True,strong,True,False,True
+1509,Construction,A B Infrabuild,19.25,1230.98,0.29,244.65,78.25,37.3,127.23,39.88,17.3,15.31,0.3,0.29,62.77,19.61,18.43,7.82,True,expensive,True,moderate,True,True,strong,True,False,True
+1511,Aerospace & Defence,Hind.Aeronautics,4744.2,317237.34,0.0,32104.78,3.05,6628.61,-0.52,24.46,26.07,30.58,126.64,2.07,37.46,8469.33,33.88,8.55,True,expensive,True,strong,True,False,weak,True,True,False
+1512,Aerospace & Defence,Bharat Electron,423.2,309386.59,0.0,25152.11,16.58,5792.09,25.45,23.8,29.22,29.52,7.79,1.79,54.32,5695.67,38.88,14.34,True,expensive,True,strong,True,True,moderate,True,True,False
+1513,Aerospace & Defence,Bharat Dynamics,1536.8,56364.07,0.0,4004.08,82.69,1147.03,18.17,0.55,14.38,14.19,17.84,52.22,86.17,654.13,19.66,13.36,True,expensive,True,moderate,True,True,moderate,True,False,False
+1515,Aerospace & Defence,Data Pattern,3055.2,17106.42,0.0,920.04,77.99,307.46,26.08,59.36,15.18,33.05,41.7,2.31,73.28,233.43,21.0,11.12,True,expensive,True,moderate,True,True,strong,True,False,True
+1516,Aerospace & Defence,Zen Technologies,1401.7,12655.54,0.01,808.97,9.71,173.57,21.57,36.63,26.08,38.44,27.46,0.12,51.19,247.25,37.22,7.04,True,expensive,True,strong,True,False,weak,True,True,False
+1518,Aerospace & Defence,Astra Microwave,971.4,9225.27,0.24,1080.71,11.44,214.59,23.56,28.59,14.43,26.22,16.97,0.98,57.27,161.09,18.72,7.93,True,expensive,True,moderate,True,True,moderate,True,False,False
+1522,Aerospace & Defence,Paras Defence,721.0,5809.55,0.08,392.91,24.92,105.72,54.98,25.95,11.53,25.93,8.72,2.57,82.67,70.27,15.61,8.65,True,expensive,True,moderate,True,True,strong,True,False,True
+1523,Aerospace & Defence,Unimech Aero.,970.0,4928.1,0.16,247.24,-0.2,61.98,0.99,,19.91,32.98,15.64,0.34,61.94,79.56,22.22,6.98,True,expensive,True,moderate,True,False,weak,True,False,False
+1524,Aerospace & Defence,Avantel,157.68,4176.74,0.09,227.27,-1.3,55.42,-42.71,,28.12,28.79,1.27,2.67,124.09,33.66,37.06,12.91,True,expensive,True,strong,True,False,weak,True,True,False
+1528,Aerospace & Defence,Sika Interplant,1031.0,2185.81,0.0,203.59,60.53,51.58,54.31,28.22,22.04,19.12,16.2,4.3,63.63,34.35,29.04,15.84,True,expensive,True,moderate,True,True,strong,True,False,True
+1531,Aerospace & Defence,CFF Fluid,624.45,1309.72,0.02,169.66,33.13,104.13,37.5,76.56,17.42,27.82,14.15,1.0,45.27,28.93,22.13,5.3,True,expensive,True,moderate,True,True,strong,True,False,True
+1532,Aerospace & Defence,Krishna Defence,803.8,1199.19,0.0,221.29,33.92,120.47,51.69,96.39,18.44,17.08,18.52,0.41,44.51,26.94,24.31,7.2,True,expensive,True,moderate,True,True,strong,True,False,True
+1533,Aerospace & Defence,C2C Advanced,657.0,1093.33,0.22,137.99,180.35,66.1,134.85,,21.05,41.44,25.7,0.18,25.56,42.77,26.17,4.94,True,fair,True,strong,True,False,moderate,True,True,False
+1534,Aerospace & Defence,Taneja Aerospace,337.8,861.41,0.0,39.56,13.35,9.69,42.56,25.58,13.26,64.43,7.03,1.72,48.07,17.92,17.45,5.75,True,expensive,True,moderate,True,True,moderate,True,False,False
+1536,Other Utilities,Va Tech Wabag,1403.6,8732.4,0.1,3535.7,19.23,834.5,22.77,25.97,14.6,11.97,51.48,0.86,27.26,320.3,19.7,3.76,True,fair,True,moderate,True,True,moderate,True,False,False
+1537,Other Utilities,ION Exchange,361.4,5298.35,0.33,2842.2,11.56,733.94,-2.78,17.25,18.66,10.28,14.33,2.97,25.21,210.14,22.34,4.1,True,fair,True,moderate,True,False,weak,True,False,False
+1538,Other Utilities,Enviro Infra,219.2,3845.89,0.26,1108.64,27.65,227.35,45.86,101.61,27.39,25.48,11.43,0.26,18.59,206.89,31.68,3.38,True,fair,True,strong,True,True,strong,True,True,True
+1539,Other Utilities,EMS,461.15,2563.58,0.16,926.49,4.74,172.47,-4.82,20.44,20.69,24.41,29.39,0.48,15.71,163.22,26.91,2.46,True,fair,True,strong,True,False,weak,True,True,False
+1540,Other Utilities,Rajesh Power,1287.7,2318.81,0.26,1396.83,276.19,637.82,232.63,,50.83,12.13,65.35,0.1,19.71,117.67,54.71,7.45,True,fair,True,moderate,True,False,moderate,True,False,False
+1542,Other Utilities,Denta Water,383.5,1025.5,0.03,247.05,-0.12,74.27,13.79,215.09,18.43,32.81,26.97,1.38,15.5,66.16,25.17,2.35,True,fair,True,moderate,True,False,weak,True,False,False
+1543,Other Utilities,Eco Recyc.,521.2,1005.75,0.07,43.35,8.95,14.42,-12.77,111.97,84.05,59.58,10.62,0.35,49.06,20.5,36.82,9.94,True,expensive,True,strong,True,False,weak,True,True,False
+1544,Other Utilities,Concord Enviro,422.8,875.45,0.3,557.05,-5.26,124.85,-26.65,45.63,12.03,12.2,22.8,0.36,16.74,52.29,15.04,1.59,True,fair,True,moderate,True,False,weak,True,False,False
+1545,Other Utilities,Z-Tech (India),563.55,807.58,0.02,114.11,55.8,34.5,156.7,,20.23,28.6,16.78,0.07,34.57,23.36,28.12,4.49,True,expensive,True,strong,True,False,moderate,True,True,False
+1547,Other Utilities,Effwa Infra,248.6,575.43,0.14,214.47,23.96,90.21,47.26,,30.44,17.78,11.01,0.34,22.57,25.49,33.87,5.48,True,fair,True,moderate,True,False,moderate,True,False,False
+1548,Other Utilities,Namo eWaste,190.25,435.05,0.06,170.32,28.83,87.32,6.87,,13.75,10.38,4.42,,43.03,10.11,19.08,4.54,True,expensive,True,moderate,True,False,weak,True,False,False
+1550,Other Utilities,VVIP Infratech,134.85,336.72,0.72,392.99,17.91,193.24,39.92,,23.34,19.18,14.77,0.09,9.13,36.87,33.34,1.55,True,fair,True,moderate,True,False,moderate,True,False,False
+1554,Other Utilities,Apex Ecotech,143.7,189.48,0.0,81.82,33.69,32.57,29.11,26.24,28.07,14.63,7.27,0.17,19.76,9.59,37.51,3.88,True,fair,True,moderate,True,True,strong,True,False,True
+1555,Other Utilities,Sattva Eng.,82.5,144.12,0.33,93.65,21.73,50.65,97.14,,26.6,20.13,7.17,0.11,12.45,8.97,28.63,1.81,True,fair,True,strong,True,False,moderate,True,True,False
+1556,Other Utilities,Urban Enviro,161.35,139.73,0.71,155.77,21.74,86.66,9.74,68.71,38.31,16.49,13.53,0.14,11.92,11.72,28.13,3.41,True,expensive,True,moderate,True,False,weak,True,False,False
+1566,Petroleum Products (for OMCs),Castrol India,190.87,18882.34,0.04,5635.47,6.83,1362.75,8.79,2.14,41.83,24.05,9.87,2.91,19.33,976.65,55.16,10.38,True,fair,True,strong,True,False,weak,True,True,False
+1568,Petroleum Products (for OMCs),Gulf Oil Lubric.,1169.6,5764.23,0.29,3773.1,10.83,956.78,10.32,11.63,25.46,13.03,75.77,0.83,15.43,373.58,28.3,3.49,True,fair,True,moderate,True,True,moderate,True,False,False
+1569,Petroleum Products (for OMCs),Veedol Corporat,1701.2,2967.38,0.02,2037.54,5.1,509.23,30.83,7.17,19.75,10.7,107.7,1.29,15.3,193.91,23.72,3.03,True,fair,True,moderate,True,False,weak,True,False,False
+1575,Petroleum Products (for OMCs),Resgen,75.14,157.6,0.0,77.34,37.86,37.87,4.74,123.04,14.89,19.24,3.9,0.16,19.29,8.17,19.68,2.56,True,fair,True,moderate,True,False,weak,True,False,False
+1600,Finance,Authum Invest,2726.0,46324.64,0.17,3865.32,-0.36,595.19,-0.51,208.59,34.14,93.57,236.54,0.14,11.53,4017.55,30.85,2.86,True,fair,True,strong,True,False,weak,True,True,False
+1607,Finance,CRISIL,4637.2,33924.27,0.11,3480.35,6.61,911.24,11.9,14.43,27.81,29.34,102.45,2.82,45.28,749.2,35.6,12.04,True,expensive,True,strong,True,False,weak,True,True,False
+1609,Finance,TVS Holdings,14960.0,30233.63,6.25,50450.82,20.19,14549.15,52.65,25.93,30.2,15.8,716.55,0.57,20.99,1440.16,15.21,5.48,True,fair,True,moderate,True,True,strong,True,False,True
+1617,Finance,Five-Star Bus.Fi,609.7,17936.86,1.23,3065.77,20.14,799.44,13.69,32.57,18.65,71.73,37.58,0.49,16.23,1105.43,16.34,2.64,True,fair,True,moderate,True,True,moderate,True,False,False
+1619,Finance,Choice Intl.,799.75,16722.41,0.4,970.65,11.59,274.43,18.22,67.2,19.61,33.78,8.94,2.06,92.22,181.33,19.95,13.44,True,expensive,True,moderate,True,True,moderate,True,False,False
+1621,Finance,Aptus Value Hou.,288.25,14429.03,1.57,1998.39,29.57,544.04,24.87,28.91,18.58,84.25,16.86,0.64,17.11,843.33,15.05,3.1,True,fair,True,moderate,True,True,strong,True,False,True
+1660,Finance,Algoquant Fin,60.05,1687.98,0.24,209.65,-8.72,51.29,-58.75,,37.55,12.41,0.58,,102.74,16.43,32.47,15.11,True,expensive,True,moderate,True,False,weak,True,False,False
+1663,Finance,Balmer Law. Inv.,75.04,1665.68,0.17,2566.02,4.8,638.39,-0.34,10.08,13.15,13.23,7.73,0.38,9.71,171.49,17.19,1.23,True,cheap,True,moderate,True,False,weak,True,False,False
+1673,Finance,Wealth First Por,1061.0,1126.37,0.0,58.37,-16.29,20.57,-37.62,94.13,28.6,74.22,30.04,1.46,33.98,33.15,37.87,7.5,True,expensive,True,strong,True,False,weak,True,True,False
+1676,Finance,Prime Securities,314.25,1059.79,0.01,112.03,24.89,31.23,-7.89,34.59,19.46,31.18,9.89,0.94,31.87,33.25,22.62,4.61,True,expensive,True,moderate,True,False,weak,True,False,False
+1690,Finance,Aryaman Fin.Serv,684.9,838.79,0.0,124.8,112.14,18.98,170.07,103.24,31.3,50.99,33.79,0.23,20.61,40.7,31.88,5.59,True,fair,True,strong,True,True,strong,True,True,True
+1692,Finance,Nisus Finance,328.3,783.92,0.06,65.62,52.5,28.4,31.7,160.23,33.26,65.21,13.49,0.1,19.56,32.22,39.74,4.88,True,fair,True,strong,True,True,strong,True,True,True
+1701,Finance,Aryaman Capital,517.95,620.36,0.0,86.43,134.23,36.15,259.73,202.85,38.69,46.56,29.01,0.06,17.85,34.75,31.72,6.33,True,fair,True,strong,True,True,strong,True,True,True
+1706,Finance,Unifinz Capital,615.2,544.68,1.13,294.67,429.32,129.07,937.79,,49.38,30.33,63.88,0.06,10.02,54.38,47.09,4.6,True,expensive,True,strong,True,False,moderate,True,True,False
+1707,Finance,India Finsec,180.0,525.45,2.06,75.33,11.65,20.17,19.19,46.15,12.91,74.05,4.46,1.3,41.28,12.73,15.02,4.32,True,expensive,True,moderate,True,True,moderate,True,False,False
+1710,Finance,UVS Hospitality,129.9,485.6,0.02,117.64,176.47,33.56,111.0,,21.21,20.86,4.14,,29.43,16.5,21.57,2.66,True,fair,True,strong,True,False,moderate,True,True,False
+1724,Finance,Shalibhadra Fin.,107.6,332.36,0.25,38.26,9.66,9.49,38.59,22.46,12.75,72.37,5.98,0.47,18.0,18.46,15.03,2.04,True,fair,True,moderate,True,False,weak,True,False,False
+1728,Finance,Emerald Finance,88.92,307.13,0.17,25.78,54.37,6.9,96.05,47.61,13.76,73.27,3.47,0.48,25.77,11.92,18.45,3.38,True,fair,True,moderate,True,True,strong,True,False,True
+1740,Finance,Iconik Sports,73.05,247.21,0.0,25.74,42266.67,13.03,7457.14,204.08,15.02,22.69,-1.81,0.27,48.0,5.15,17.08,3.64,True,expensive,True,moderate,True,True,strong,True,False,True
+1754,Finance,Escorp Asset Mgt,160.75,178.7,0.0,14.35,76.94,1.65,65.54,,28.07,96.93,11.5,0.34,13.98,12.78,32.96,2.53,True,fair,True,strong,True,False,moderate,True,True,False
+1757,Finance,Upsurge Invest.,82.33,165.25,0.23,99.66,3.54,22.88,-44.06,42.34,20.45,12.74,5.33,0.83,15.46,10.69,25.58,1.47,True,fair,True,moderate,True,False,weak,True,False,False
+1772,Finance,Stellant Secu.,368.2,136.32,0.0,43.85,2541.57,41.05,2283.21,38.36,81.9,94.96,80.05,0.02,4.37,31.22,106.67,4.11,True,expensive,True,strong,True,True,strong,True,True,True
+1773,Finance,Reliable Data,133.76,135.95,0.69,195.0,110.77,69.13,141.49,23.57,17.19,10.42,11.44,0.31,11.43,11.89,16.61,2.28,True,fair,True,moderate,True,True,strong,True,False,True
+1796,Finance,My Mudra Fin.,86.9,98.99,0.2,105.08,44.46,58.45,59.64,,25.81,16.15,10.1,0.05,8.6,11.51,31.35,1.68,True,fair,True,moderate,True,False,moderate,True,False,False
+1810,Finance,SKP Securities,117.6,80.07,0.35,38.63,-1.4,10.85,-33.82,105.27,21.59,33.73,12.65,0.41,9.3,8.61,27.55,1.45,True,cheap,True,strong,True,False,weak,True,True,False
+1816,Finance,Morgan Ventures,77.53,76.75,1.85,46.37,36.74,13.96,33.68,200.98,32.03,94.44,23.17,0.08,3.35,22.94,18.33,0.8,True,cheap,True,strong,True,True,strong,True,True,True
+1819,Finance,GACM Tech,0.59,74.94,0.0,20.53,137.34,5.13,555.4,19.74,14.51,57.48,0.08,0.23,8.23,9.11,16.43,0.62,True,cheap,True,moderate,True,True,strong,True,False,True
+1830,Finance,Share Samadhan,57.0,69.94,0.01,13.79,28.88,3.8,-27.95,,13.65,29.44,2.14,0.36,26.59,2.63,21.95,1.7,True,fair,True,moderate,True,False,weak,True,False,False
+1843,Finance,Gowra Leasing,111.0,60.55,0.74,9.16,229.5,2.87,263.12,50.81,16.9,86.24,10.65,0.1,10.42,5.81,18.34,1.69,True,fair,True,moderate,True,True,strong,True,False,True
+1856,Finance,Bridge Securitie,13.18,51.24,0.0,1.68,-1.18,0.42,-26.85,29.55,65.13,91.07,0.28,0.93,47.01,1.09,90.26,11.97,True,expensive,True,strong,True,False,weak,True,True,False
+1880,Finance,Sugal & Damani,70.0,43.75,0.02,25.48,337.84,5.88,110.18,,20.15,27.0,8.94,,7.83,5.59,24.57,1.49,True,cheap,True,strong,True,False,moderate,True,True,False
+1887,Finance,Challani Capital,27.31,40.97,0.05,2.54,130.91,0.36,117.86,32.54,28.22,60.24,1.22,1.77,22.39,1.83,28.22,5.11,True,fair,True,strong,True,True,strong,True,True,True
+1901,Finance,Nagreeka Cap.,29.0,34.29,3.17,38.04,-50.27,5.03,-9.13,17.99,156.62,57.23,13.17,0.03,2.06,16.62,29.22,1.33,True,cheap,True,strong,True,False,weak,True,True,False
+1903,Finance,JMJ Fintech,16.66,33.84,0.0,21.11,66.88,6.32,16.27,72.46,26.38,61.06,1.51,0.02,5.84,5.79,31.23,1.83,True,fair,True,strong,True,True,moderate,True,True,False
+1922,Finance,Jindal Capital,37.97,27.37,0.89,3.76,33.81,0.97,-45.89,71.25,13.28,55.05,1.1,0.75,34.65,0.79,15.17,2.36,True,fair,True,moderate,True,False,weak,True,False,False
+1950,Finance,Ontic Finserve,2.24,20.16,0.09,1.46,4.29,0.4,160.44,92.16,53.36,88.36,0.12,0.15,18.33,1.1,68.44,5.31,True,fair,True,strong,True,False,weak,True,True,False
+1992,Finance,Shrydus Indust.,4.42,14.15,0.0,35.29,286.95,0.0,49.84,,29.25,11.67,1.44,,3.08,4.6,24.54,0.28,True,cheap,True,moderate,True,False,moderate,True,False,False
+2011,Finance,Kumbhat Fin.,22.7,12.1,2.73,5.05,676.92,1.66,179.67,43.95,34.3,64.95,2.63,0.05,8.34,1.45,20.67,2.2,True,fair,True,strong,True,True,strong,True,True,True
+2032,Finance,GACM Tech-DVR,0.51,9.67,0.0,12.04,66.3,4.38,237.27,,52.85,43.02,0.19,0.05,1.75,3.71,32.55,0.09,True,cheap,True,strong,True,False,moderate,True,True,False
+2040,Finance,Nexus Surgical,16.8,9.19,0.0,5.86,22.08,1.17,26.83,75.54,61.73,11.77,0.95,0.89,17.67,0.52,83.95,6.61,True,fair,True,moderate,True,True,strong,True,False,True
+2073,Finance,Brijlaxmi Leas.,8.66,5.6,3.01,6.62,157.59,0.76,419.09,120.96,30.83,87.31,5.43,0.01,1.6,3.51,26.53,0.86,True,cheap,True,strong,True,True,strong,True,True,True
+2076,Finance,Goyal Associates,0.99,5.24,0.19,2.1,-41.5,0.28,-27.27,35.84,16.91,34.76,0.12,0.17,9.36,0.56,17.37,0.95,True,cheap,True,moderate,True,False,weak,True,False,False
+2088,Finance,Regal Entertain.,11.72,3.6,0.08,1.22,1425.0,0.32,2300.0,94.73,26.0,15.57,1.56,0.03,7.5,0.48,28.93,1.7,True,fair,True,moderate,True,True,strong,True,False,True
+2103,Financial Technology (Fintech),Seshaasai Tech.,320.9,5193.16,0.26,1462.21,-6.16,351.35,31.24,,41.45,24.62,15.05,0.3,24.14,222.21,36.54,4.05,True,fair,True,strong,True,False,weak,True,True,False
+2108,Financial Technology (Fintech),WSFX Global,61.96,77.91,0.26,95.27,19.15,34.96,-45.64,54.04,10.08,10.55,2.49,0.61,24.97,3.12,18.0,2.0,True,fair,True,moderate,True,False,weak,True,False,False
+2110,Capital Markets,BSE,2898.3,117877.94,0.0,3698.51,55.37,1068.39,118.08,65.43,36.04,56.32,44.6,0.93,65.56,1797.89,46.57,22.62,True,expensive,True,strong,True,True,strong,True,True,True
+2111,Capital Markets,HDFC AMC,5392.0,115495.51,0.0,3829.38,26.42,1026.04,24.17,14.28,32.35,80.15,128.4,2.01,42.06,2746.17,43.33,14.9,True,expensive,True,strong,True,True,strong,True,True,True
+2113,Capital Markets,Motil.Oswal.Fin.,967.55,58099.28,1.22,7769.82,-14.62,1849.11,-40.2,68.73,25.25,50.2,33.76,1.19,28.7,2024.23,18.67,4.51,True,fair,True,strong,True,False,weak,True,True,False
+2114,Capital Markets,Nippon Life Ind.,883.1,56168.74,0.02,2419.16,22.93,658.12,1.14,25.38,31.39,64.84,21.01,2.1,42.08,1334.72,40.69,12.83,True,expensive,True,strong,True,False,weak,True,True,False
+2115,Capital Markets,Multi Comm. Exc.,9799.0,49971.49,0.0,1340.15,50.14,374.23,100.59,25.43,34.33,62.43,136.51,1.39,71.78,696.16,42.86,23.94,True,expensive,True,strong,True,True,strong,True,True,True
+2117,Capital Markets,C D S L,1622.8,33916.52,0.0,1080.26,4.38,318.89,-11.24,37.81,32.7,53.36,22.63,3.73,71.71,473.0,41.96,19.46,True,expensive,True,strong,True,False,weak,True,True,False
+2118,Capital Markets,Nuvama Wealth,7344.0,26616.86,2.37,4411.52,16.95,1134.71,22.72,28.56,30.87,53.53,285.04,0.49,25.95,1025.6,20.4,6.99,True,fair,True,strong,True,True,moderate,True,True,False
+2119,Capital Markets,Angel One,2813.9,25563.38,0.77,4660.51,-12.67,1201.76,-40.58,66.93,27.07,32.8,86.5,1.4,32.68,782.19,25.8,4.39,True,expensive,True,strong,True,False,weak,True,True,False
+2120,Capital Markets,Anand Rathi Wea.,2941.5,24418.03,0.1,1030.39,21.68,297.37,30.2,37.33,45.33,44.95,41.37,2.12,71.1,343.44,56.26,30.2,True,expensive,True,strong,True,True,strong,True,True,True
+2121,Capital Markets,N S D L,1136.75,22735.0,0.01,1420.15,11.98,400.04,25.21,21.33,17.78,26.44,17.16,3.98,66.44,327.99,23.57,10.49,True,expensive,True,moderate,True,True,moderate,True,False,False
+2122,Capital Markets,Aditya AMC,739.1,21344.22,0.02,1782.66,17.45,461.32,8.4,13.48,26.99,59.84,33.65,1.92,21.98,970.98,35.51,5.99,True,fair,True,strong,True,False,weak,True,True,False
+2123,Capital Markets,Cams Services,3929.0,19458.17,0.06,1372.26,13.8,353.89,10.11,21.96,43.94,45.55,89.0,3.03,44.22,440.03,54.75,17.24,True,expensive,True,strong,True,True,moderate,True,True,False
+2124,Capital Markets,KFin Technolog.,1081.9,18664.06,0.03,1156.01,19.78,309.23,15.77,134.47,24.97,43.43,20.09,1.87,53.97,345.8,32.75,12.74,True,expensive,True,strong,True,True,moderate,True,True,False
+2125,Capital Markets,UTI AMC,1149.0,14740.19,0.0,1758.93,-8.99,418.55,-30.15,21.92,16.28,52.25,45.92,2.27,25.07,588.01,21.02,3.36,True,fair,True,moderate,True,False,weak,True,False,False
+2126,Capital Markets,Indian Energy Ex,137.11,12226.0,0.0,564.8,13.1,152.24,17.15,19.79,40.53,85.11,5.04,2.23,27.18,449.79,53.61,10.19,True,fair,True,strong,True,True,moderate,True,True,False
+2127,Capital Markets,Prudent Corp.,2456.4,10177.28,0.04,1181.62,19.95,319.79,16.63,47.65,34.04,23.2,49.57,1.44,49.58,205.25,44.06,13.34,True,expensive,True,strong,True,True,moderate,True,True,False
+2128,Capital Markets,IIFL Capital,317.55,9871.55,0.62,2309.18,-8.75,572.08,-18.44,34.67,31.58,37.47,18.87,0.54,16.88,584.84,33.27,3.51,True,fair,True,strong,True,False,weak,True,True,False
+2129,Capital Markets,ICRA,6097.0,5889.63,0.01,518.15,8.06,136.58,24.3,12.03,16.75,36.59,194.82,2.12,31.32,188.02,23.13,5.41,True,expensive,True,moderate,True,False,weak,True,False,False
+2132,Capital Markets,CARE Ratings,1530.6,4585.19,0.03,436.31,19.5,136.37,33.67,10.75,18.02,39.87,51.03,1.35,30.0,152.86,24.55,5.32,True,fair,True,moderate,True,True,moderate,True,False,False
+2133,Capital Markets,Anand Rathi Shar,700.5,4399.3,0.93,843.57,23.8,227.08,32.18,84.12,23.04,36.92,23.41,1.66,44.28,103.88,21.26,3.36,True,expensive,True,strong,True,True,strong,True,True,True
+2134,Capital Markets,Share India Sec.,168.8,3689.17,0.22,1264.01,-25.91,340.96,-39.36,51.38,15.92,38.06,12.71,0.78,13.28,277.81,20.55,1.47,True,cheap,True,moderate,True,False,weak,True,False,False
+2135,Capital Markets,Monarch Networth,317.35,2521.08,0.01,318.72,-6.26,83.12,1.51,130.66,26.17,68.99,19.7,0.4,16.22,155.47,33.31,2.86,True,fair,True,strong,True,False,weak,True,True,False
+2136,Capital Markets,Geojit Fin. Ser.,75.18,2097.61,0.11,671.34,-11.65,169.8,-37.74,27.45,16.83,29.97,4.19,4.96,17.92,117.05,18.84,1.8,True,fair,True,moderate,True,False,weak,True,False,False
+2137,Capital Markets,Systematix Corp.,151.29,2065.14,0.06,166.79,-0.32,55.72,-34.03,65.4,20.43,35.49,3.43,1.15,44.09,46.84,25.09,6.39,True,expensive,True,strong,True,False,weak,True,True,False
+2138,Capital Markets,Dam Capital Advi,239.9,1691.43,0.01,278.28,17.58,106.99,14.75,70.15,49.22,59.56,15.87,0.22,15.08,112.18,64.78,5.47,True,fair,True,strong,True,True,moderate,True,True,False
+2139,Capital Markets,Master Trust,104.8,1292.8,0.22,528.38,-12.21,126.86,-13.81,60.53,22.97,43.18,10.29,0.33,10.94,118.21,30.09,1.71,True,fair,True,strong,True,False,weak,True,True,False
+2141,Capital Markets,Dolat Algotech,72.83,1280.09,0.19,402.14,-25.62,58.92,-51.44,24.84,24.0,54.29,6.84,1.21,10.63,120.37,35.48,1.22,True,cheap,True,strong,True,False,weak,True,True,False
+2143,Capital Markets,Arihant Capital,97.84,1020.17,0.51,205.88,-27.91,56.98,-47.89,26.29,15.9,36.72,4.39,6.84,23.59,43.25,21.26,2.46,True,fair,True,moderate,True,False,weak,True,False,False
+2148,Capital Markets,Pune e,206.4,323.03,0.36,49.21,-38.55,26.39,-19.23,,12.07,39.5,9.98,0.98,20.68,15.62,15.22,1.97,True,fair,True,moderate,True,False,weak,True,False,False
+2155,Capital Markets,Swastika Investm,90.21,181.3,0.18,115.91,-18.93,27.94,-37.97,95.26,20.72,21.49,7.55,0.55,14.01,12.94,32.56,1.39,True,cheap,True,strong,True,False,weak,True,True,False
+2157,Capital Markets,Beacon Trust.,82.55,149.13,0.0,30.71,43.71,18.22,12.83,54.18,17.84,29.83,3.36,1.28,24.57,6.07,24.45,3.0,True,fair,True,moderate,True,True,moderate,True,False,False
+2158,Capital Markets,LKP Securities,17.77,145.62,0.71,101.23,-16.21,26.69,-28.0,47.17,12.77,24.15,1.41,-1.9,12.59,11.57,18.4,1.51,True,fair,True,moderate,True,False,weak,True,False,False
+2159,Capital Markets,Steel City Sec.,95.23,143.87,0.09,60.46,-8.64,15.43,-9.86,19.26,13.83,29.31,9.92,1.29,9.6,14.99,18.2,1.08,True,cheap,True,moderate,True,False,weak,True,False,False
+2162,Capital Markets,Dharni Capital,58.9,119.98,0.04,8.06,27.33,4.46,25.66,,20.02,34.86,2.12,,27.84,4.31,24.96,5.11,True,fair,True,strong,True,False,moderate,True,True,False
+2167,Capital Markets,Joindre Capital,51.51,71.27,0.2,41.13,-20.75,10.31,-37.23,53.16,12.98,29.37,4.39,0.72,11.74,6.07,17.28,0.87,True,cheap,True,moderate,True,False,weak,True,False,False
+2177,Capital Markets,Interactive Fin,15.44,10.7,0.02,5.12,-23.12,2.12,-34.93,85.43,14.05,24.02,2.43,0.14,6.04,1.77,19.69,0.33,True,cheap,True,moderate,True,False,weak,True,False,False
+2178,Pharmaceuticals & Biotechnology,Sun Pharma.Inds.,1784.1,427846.41,0.07,54964.01,9.26,14478.31,2.99,23.78,16.86,30.12,43.55,1.84,37.06,11543.96,20.21,5.5,True,expensive,True,moderate,True,False,weak,True,False,False
+2179,Pharmaceuticals & Biotechnology,Divi's Lab.,6454.0,171287.12,0.01,10029.0,16.43,2715.0,35.35,10.41,15.35,32.37,93.61,-7.2,68.93,2485.0,20.44,11.12,True,expensive,True,moderate,True,True,moderate,True,False,False
+2180,Pharmaceuticals & Biotechnology,Torrent Pharma.,3731.4,126203.63,0.33,12248.0,9.11,3302.0,24.5,13.84,26.52,32.6,63.23,2.75,58.25,2166.53,27.05,14.95,True,expensive,True,strong,True,False,weak,True,True,False
+2181,Pharmaceuticals & Biotechnology,Cipla,1526.8,123318.29,0.01,28349.57,6.93,7589.44,17.91,28.68,17.77,25.4,67.37,0.88,22.66,5441.14,22.72,3.75,True,fair,True,moderate,True,False,weak,True,False,False
+2182,Pharmaceuticals & Biotechnology,Dr Reddy's Labs,1250.2,104365.31,0.16,34310.0,14.04,8828.3,8.12,22.28,17.96,24.64,69.17,0.48,18.08,5772.2,22.69,2.9,True,fair,True,moderate,True,False,weak,True,False,False
+2183,Pharmaceuticals & Biotechnology,Zydus Lifesci.,930.2,93615.01,0.38,24493.9,14.01,6123.2,17.57,25.92,21.21,31.1,48.89,9.85,18.61,5029.35,24.31,3.7,True,fair,True,strong,True,True,moderate,True,True,False
+2184,Pharmaceuticals & Biotechnology,Lupin,2025.4,92523.91,0.32,24750.69,15.49,7047.51,64.65,54.88,20.62,27.25,94.71,0.36,21.39,4324.63,21.3,4.71,True,fair,True,strong,True,True,moderate,True,True,False
+2185,Pharmaceuticals & Biotechnology,Mankind Pharma,2223.1,91877.93,0.55,13545.67,23.61,3697.16,-17.25,11.73,14.68,24.12,42.43,6.35,52.55,1748.55,15.98,6.0,True,expensive,True,moderate,True,False,weak,True,False,False
+2187,Pharmaceuticals & Biotechnology,Alkem Lab,5724.0,68458.17,0.18,13890.16,9.32,4000.99,8.15,13.93,19.39,20.23,197.47,3.13,29.12,2350.5,20.38,5.13,True,fair,True,moderate,True,False,weak,True,False,False
+2188,Pharmaceuticals & Biotechnology,Abbott India,29530.0,62695.04,0.05,6714.37,10.69,1757.15,17.46,18.98,35.68,26.99,710.12,1.98,41.55,1508.95,46.25,15.64,True,expensive,True,strong,True,True,moderate,True,True,False
+2191,Pharmaceuticals & Biotechnology,Glenmark Pharma.,1840.8,51977.15,0.13,15955.06,30.27,6046.87,226.71,11.77,15.79,25.71,35.78,3.31,20.68,2513.99,19.4,5.42,True,fair,True,moderate,True,True,strong,True,False,True
+2192,Pharmaceuticals & Biotechnology,Glaxosmi. Pharma,2519.0,42675.96,0.02,3708.9,4.17,979.94,18.89,34.71,46.87,32.68,56.39,-2.28,44.77,953.33,63.25,24.99,True,expensive,True,strong,True,False,weak,True,True,False
+2194,Pharmaceuticals & Biotechnology,Anthem Bioscienc,642.85,36125.01,0.04,1844.55,29.96,550.03,22.85,37.27,20.83,36.4,8.07,21.49,78.02,451.51,28.5,13.12,True,expensive,True,strong,True,True,strong,True,True,True
+2195,Pharmaceuticals & Biotechnology,Ajanta Pharma,2517.7,31430.11,0.06,4972.92,10.74,1353.73,11.28,14.26,24.91,26.08,77.94,3.71,32.28,973.67,32.37,7.29,True,expensive,True,strong,True,True,moderate,True,True,False
+2197,Pharmaceuticals & Biotechnology,J B Chemicals &,1752.0,27421.93,0.01,4091.81,10.25,1084.9,17.55,19.78,20.12,26.67,46.04,1.78,38.17,718.38,25.79,7.21,True,expensive,True,strong,True,True,moderate,True,True,False
+2198,Pharmaceuticals & Biotechnology,Emcure Pharma,1370.1,25976.1,0.35,8449.24,16.44,2269.82,40.47,36.18,18.51,19.6,41.85,29.45,32.39,801.91,20.72,5.48,True,expensive,True,moderate,True,True,moderate,True,False,False
+2200,Pharmaceuticals & Biotechnology,Pfizer,5002.0,22884.38,0.01,2375.29,6.13,642.34,15.47,4.68,16.4,34.25,183.46,20.49,32.38,706.7,21.62,5.95,True,expensive,True,moderate,True,False,weak,True,False,False
+2201,Pharmaceuticals & Biotechnology,Astrazeneca Phar,9118.5,22727.34,0.04,2006.17,35.14,559.09,79.57,19.45,23.63,15.93,79.66,2.27,98.32,231.16,33.4,28.53,True,expensive,True,moderate,True,True,strong,True,False,True
+2204,Pharmaceuticals & Biotechnology,Neuland Labs.,17076.0,21908.0,0.16,1533.41,0.34,514.27,-25.86,66.88,14.83,21.37,187.18,2.37,111.89,195.8,18.66,13.52,True,expensive,True,moderate,True,False,weak,True,False,False
+2210,Pharmaceuticals & Biotechnology,Concord Biotech,1448.7,15168.38,0.0,1125.15,3.63,247.06,-1.21,18.55,21.27,38.82,30.97,1.7,46.82,323.95,28.25,8.29,True,expensive,True,strong,True,False,weak,True,True,False
+2211,Pharmaceuticals & Biotechnology,Natco Pharma,830.15,14880.68,0.03,4387.7,-3.79,1363.0,-20.88,33.27,28.0,39.59,85.91,0.07,9.67,1538.7,32.78,1.72,True,fair,True,strong,True,False,weak,True,True,False
+2212,Pharmaceuticals & Biotechnology,Caplin Point Lab,1931.3,14685.12,0.0,2039.67,11.41,534.04,19.29,20.48,22.66,34.19,77.46,1.16,24.94,588.78,25.85,4.65,True,fair,True,strong,True,True,moderate,True,True,False
+2213,Pharmaceuticals & Biotechnology,Acutaas Chemical,1720.0,14096.64,0.01,1096.91,34.62,306.2,139.77,41.4,16.0,27.34,27.35,2.09,62.94,223.96,19.92,9.96,True,expensive,True,moderate,True,True,strong,True,False,True
+2214,Pharmaceuticals & Biotechnology,Granules India,553.95,13434.26,0.45,4842.21,8.14,1296.98,4.85,8.8,13.86,20.81,21.14,5.32,26.3,510.83,15.14,3.38,True,fair,True,moderate,True,False,weak,True,False,False
+2216,Pharmaceuticals & Biotechnology,Alivus Life,907.75,11166.0,0.02,2481.22,12.53,587.98,25.24,8.92,18.69,29.83,43.27,4.47,21.05,530.4,24.92,3.69,True,fair,True,moderate,True,True,moderate,True,False,False
+2217,Pharmaceuticals & Biotechnology,Sanofi Consumer,4691.7,10859.53,0.11,798.1,11.83,233.9,7.62,,83.81,35.25,94.61,,50.54,214.89,111.44,42.04,True,expensive,True,strong,True,False,weak,True,True,False
+2218,Pharmaceuticals & Biotechnology,Sanofi India,4570.6,10528.63,0.03,1932.5,-1.78,475.4,4.45,-0.44,47.15,26.87,154.91,-3.28,28.51,369.29,49.16,13.44,True,fair,True,strong,True,False,weak,True,True,False
+2219,Pharmaceuticals & Biotechnology,Blue Jet Health,567.85,9861.45,0.02,1179.07,63.34,165.48,101.57,15.67,30.24,37.31,20.31,1.55,27.98,352.39,39.75,7.84,True,fair,True,strong,True,True,strong,True,True,True
+2220,Pharmaceuticals & Biotechnology,P & G Health Ltd,5892.5,9776.54,0.01,1284.42,10.75,324.92,35.38,8.11,36.42,32.31,184.83,3.25,31.87,306.8,47.75,15.78,True,expensive,True,strong,True,True,moderate,True,True,False
+2222,Pharmaceuticals & Biotechnology,Jeena Sikho,706.9,8791.76,0.3,619.07,62.41,364.13,82.71,72.79,37.93,38.2,12.39,0.56,57.11,153.95,50.24,24.85,True,expensive,True,strong,True,True,strong,True,True,True
+2223,Pharmaceuticals & Biotechnology,Marksans Pharma,189.15,8573.37,0.12,2730.71,14.8,720.41,1.35,25.78,16.77,18.69,7.76,0.9,24.38,351.68,20.03,3.19,True,fair,True,moderate,True,False,weak,True,False,False
+2225,Pharmaceuticals & Biotechnology,Akums Drugs,424.9,6684.56,0.03,4107.52,0.69,1017.53,12.25,48.93,17.19,10.68,20.14,0.44,21.72,307.74,16.2,2.12,True,fair,True,moderate,True,False,weak,True,False,False
+2226,Pharmaceuticals & Biotechnology,FDC,410.7,6684.16,0.01,2077.44,0.25,473.03,-28.79,1.92,11.83,13.23,13.85,4.22,29.65,225.43,15.9,2.75,True,fair,True,moderate,True,False,weak,True,False,False
+2227,Pharmaceuticals & Biotechnology,Aarti Pharma,708.3,6413.35,0.32,1906.08,-3.15,418.33,5.12,,14.54,23.18,26.45,0.87,26.75,239.75,17.44,3.14,True,fair,True,moderate,True,False,weak,True,False,False
+2229,Pharmaceuticals & Biotechnology,Supriya Lifesci.,766.05,6160.39,0.0,714.66,14.35,199.83,15.79,20.71,20.75,36.08,22.66,4.58,33.78,182.38,27.46,5.7,True,expensive,True,strong,True,True,moderate,True,True,False
+2231,Pharmaceuticals & Biotechnology,Guj. Themis Bio.,437.5,4768.33,0.27,155.48,0.74,42.35,-8.39,16.17,21.69,44.87,4.43,26.05,98.74,48.29,27.29,18.03,True,expensive,True,strong,True,False,weak,True,True,False
+2237,Pharmaceuticals & Biotechnology,RPG LifeScience.,2252.1,3732.7,0.0,666.4,7.78,181.68,28.01,28.54,25.53,22.38,130.25,1.06,33.49,111.46,32.8,6.72,True,expensive,True,strong,True,False,weak,True,True,False
+2249,Pharmaceuticals & Biotechnology,Novartis India,824.5,2035.75,0.01,354.76,2.8,90.33,21.96,58.46,13.18,28.36,43.17,0.55,19.1,106.59,17.0,2.63,True,fair,True,moderate,True,False,weak,True,False,False
+2250,Pharmaceuticals & Biotechnology,Amrutanjan Healt,703.0,2023.95,0.01,469.91,7.36,117.7,19.29,15.18,16.53,14.05,19.61,-4.02,35.7,56.7,22.45,5.94,True,expensive,True,moderate,True,False,weak,True,False,False
+2251,Pharmaceuticals & Biotechnology,Shukra Pharma.,42.57,1864.05,0.06,35.12,-8.8,5.88,-17.17,243.61,15.9,34.6,0.27,1.17,155.86,11.96,21.8,28.32,True,expensive,True,moderate,True,False,weak,True,False,False
+2252,Pharmaceuticals & Biotechnology,Windlas Biotech,814.5,1716.84,0.06,830.22,19.34,222.4,9.95,30.32,12.76,12.68,32.09,1.5,25.5,67.32,16.96,3.21,True,fair,True,moderate,True,False,weak,True,False,False
+2254,Pharmaceuticals & Biotechnology,Beta Drugs Ltd,1657.0,1672.67,0.66,385.64,15.2,203.59,10.39,37.14,25.86,19.92,41.51,1.63,36.96,45.26,27.04,7.57,True,expensive,True,moderate,True,True,moderate,True,False,False
+2255,Pharmaceuticals & Biotechnology,Syncom Formul.,16.1,1511.55,0.0,513.48,58.03,121.44,97.73,27.71,15.5,12.97,0.67,0.69,24.06,62.82,18.59,4.02,True,fair,True,moderate,True,True,strong,True,False,True
+2257,Pharmaceuticals & Biotechnology,Jagsonpal Pharma,209.35,1394.96,0.03,282.67,24.61,74.47,63.49,38.15,18.58,19.52,9.32,1.09,31.88,43.75,22.95,5.52,True,expensive,True,moderate,True,True,strong,True,False,True
+2259,Pharmaceuticals & Biotechnology,Sigachi Indust.,35.42,1355.38,0.29,506.35,16.22,110.48,-8.07,27.9,13.5,18.44,-1.36,1.1,22.31,60.76,15.54,2.67,True,fair,True,moderate,True,False,weak,True,False,False
+2260,Pharmaceuticals & Biotechnology,Lincoln Pharma.,537.85,1082.17,0.0,632.16,5.81,163.36,-17.21,9.5,12.82,15.76,39.95,2.4,13.53,80.01,17.28,1.51,True,fair,True,moderate,True,False,weak,True,False,False
+2262,Pharmaceuticals & Biotechnology,Kwality Pharma,953.65,989.53,0.38,422.62,24.23,111.05,43.35,37.04,16.31,21.98,47.29,-0.66,20.17,49.07,18.4,3.41,True,fair,True,moderate,True,True,strong,True,False,True
+2267,Pharmaceuticals & Biotechnology,Anlon Healthcare,158.95,839.14,0.27,120.29,81.19,52.2,112.42,,40.45,27.06,5.15,0.07,30.79,20.52,24.83,3.94,True,expensive,True,strong,True,False,moderate,True,True,False
+2269,Pharmaceuticals & Biotechnology,Fermenta Biotec.,278.45,819.51,0.29,562.8,52.33,130.22,1222.43,7.0,24.88,25.78,38.06,0.1,7.32,112.01,22.97,2.1,True,fair,True,strong,True,True,strong,True,True,True
+2271,Pharmaceuticals & Biotechnology,Wanbury,228.6,798.66,3.02,629.82,12.37,163.18,59.52,30.94,76.52,13.98,13.11,0.23,18.58,42.99,36.68,12.64,True,fair,True,moderate,True,True,moderate,True,False,False
+2272,Pharmaceuticals & Biotechnology,Accent Microcell,327.0,784.44,0.0,277.91,5.0,139.37,6.55,51.23,18.44,16.94,14.45,0.29,22.63,34.67,23.66,3.14,True,fair,True,moderate,True,False,weak,True,False,False
+2276,Pharmaceuticals & Biotechnology,Kilitch Drugs,355.35,621.7,0.31,209.46,32.97,48.92,67.56,158.61,12.61,15.1,15.77,0.42,22.54,27.58,15.67,2.34,True,fair,True,moderate,True,True,strong,True,False,True
+2277,Pharmaceuticals & Biotechnology,Shree Ganesh Rem,465.35,597.35,0.24,106.47,-13.02,30.32,-28.18,18.76,17.01,34.48,15.92,1.52,29.22,20.44,19.21,3.89,True,fair,True,moderate,True,False,weak,True,False,False
+2279,Pharmaceuticals & Biotechnology,Jenburkt Pharma,1237.05,545.95,0.01,159.03,7.26,45.56,8.91,16.18,19.87,26.25,74.77,1.33,16.54,33.0,27.18,2.99,True,fair,True,moderate,True,False,weak,True,False,False
+2280,Pharmaceuticals & Biotechnology,Influx Health.,229.2,530.6,0.0,104.85,4.88,66.76,20.13,,45.38,19.63,7.37,0.68,29.88,13.37,60.16,5.88,True,fair,True,moderate,True,False,weak,True,False,False
+2290,Pharmaceuticals & Biotechnology,Trident Lifeline,312.0,361.67,0.73,102.98,86.22,53.36,85.77,,20.02,20.85,13.22,0.54,23.69,15.27,18.12,4.47,True,fair,True,strong,True,False,moderate,True,True,False
+2296,Pharmaceuticals & Biotechnology,Sat Kartar,189.8,298.84,0.04,175.48,16.55,88.35,82.76,,32.04,10.75,8.75,0.24,21.69,13.78,39.66,5.14,True,fair,True,moderate,True,False,moderate,True,False,False
+2301,Pharmaceuticals & Biotechnology,Sanjiv.Parant.,187.25,230.02,0.15,68.92,10.47,15.5,7.8,46.45,24.58,14.58,6.21,1.65,30.83,7.46,30.21,5.13,True,expensive,True,moderate,True,False,weak,True,False,False
+2302,Pharmaceuticals & Biotechnology,BDH Industries,395.5,227.81,0.0,71.6,-11.23,18.96,0.31,9.31,14.16,16.83,16.94,2.24,23.36,9.75,17.82,3.22,True,fair,True,moderate,True,False,weak,True,False,False
+2308,Pharmaceuticals & Biotechnology,Coral Labs.,501.75,179.13,0.0,88.97,-19.75,19.03,-24.09,28.24,13.06,18.13,48.56,0.23,10.15,17.65,17.44,0.84,True,cheap,True,moderate,True,False,weak,True,False,False
+2312,Pharmaceuticals & Biotechnology,Kimia Bioscien.,33.07,156.47,3.11,125.92,17.66,34.0,182.07,47.21,186.78,14.48,1.73,0.29,19.13,8.18,41.8,13.51,True,fair,True,moderate,True,True,moderate,True,False,False
+2313,Pharmaceuticals & Biotechnology,Astonea Labs,142.1,149.36,0.73,97.52,21.66,66.29,40.42,,44.66,15.5,6.93,0.18,32.19,5.35,19.74,2.79,True,fair,True,moderate,True,False,moderate,True,False,False
+2316,Pharmaceuticals & Biotechnology,Quest Laborato.,87.8,143.88,0.36,110.09,30.78,48.8,21.6,,24.57,10.73,8.35,0.22,10.52,13.68,26.87,1.6,True,fair,True,moderate,True,False,moderate,True,False,False
+2319,Pharmaceuticals & Biotechnology,Sotac Pharma.,125.0,138.13,0.69,81.4,-22.31,37.01,88.13,149.51,15.71,15.92,7.75,,16.14,8.56,15.06,2.48,True,fair,True,moderate,True,False,weak,True,False,False
+2324,Pharmaceuticals & Biotechnology,Par Drugs & Che.,92.83,114.22,0.0,98.42,-5.45,28.66,-46.96,21.54,13.62,13.7,7.88,1.08,11.79,9.69,18.35,1.07,True,cheap,True,moderate,True,False,weak,True,False,False
+2328,Pharmaceuticals & Biotechnology,Aptus Pharma,146.5,100.5,0.37,24.56,37.9,14.38,287.5,,70.94,19.75,6.2,,28.39,3.1,38.2,4.63,True,fair,True,moderate,True,False,moderate,True,False,False
+2330,Pharmaceuticals & Biotechnology,Amwill Health,47.4,94.82,0.0,38.64,-10.19,21.21,-14.02,,24.85,17.91,4.04,0.2,11.74,8.08,27.56,1.3,True,cheap,True,moderate,True,False,weak,True,False,False
+2331,Pharmaceuticals & Biotechnology,Astal Lab,87.04,93.74,0.29,100.78,114.56,37.52,108.86,212.84,30.1,14.41,9.84,0.01,9.47,9.9,34.78,2.15,True,fair,True,moderate,True,True,strong,True,False,True
+2332,Pharmaceuticals & Biotechnology,Accretion Pha.,82.25,91.43,0.17,82.55,158.7,43.74,129.87,,65.35,17.7,9.57,,10.07,9.08,46.36,1.96,True,fair,True,moderate,True,False,moderate,True,False,False
+2341,Pharmaceuticals & Biotechnology,Asston Pharmaceu,85.0,72.36,0.1,25.04,56.21,15.42,56.79,,41.85,21.73,6.14,0.06,13.68,3.81,36.62,1.87,True,fair,True,strong,True,False,moderate,True,True,False
+2345,Pharmaceuticals & Biotechnology,Shelter Pharma,41.28,67.42,0.02,59.89,33.77,33.29,23.12,146.22,18.44,19.1,7.09,0.16,8.22,8.2,24.48,0.79,True,cheap,True,moderate,True,True,strong,True,False,True
+2347,Pharmaceuticals & Biotechnology,Vasundhara Rasy.,200.0,63.57,0.14,32.96,-10.39,8.82,-22.43,7.72,12.59,12.23,14.25,0.46,14.03,4.53,16.56,1.63,True,fair,True,moderate,True,False,weak,True,False,False
+2357,Pharmaceuticals & Biotechnology,JFL Life,12.9,42.56,0.27,74.48,76.24,29.91,26.06,63.14,11.09,10.16,1.07,0.86,12.02,3.54,15.81,1.01,True,cheap,True,moderate,True,True,strong,True,False,True
+2367,Pharmaceuticals & Biotechnology,Medicamen Organ.,27.4,32.05,0.48,39.43,29.02,17.85,65.34,,17.85,18.44,3.91,,7.0,4.58,16.88,0.98,True,cheap,True,moderate,True,False,moderate,True,False,False
+2395,Healthcare Services,Apollo Hospitals,7459.0,107268.58,0.88,23264.7,13.66,6303.5,41.32,33.72,18.42,14.29,116.28,3.53,64.16,1671.9,16.64,11.79,True,expensive,True,moderate,True,True,moderate,True,False,False
+2397,Healthcare Services,Narayana Hrudaya,1991.2,40751.83,0.58,5961.09,16.36,1643.79,9.63,43.49,24.22,23.53,41.36,1.54,47.92,850.33,20.75,10.02,True,expensive,True,strong,True,False,weak,True,True,False
+2399,Healthcare Services,Global Health,1199.0,32215.78,0.25,4004.75,15.65,1099.22,22.48,70.15,16.48,23.87,20.91,1.41,53.88,597.87,19.74,8.69,True,expensive,True,moderate,True,True,moderate,True,False,False
+2400,Healthcare Services,Dr Lal Pathlabs,3208.1,26897.15,0.07,2599.7,10.8,730.6,33.11,16.69,24.3,28.44,63.84,4.1,50.34,534.3,28.88,11.26,True,expensive,True,strong,True,True,moderate,True,True,False
+2404,Healthcare Services,Rainbow Child.,1341.2,13621.64,0.54,1565.92,9.91,444.8,9.62,33.66,17.43,32.03,24.99,2.69,53.67,253.78,18.69,8.97,True,expensive,True,moderate,True,False,weak,True,False,False
+2405,Healthcare Services,Indegene,514.7,12353.89,0.04,3041.0,12.23,804.2,20.06,67.93,20.59,18.91,18.58,0.94,27.71,445.8,24.8,4.31,True,fair,True,moderate,True,True,moderate,True,False,False
+2407,Healthcare Services,Vijaya Diagnost.,1004.6,10317.74,0.42,731.83,16.71,201.56,13.52,18.97,19.0,39.81,14.77,8.3,67.69,152.42,20.91,11.93,True,expensive,True,moderate,True,True,moderate,True,False,False
+2409,Healthcare Services,Jupiter Life Lin,1455.4,9551.14,0.28,1395.34,17.49,393.63,8.29,43.62,14.95,23.31,30.27,0.88,48.12,198.5,17.95,6.58,True,expensive,True,moderate,True,False,weak,True,False,False
+2410,Healthcare Services,Thyrocare Tech.,1564.0,8299.98,0.05,762.64,22.36,216.53,52.11,-0.64,16.15,29.86,24.1,-3.6,64.98,127.73,24.78,15.52,True,expensive,True,moderate,True,False,moderate,True,False,False
+2412,Healthcare Services,Kovai Medical,5970.75,6532.0,0.34,1477.94,13.57,392.0,13.32,17.18,21.23,28.2,208.9,1.1,28.58,228.59,23.31,5.49,True,fair,True,strong,True,True,moderate,True,True,False
+2413,Healthcare Services,Indrapr.Medical,532.3,4879.76,0.05,1404.77,6.51,381.03,18.24,29.45,30.04,18.36,19.06,0.76,27.93,174.74,39.1,7.41,True,fair,True,moderate,True,False,weak,True,False,False
+2416,Healthcare Services,Vimta Labs,625.3,2790.14,0.02,383.77,25.68,101.85,32.22,58.03,19.43,34.92,17.68,2.19,37.38,74.65,25.22,6.69,True,expensive,True,moderate,True,True,strong,True,False,True
+2418,Healthcare Services,Dr Agarwal's Eye,5288.85,2556.01,1.06,429.58,19.7,117.72,24.72,32.05,29.5,31.29,132.85,1.3,40.59,62.97,17.53,8.13,True,expensive,True,strong,True,True,moderate,True,True,False
+2420,Healthcare Services,Suraksha Diagno.,306.05,1593.67,0.51,275.92,17.67,78.73,6.5,16.38,16.46,30.91,6.13,4.77,49.91,31.93,17.84,6.92,True,expensive,True,moderate,True,False,weak,True,False,False
+2421,Healthcare Services,KMC Speciality,80.58,1314.26,0.47,263.74,29.72,74.9,17.1,12.78,13.91,26.06,1.86,-12.98,43.22,30.41,17.37,7.21,True,expensive,True,moderate,True,True,moderate,True,False,False
+2422,Healthcare Services,GPT Healthcare,145.3,1193.07,0.38,429.63,7.54,118.91,-11.51,34.94,21.3,19.1,5.29,4.51,27.48,43.42,27.23,4.7,True,fair,True,moderate,True,False,weak,True,False,False
+2423,Healthcare Services,3B Blackbio,1321.15,1133.9,0.0,104.02,16.55,33.9,13.21,44.03,19.4,47.64,57.21,1.65,23.09,49.1,25.75,3.8,True,fair,True,moderate,True,True,moderate,True,False,False
+2426,Healthcare Services,One Global Serv,485.6,949.0,0.0,311.64,333.98,134.98,363.85,128.82,42.31,18.86,44.33,0.14,21.63,43.88,56.38,9.37,True,fair,True,moderate,True,True,strong,True,False,True
+2427,Healthcare Services,Chandan Healthca,347.2,848.97,0.48,255.46,26.28,135.8,42.04,,27.08,19.49,11.1,0.17,31.29,27.13,28.85,6.14,True,expensive,True,moderate,True,False,moderate,True,False,False
+2429,Healthcare Services,Asarfi Hospital,213.1,419.32,0.54,147.29,43.93,44.85,153.68,32.35,14.06,19.13,7.14,1.29,29.85,14.05,15.83,4.71,True,fair,True,moderate,True,True,strong,True,False,True
+2430,Healthcare Services,Unihealth Hosp,265.65,411.76,0.14,122.47,75.16,66.67,115.74,75.91,16.03,43.38,,0.29,17.07,24.12,17.15,3.28,True,fair,True,moderate,True,True,strong,True,False,True
+2433,Healthcare Services,Star Imaging,134.8,234.82,0.19,86.1,6.21,45.19,36.59,,40.59,39.69,12.96,0.33,11.88,19.76,34.73,2.2,True,fair,True,strong,True,False,weak,True,True,False
+2443,Healthcare Services,Aspira Pathlab,64.5,66.39,1.12,22.62,66.67,5.25,176.78,,32.96,15.34,2.33,,27.66,2.4,17.04,9.18,True,fair,True,moderate,True,False,moderate,True,False,False
+2444,Healthcare Services,Shanmuga Hos.,44.68,60.82,0.18,47.85,2.88,24.62,-21.72,,14.81,17.45,2.81,-1.1,15.92,3.82,17.2,1.46,True,fair,True,moderate,True,False,weak,True,False,False
+2472,Realty,Lodha Developers,1202.0,120060.86,0.45,15597.5,25.57,3798.5,54.98,30.94,14.69,29.61,33.37,1.13,36.06,3329.5,15.62,5.64,True,expensive,True,moderate,True,True,strong,True,False,True
+2475,Realty,Oberoi Realty,1708.7,62163.24,0.18,5327.81,4.6,1779.04,-3.84,25.94,14.67,56.59,61.41,1.0,27.84,2233.06,17.73,3.71,True,fair,True,moderate,True,False,weak,True,False,False
+2488,Realty,Sri Lotus,169.15,8259.52,0.08,547.73,20.99,176.11,90.83,,41.27,52.76,5.22,0.18,37.01,227.41,37.06,4.73,True,expensive,True,strong,True,False,moderate,True,True,False
+2492,Realty,Ganesh Housing,804.3,6711.81,0.03,833.42,-8.37,174.21,8.49,47.57,37.79,84.41,63.19,0.12,12.74,526.89,44.02,3.03,True,expensive,True,strong,True,False,weak,True,True,False
+2500,Realty,Raymond Realty,517.85,3450.52,0.42,565.18,16140.8,696.5,138.31,,72.31,10.8,,,47.73,17.03,16.38,2.57,True,fair,True,moderate,True,False,moderate,True,False,False
+2503,Realty,Arkade,167.12,3097.81,0.18,779.17,13.08,263.65,11.12,,25.75,26.02,8.5,0.41,19.62,157.88,30.3,3.25,True,fair,True,strong,True,False,moderate,True,True,False
+2504,Realty,AGI Infra,252.35,3077.4,0.42,351.6,16.11,85.3,36.97,34.67,25.66,30.81,6.29,1.79,40.03,76.87,22.03,9.15,True,expensive,True,strong,True,True,moderate,True,True,False
+2506,Realty,Arvind SmartSp.,591.0,2702.61,0.28,615.52,13.62,140.51,34.67,21.15,18.8,23.39,20.21,0.49,29.3,92.25,19.05,4.53,True,fair,True,moderate,True,True,moderate,True,False,False
+2508,Realty,Kesar India,850.0,2107.97,0.24,59.98,-26.74,29.81,-80.3,238.59,46.19,12.9,1.56,7.81,546.11,3.86,39.6,17.58,True,expensive,True,moderate,True,False,weak,True,False,False
+2514,Realty,Suraj Estate,277.2,1321.92,0.57,583.36,29.89,144.56,-5.26,133.42,13.98,32.61,19.39,0.26,14.27,92.65,17.27,1.38,True,cheap,True,moderate,True,False,weak,True,False,False
+2517,Realty,Meghna Infracon,538.75,1170.37,0.27,41.34,-28.14,8.78,191.48,,52.57,29.32,4.5,,119.91,9.76,70.09,47.77,True,expensive,True,strong,True,False,weak,True,True,False
+2518,Realty,Arih.Found.Hsg.,1048.85,1045.24,0.88,289.82,75.71,87.8,96.5,37.66,16.47,27.6,59.23,0.08,17.71,59.03,19.52,3.04,True,fair,True,moderate,True,True,strong,True,False,True
+2522,Realty,Shraddha Prime,230.6,931.65,2.28,284.94,113.53,134.33,164.24,,36.9,14.83,8.26,,27.83,33.48,16.3,9.74,True,fair,True,moderate,True,False,moderate,True,False,False
+2529,Realty,Nila Spaces,17.59,695.34,0.63,155.79,1.34,42.18,-1.4,60.6,10.29,26.44,0.5,0.1,35.14,19.79,24.16,4.51,True,expensive,True,moderate,True,False,weak,True,False,False
+2541,Realty,Mason Infratech,201.25,353.64,0.35,126.87,19.63,51.81,38.86,,38.45,26.0,11.49,,17.52,20.19,33.71,2.54,True,fair,True,strong,True,False,moderate,True,True,False
+2551,Realty,Active Infra.,173.35,260.29,0.52,95.11,17.51,39.02,14.19,,13.63,26.18,6.54,0.07,26.51,9.82,15.51,2.26,True,fair,True,moderate,True,False,moderate,True,False,False
+2561,Realty,P.E. Analytics,180.0,188.68,0.0,43.27,-3.87,21.68,8.75,,15.51,27.52,13.17,1.21,13.67,13.8,21.3,1.95,True,fair,True,moderate,True,False,weak,True,False,False
+2591,Realty,Shantidoot Infra,321.1,57.73,0.01,30.19,201.9,17.53,328.23,181.58,65.11,24.18,29.53,0.2,11.41,5.31,86.13,4.94,True,expensive,True,strong,True,True,strong,True,True,True
+2601,Realty,Tatia Global,2.6,39.42,0.0,12.87,1187.0,0.32,11371.43,25.94,26.48,60.84,0.53,0.01,4.91,8.03,25.76,1.17,True,cheap,True,strong,True,True,strong,True,True,True
+2622,Realty,R J Shah & Co,619.0,17.34,0.03,10.46,,0.0,50.4,-1.65,15.11,54.59,202.43,0.02,3.06,5.67,19.98,0.42,True,cheap,True,moderate,True,False,moderate,True,False,False
+2625,Realty,Dhanuka Realty,21.5,16.64,0.14,4.01,92.79,0.63,100.98,31.39,20.47,33.92,2.65,0.06,5.82,2.05,18.36,1.06,True,cheap,True,strong,True,True,strong,True,True,True
+2631,Realty,Gyan Developers,38.82,11.65,0.0,3.61,528.57,0.0,2680.0,74.11,22.43,47.09,4.3,0.09,9.03,1.29,32.01,2.46,True,fair,True,strong,True,True,strong,True,True,True
+2654,Transport Infrastructure,Guj Pipavav Port,173.86,8409.41,0.02,1064.46,7.1,299.35,5.62,6.43,18.96,58.38,9.56,0.73,19.56,429.87,24.89,3.87,True,fair,True,moderate,True,False,weak,True,False,False
+2694,Construction,Ganesh Green,427.9,1061.24,0.15,521.28,109.12,341.1,91.03,,23.03,14.38,20.17,0.27,21.21,50.03,25.22,4.46,True,fair,True,moderate,True,False,moderate,True,False,False
+2696,Construction,Viviana Power,995.8,1008.23,1.02,261.47,234.14,58.94,205.57,,46.53,16.2,24.09,0.45,41.77,24.14,42.88,14.33,True,expensive,True,moderate,True,False,moderate,True,False,False
+2698,Construction,Likhitha Infra.,207.87,819.54,0.0,486.44,2.77,102.24,-12.81,28.01,20.29,17.07,15.3,0.9,13.58,60.35,27.61,2.05,True,fair,True,moderate,True,False,weak,True,False,False
+2700,Construction,Deepak Builders,135.31,631.34,0.35,506.52,-3.13,45.05,-35.69,32.88,19.81,18.13,10.18,0.28,13.31,47.43,25.28,1.47,True,cheap,True,moderate,True,False,weak,True,False,False
+2701,Construction,Solarium Green,290.1,604.85,0.77,265.01,29.5,116.93,18.42,,23.01,10.45,9.73,0.27,29.82,20.28,20.09,4.0,True,fair,True,moderate,True,False,moderate,True,False,False
+2703,Construction,Zodiac Energy,363.45,552.11,1.76,470.5,64.71,96.78,52.45,45.85,27.47,10.18,13.59,0.5,26.91,20.52,20.02,5.44,True,fair,True,moderate,True,True,strong,True,False,True
+2707,Construction,Twamev Constr.,30.92,468.09,1.14,88.91,74.99,12.37,1502.36,42.26,36.37,33.92,3.8,0.02,4.64,100.97,17.21,1.56,True,fair,True,strong,True,True,strong,True,True,True
+2710,Construction,Atmastco Ltd,187.6,464.02,0.62,272.0,-5.14,121.34,-30.54,44.23,16.78,14.68,6.94,0.32,27.03,17.17,21.85,3.32,True,fair,True,moderate,True,False,weak,True,False,False
+2711,Construction,Globe Civil,63.93,382.02,0.63,378.58,13.98,93.76,55.48,,26.2,14.33,5.6,0.25,15.85,24.1,23.28,1.7,True,fair,True,moderate,True,False,moderate,True,False,False
+2712,Construction,AVP Infracon,151.3,377.93,1.14,369.67,101.19,193.11,82.97,,30.2,20.25,17.42,0.08,8.69,43.51,26.24,2.37,True,fair,True,strong,True,False,moderate,True,True,False
+2717,Construction,Markolines Pavem,151.76,333.59,0.29,345.02,7.11,150.39,62.65,25.28,16.2,11.92,11.77,0.43,12.87,25.91,18.88,1.84,True,fair,True,moderate,True,False,weak,True,False,False
+2718,Construction,Savy Infra,155.65,323.88,0.31,283.39,178.95,215.7,141.95,,76.1,12.54,15.94,0.02,13.56,23.88,61.88,2.3,True,fair,True,moderate,True,False,moderate,True,False,False
+2722,Construction,Madhav Infra,10.84,292.23,0.81,649.93,65.29,106.82,102.44,46.13,12.55,10.92,1.29,0.14,8.38,34.88,15.65,1.26,True,cheap,True,moderate,True,True,strong,True,False,True
+2724,Construction,Pratham EPC,144.7,263.54,0.42,124.9,29.12,67.97,-22.09,,19.86,12.1,5.77,0.57,25.41,10.37,25.63,2.94,True,fair,True,moderate,True,False,weak,True,False,False
+2725,Construction,Karbonsteel Eng.,183.5,259.5,0.61,306.8,25.0,139.7,50.32,,27.19,13.02,12.83,0.18,16.48,15.75,29.25,2.24,True,fair,True,moderate,True,False,moderate,True,False,False
+2727,Construction,HVAX Technolog.,890.05,247.15,0.25,145.29,17.59,60.63,5.2,41.88,21.32,12.33,43.72,0.51,20.36,12.14,22.34,3.21,True,fair,True,moderate,True,False,weak,True,False,False
+2729,Construction,Univastu India,67.77,243.88,0.48,159.65,14.3,48.34,35.65,19.37,15.82,19.33,3.68,0.72,18.63,13.09,26.56,2.79,True,fair,True,moderate,True,True,moderate,True,False,False
+2730,Construction,Kay Cee,185.7,227.0,0.59,198.15,153.39,83.33,142.58,,32.11,17.44,18.52,0.14,10.68,21.25,29.31,2.43,True,fair,True,moderate,True,False,moderate,True,False,False
+2733,Construction,Chavda Infra Ltd,86.9,214.27,1.4,250.28,-1.45,103.74,-7.85,,20.27,23.89,8.0,0.19,10.86,19.73,17.84,1.78,True,fair,True,strong,True,False,weak,True,True,False
+2734,Construction,Bharat Road,25.06,210.3,1.05,342.28,-7.34,17.1,367.77,53.91,53.67,47.73,21.42,0.03,1.17,179.81,15.12,0.51,True,cheap,True,strong,True,False,weak,True,True,False
+2737,Construction,Winsol Engineers,178.05,205.39,0.54,134.88,61.51,66.1,11.1,,34.46,14.26,10.5,0.14,16.96,12.11,36.21,3.69,True,fair,True,moderate,True,False,moderate,True,False,False
+2740,Construction,Aesthetik Engi.,114.95,197.94,0.32,78.14,20.7,37.71,85.09,,18.36,16.46,4.9,,23.45,8.44,21.12,4.13,True,fair,True,moderate,True,False,moderate,True,False,False
+2743,Construction,Desco Infra.,216.0,165.81,0.1,78.85,78.35,42.04,85.45,,25.58,21.78,15.61,0.11,13.84,11.98,31.18,2.7,True,fair,True,strong,True,False,moderate,True,True,False
+2744,Construction,Readymix Cons.,140.0,153.41,0.11,83.28,5.0,27.65,0.65,,23.39,21.35,10.88,0.14,12.87,11.92,30.21,2.48,True,fair,True,strong,True,False,weak,True,True,False
+2745,Construction,Mahendra Realtor,67.1,148.32,0.11,124.77,22.94,40.22,28.87,13.07,23.35,14.4,8.56,0.48,12.72,14.82,25.27,1.36,True,cheap,True,moderate,True,True,strong,True,False,True
+2746,Construction,HEC Infra Proj.,136.75,148.21,0.74,142.45,70.95,40.5,74.47,76.43,20.98,12.43,9.93,0.09,13.9,10.66,19.03,2.61,True,fair,True,moderate,True,True,strong,True,False,True
+2749,Construction,Mayasheel Vent.,65.05,143.43,0.44,193.88,31.22,80.13,78.62,,43.87,14.95,7.97,,9.52,15.07,30.36,2.37,True,fair,True,moderate,True,False,moderate,True,False,False
+2755,Construction,Lakshya Powertec,124.6,125.65,0.57,182.1,18.72,88.7,-14.31,,25.41,12.79,15.12,0.06,8.23,15.27,25.52,1.25,True,cheap,True,moderate,True,False,weak,True,False,False
+2760,Construction,Sonu Infratech,93.45,96.71,0.72,168.59,45.61,28.18,134.33,71.84,23.33,15.27,12.06,0.11,8.24,11.74,20.36,1.36,True,cheap,True,moderate,True,True,strong,True,False,True
+2761,Construction,Suntech Infra.,49.05,94.97,0.71,162.43,43.59,67.64,42.44,,26.73,20.97,7.86,0.13,7.47,12.72,22.39,1.13,True,cheap,True,strong,True,False,moderate,True,True,False
+2763,Construction,K2 Infragen,67.75,85.49,0.83,185.99,84.5,90.85,36.64,86.1,19.49,13.3,11.55,0.07,5.86,14.58,18.09,1.02,True,cheap,True,moderate,True,True,strong,True,False,True
+2766,Construction,H.M. Electro,59.3,81.24,0.09,110.05,3.96,33.78,4.24,34.32,17.12,10.25,5.39,0.23,10.99,7.39,22.41,1.2,True,cheap,True,moderate,True,False,weak,True,False,False
+2767,Construction,Jayant Infratech,74.29,76.79,0.41,121.2,7.34,54.62,86.35,44.89,19.0,10.55,9.87,0.14,7.6,10.1,22.29,1.37,True,cheap,True,moderate,True,False,weak,True,False,False
+2775,Construction,Rudra Gas,74.5,62.11,0.84,110.47,54.05,50.01,44.1,,22.71,12.89,8.35,0.17,8.92,6.96,23.2,1.74,True,fair,True,moderate,True,False,moderate,True,False,False
+2779,Construction,Modern Engineer.,35.67,55.11,0.12,112.24,22.88,16.42,231.23,118.44,25.9,12.87,6.8,0.08,5.25,10.5,20.54,0.91,True,cheap,True,moderate,True,True,strong,True,False,True
+2789,Construction,V.L.Infraproject,26.5,41.64,0.7,131.54,27.01,62.83,11.96,,24.16,10.96,4.77,0.07,5.56,7.49,27.34,0.91,True,cheap,True,moderate,True,False,moderate,True,False,False
+2790,Construction,Nacdac Infra.,37.23,39.18,0.31,64.99,91.48,23.8,94.95,,22.87,12.97,5.13,0.05,7.26,5.4,26.22,1.49,True,cheap,True,moderate,True,False,moderate,True,False,False
+2800,Construction,Manav Infra,21.15,27.84,0.85,27.57,81.98,9.43,167.19,20.53,103.48,18.14,2.6,0.2,8.14,3.42,39.91,3.27,True,expensive,True,moderate,True,True,strong,True,False,True
+2801,Construction,Mewar Hi-Tech,68.4,26.7,1.61,49.24,11.13,15.78,166.38,52.99,27.94,14.42,7.92,0.23,8.64,3.09,18.54,2.25,True,fair,True,moderate,True,True,moderate,True,False,False
+2811,Diversified FMCG,Hind. Unilever,2441.6,573759.74,0.04,64243.0,2.94,16241.0,2.91,8.63,20.72,22.97,46.34,10.12,54.24,10578.2,27.85,11.78,True,expensive,True,strong,True,False,weak,True,True,False
+2812,Diversified FMCG,ITC,403.55,505722.9,0.01,78551.59,9.1,19501.63,0.7,5.04,27.32,33.6,27.99,2.75,25.07,20174.47,36.79,7.11,True,fair,True,strong,True,False,weak,True,True,False
+2816,Personal Products,Godrej Consumer,1139.9,116669.44,0.34,14853.33,5.77,3825.09,4.11,3.75,15.21,19.81,17.81,38.73,61.97,1882.61,19.21,9.59,True,expensive,True,moderate,True,False,weak,True,False,False
+2817,Personal Products,Dabur India,517.55,91947.39,0.12,12781.29,2.68,3191.32,1.12,3.01,17.04,18.5,10.2,-63.54,50.83,1808.97,20.24,8.38,True,expensive,True,moderate,True,False,weak,True,False,False
+2818,Personal Products,Colgate-Palmoliv,2183.4,59420.77,0.04,5877.91,-2.06,1519.5,-9.74,11.96,81.19,31.82,48.75,4.47,44.82,1325.91,105.34,37.53,True,expensive,True,strong,True,False,weak,True,True,False
+2819,Personal Products,P & G Hygiene,12905.0,41943.08,0.0,4326.46,2.95,1150.17,22.24,8.44,75.67,26.15,254.65,-60.4,50.74,826.61,103.79,44.98,True,expensive,True,strong,True,False,weak,True,True,False
+2820,Personal Products,Gillette India,8342.5,27205.17,0.0,2970.55,8.12,810.81,26.98,10.45,41.62,27.82,176.15,4.49,47.4,573.99,56.06,23.38,True,expensive,True,strong,True,False,weak,True,True,False
+2821,Personal Products,Emami,511.1,22318.11,0.02,3715.13,0.84,798.51,-3.13,21.3,30.18,25.35,17.27,-27.42,29.61,753.77,32.42,7.61,True,fair,True,strong,True,False,weak,True,True,False
+2823,Personal Products,Cupid,331.17,8895.36,0.07,266.82,35.28,90.21,21.32,0.89,12.89,33.52,2.3,4.0,144.1,61.73,17.1,23.32,True,expensive,True,moderate,True,True,strong,True,False,True
+2824,Personal Products,Bajaj Consumer,276.1,3941.84,0.03,1016.87,6.03,265.27,-3.12,-7.53,15.7,14.4,9.56,-3.01,28.88,136.51,19.06,6.11,True,fair,True,moderate,True,False,weak,True,False,False
+2827,Personal Products,Macobs Technolo.,221.0,216.48,0.07,26.22,33.48,19.16,18.72,,13.71,10.95,2.24,1.14,98.85,2.19,18.39,7.33,True,expensive,True,moderate,True,False,moderate,True,False,False
+2828,Personal Products,Aakaar Medical,78.35,111.05,0.36,61.58,33.55,25.32,110.45,26.97,33.8,15.82,5.8,0.33,18.39,6.04,26.66,2.36,True,fair,True,moderate,True,True,strong,True,False,True
+2831,Personal Products,Medistep Health.,29.4,41.78,0.02,49.65,57.12,35.07,42.27,,29.02,11.3,3.96,,7.71,4.14,37.83,1.2,True,cheap,True,moderate,True,False,moderate,True,False,False
+2836,Healthcare Equipment & Supplies,Poly Medicure,1893.2,19200.0,0.08,1712.13,12.46,443.88,22.76,28.38,15.77,26.54,35.72,1.59,53.04,361.98,20.08,6.58,True,expensive,True,moderate,True,True,moderate,True,False,False
+2838,Healthcare Equipment & Supplies,Laxmi Dental,293.0,1610.66,0.04,260.21,18.48,72.27,-9.74,57.51,21.88,16.17,4.78,0.89,62.53,25.76,19.2,7.02,True,expensive,True,moderate,True,False,weak,True,False,False
+2839,Healthcare Equipment & Supplies,OSEL Devices,762.15,1348.59,0.56,245.98,45.64,146.86,73.0,,30.08,18.14,16.05,0.44,49.53,27.23,31.14,7.62,True,expensive,True,moderate,True,False,moderate,True,False,False
+2842,Healthcare Equipment & Supplies,Aprameya Enginee,345.0,656.88,0.53,168.57,108.27,42.14,361.89,90.06,36.78,21.83,12.92,0.91,26.7,24.6,31.12,9.25,True,fair,True,strong,True,True,strong,True,True,True
+2843,Healthcare Equipment & Supplies,Prevest Denpro,465.0,558.14,0.0,67.85,14.11,18.66,18.58,29.49,18.74,35.37,16.59,1.72,28.03,19.91,25.25,4.82,True,fair,True,moderate,True,True,moderate,True,False,False
+2844,Healthcare Equipment & Supplies,Hemant Surgical,285.0,371.6,0.43,121.92,13.98,64.26,14.35,74.11,13.58,10.77,8.89,1.78,35.87,10.36,16.35,3.02,True,expensive,True,moderate,True,True,moderate,True,False,False
+2845,Healthcare Equipment & Supplies,Vaidya Sane,277.0,291.22,0.01,97.99,8.84,49.94,97.37,,13.56,16.66,7.81,,32.36,9.0,18.45,4.3,True,expensive,True,moderate,True,False,weak,True,False,False
+2848,Healthcare Equipment & Supplies,QMS Medical,96.5,186.61,0.55,179.65,27.74,44.7,34.24,,14.36,14.85,6.38,,15.16,12.31,16.6,1.77,True,fair,True,moderate,True,False,moderate,True,False,False
+2849,Healthcare Equipment & Supplies,Royal Sense,223.65,119.66,0.19,83.19,152.47,43.48,10.62,,27.55,13.81,15.56,,14.92,8.02,35.18,3.38,True,expensive,True,moderate,True,False,moderate,True,False,False
+2853,Healthcare Equipment & Supplies,Amkay Products,50.0,43.28,0.07,43.56,26.15,23.01,10.13,39.33,14.79,10.81,4.02,0.63,12.44,3.48,16.88,1.66,True,fair,True,moderate,True,True,moderate,True,False,False
+2862,Telecom – Equipment,Valiant Commun.,764.7,874.98,0.03,62.97,21.19,20.17,39.73,109.26,16.14,30.06,12.0,0.99,63.96,13.68,21.13,12.14,True,expensive,True,moderate,True,True,strong,True,False,True
+2863,Telecom – Equipment,ADC India,1386.4,637.74,0.0,178.52,-3.81,45.75,-37.72,45.12,34.74,11.48,39.26,0.83,35.31,18.06,46.57,8.28,True,expensive,True,moderate,True,False,weak,True,False,False
+2866,Telecom – Equipment,Frog Cellsat,165.7,257.74,0.08,219.39,39.09,54.93,71.52,64.08,16.07,16.21,15.17,0.87,14.97,23.55,21.46,1.62,True,fair,True,moderate,True,True,strong,True,False,True
+2873,Chemicals & Petrochemicals (battery chemicals),Pidilite Inds.,1476.7,150280.79,0.05,13817.59,9.13,3554.44,14.41,12.63,23.05,23.31,21.88,3.36,66.95,2244.67,29.84,15.73,True,expensive,True,strong,True,False,weak,True,True,False
+2874,Chemicals & Petrochemicals (battery chemicals),Solar Industries,13809.0,124933.68,0.17,8376.3,30.06,2082.22,30.68,36.25,32.64,25.67,145.96,2.27,94.59,1320.77,38.13,24.43,True,expensive,True,strong,True,True,strong,True,True,True
+2876,Chemicals & Petrochemicals (battery chemicals),Linde India,6076.5,51841.78,0.02,2413.01,-8.04,644.19,15.67,29.51,12.33,36.53,59.33,7.44,102.46,505.97,16.9,13.12,True,expensive,True,moderate,True,False,weak,True,False,False
+2879,Chemicals & Petrochemicals (battery chemicals),Deepak Nitrite,1711.4,23375.18,0.23,7874.86,-5.51,1901.89,-33.12,2.02,13.36,11.16,38.96,-3.19,43.99,531.41,16.28,4.23,True,expensive,True,moderate,True,False,weak,True,False,False
+2880,Chemicals & Petrochemicals (battery chemicals),Himadri Special,451.55,22784.08,0.21,4464.62,-2.24,1071.03,36.11,22.02,16.42,20.87,13.28,0.31,34.73,655.99,22.01,5.48,True,expensive,True,moderate,True,False,weak,True,False,False
+2883,Chemicals & Petrochemicals (battery chemicals),Deepak Fertilis.,1449.0,18296.4,0.68,10910.95,21.68,3005.83,43.0,94.55,15.56,17.81,77.97,1.67,18.59,984.32,15.67,2.81,True,fair,True,moderate,True,True,strong,True,False,True
+2885,Chemicals & Petrochemicals (battery chemicals),Vinati Organics,1656.4,17180.97,0.0,2258.65,8.78,546.27,24.44,4.46,15.75,29.7,44.85,5.96,36.95,464.92,20.61,5.78,True,expensive,True,moderate,True,False,weak,True,False,False
+2887,Chemicals & Petrochemicals (battery chemicals),Fine Organic,4655.7,14271.02,0.01,2309.3,5.89,597.29,-9.01,20.04,19.47,20.75,132.24,2.16,35.65,400.26,26.39,5.76,True,expensive,True,moderate,True,False,weak,True,False,False
+2891,Chemicals & Petrochemicals (battery chemicals),Privi Speci.,3213.3,12552.21,0.86,2341.94,24.25,678.71,96.45,9.86,18.36,23.89,68.24,1.82,47.05,266.8,16.42,10.13,True,expensive,True,moderate,True,True,strong,True,False,True
+2895,Chemicals & Petrochemicals (battery chemicals),Clean Science,919.9,9778.23,0.0,908.17,4.92,211.31,6.18,15.92,21.88,43.76,27.66,3.9,33.27,293.93,29.26,6.28,True,expensive,True,strong,True,False,weak,True,True,False
+2896,Chemicals & Petrochemicals (battery chemicals),Alkyl Amines,1771.8,9059.64,0.0,1552.19,3.95,389.41,8.29,-0.31,13.96,18.38,35.62,-8.26,49.73,182.16,18.66,6.28,True,expensive,True,moderate,True,False,weak,True,False,False
+2898,Chemicals & Petrochemicals (battery chemicals),Elantas Beck,9403.85,7455.07,0.0,829.58,14.37,216.55,-5.9,23.05,17.45,19.55,174.28,1.66,53.96,138.16,23.02,7.99,True,expensive,True,moderate,True,False,weak,True,False,False
+2902,Chemicals & Petrochemicals (battery chemicals),Epigral,1467.0,6326.7,0.26,2466.77,8.51,587.36,37.46,25.81,22.3,26.42,93.2,1.35,15.73,402.09,24.88,3.01,True,fair,True,strong,True,False,weak,True,True,False
+2903,Chemicals & Petrochemicals (battery chemicals),Ellen.Indl.Gas,410.7,5793.72,0.13,312.48,15.96,89.17,90.55,-2.05,17.76,35.15,6.36,2.78,66.37,80.22,18.23,6.28,True,expensive,True,moderate,True,False,moderate,True,False,False
+2904,Chemicals & Petrochemicals (battery chemicals),GHCL,600.25,5771.58,0.03,3077.36,-5.17,721.29,7.42,8.63,18.57,26.08,59.39,-3.72,10.13,569.5,24.19,1.59,True,fair,True,moderate,True,False,weak,True,False,False
+2908,Chemicals & Petrochemicals (battery chemicals),Refex Industries,342.95,4690.06,0.14,2136.51,28.14,426.85,53.56,33.25,18.91,10.44,12.16,,26.75,175.3,20.89,3.52,True,fair,True,moderate,True,True,strong,True,False,True
+2910,Chemicals & Petrochemicals (battery chemicals),Tanfac Inds.,3977.5,3967.55,0.09,694.82,74.82,168.69,76.33,38.64,32.05,20.42,94.31,2.3,42.18,94.07,41.76,11.68,True,expensive,True,strong,True,True,strong,True,True,True
+2913,Chemicals & Petrochemicals (battery chemicals),Grauer & Weil,82.51,3741.1,0.01,1159.35,1.97,291.18,-5.74,17.17,17.58,15.33,3.33,0.96,24.77,151.04,23.34,3.75,True,fair,True,moderate,True,False,weak,True,False,False
+2914,Chemicals & Petrochemicals (battery chemicals),Jubilant Agri,2440.9,3695.18,0.1,1750.71,23.91,512.95,60.45,,31.49,10.81,82.14,,29.86,123.76,33.22,8.87,True,fair,True,moderate,True,False,moderate,True,False,False
+2915,Chemicals & Petrochemicals (battery chemicals),Styrenix Perfor.,2051.1,3598.62,0.26,3372.93,38.5,798.93,-7.01,,24.64,10.18,114.01,,17.95,200.5,26.53,2.9,True,fair,True,moderate,True,False,weak,True,False,False
+2917,Chemicals & Petrochemicals (battery chemicals),Rossari Biotech,622.35,3456.59,0.28,2222.12,15.47,586.11,-1.54,15.88,12.22,12.33,24.68,2.12,25.3,136.62,15.8,2.75,True,fair,True,moderate,True,False,weak,True,False,False
+2919,Chemicals & Petrochemicals (battery chemicals),Foseco India,5322.0,3395.5,0.0,592.95,16.12,150.72,18.79,16.32,23.3,17.69,124.07,1.32,41.13,82.55,31.34,9.2,True,expensive,True,moderate,True,True,moderate,True,False,False
+2921,Chemicals & Petrochemicals (battery chemicals),Vishnu Chemicals,482.0,3241.24,0.42,1511.92,17.51,401.15,35.99,41.6,15.54,15.97,20.71,1.48,23.41,138.44,18.07,3.24,True,fair,True,moderate,True,True,moderate,True,False,False
+2922,Chemicals & Petrochemicals (battery chemicals),Prem. Explosives,570.2,3079.2,0.12,457.73,48.22,75.58,108.8,37.61,12.25,11.47,8.57,0.86,61.52,50.05,16.88,11.12,True,expensive,True,moderate,True,True,strong,True,False,True
+2927,Chemicals & Petrochemicals (battery chemicals),Fineotex Chem,24.23,2773.91,0.0,520.49,-10.12,137.71,-20.25,40.05,18.37,21.48,0.86,1.12,28.19,98.4,23.76,3.56,True,fair,True,moderate,True,False,weak,True,False,False
+2929,Chemicals & Petrochemicals (battery chemicals),Bhansali Engg.,93.22,2324.02,0.0,1323.79,0.29,325.1,-7.56,22.15,18.7,15.22,6.7,-0.7,13.94,166.68,25.34,2.23,True,fair,True,moderate,True,False,weak,True,False,False
+2934,Chemicals & Petrochemicals (battery chemicals),Vidhi Specialty,373.85,1873.0,0.19,370.94,17.64,74.99,26.68,5.04,14.94,20.84,9.64,-4.1,38.9,48.15,18.73,6.01,True,expensive,True,moderate,True,True,moderate,True,False,False
+2935,Chemicals & Petrochemicals (battery chemicals),Stallion India,204.9,1622.36,0.0,452.75,61.83,105.56,108.99,,15.17,13.9,6.01,2.37,36.18,44.84,19.67,5.11,True,expensive,True,moderate,True,False,moderate,True,False,False
+2938,Chemicals & Petrochemicals (battery chemicals),Platinum Industr,273.95,1502.13,0.07,403.73,17.41,98.38,-18.6,,14.0,12.62,7.71,0.85,35.18,42.7,18.55,3.68,True,expensive,True,moderate,True,False,weak,True,False,False
+2939,Chemicals & Petrochemicals (battery chemicals),Jyoti Resins,1194.9,1433.88,0.0,299.18,11.81,74.38,4.44,56.41,37.35,29.34,61.15,0.33,19.54,73.38,49.98,5.67,True,fair,True,strong,True,False,weak,True,True,False
+2951,Chemicals & Petrochemicals (battery chemicals),Heubach Colorant,467.45,1078.51,0.04,827.12,7.03,183.14,92.66,3.12,11.62,10.27,26.53,1.1,15.63,68.99,15.18,1.94,True,fair,True,moderate,True,False,weak,True,False,False
+2955,Chemicals & Petrochemicals (battery chemicals),Indo Amines,128.47,933.25,0.85,1108.89,13.0,277.05,34.72,34.0,19.01,10.15,9.66,0.39,13.31,70.11,18.32,2.59,True,fair,True,moderate,True,True,moderate,True,False,False
+2956,Chemicals & Petrochemicals (battery chemicals),Gem Aromatics,178.17,931.74,0.32,503.95,11.38,89.53,6.43,,20.73,17.55,11.39,1.16,22.73,53.32,19.43,2.04,True,fair,True,moderate,True,False,weak,True,False,False
+2961,Chemicals & Petrochemicals (battery chemicals),Kothari Petroche,141.65,833.56,0.01,587.88,0.09,143.02,1.22,30.73,23.82,15.15,11.24,0.52,12.57,66.32,29.99,2.48,True,fair,True,moderate,True,False,weak,True,False,False
+2962,Chemicals & Petrochemicals (battery chemicals),Amal,673.3,832.38,0.0,186.06,90.54,54.0,349.88,27.58,35.03,27.47,31.37,0.11,21.46,38.78,36.32,7.34,True,fair,True,strong,True,True,strong,True,True,True
+2963,Chemicals & Petrochemicals (battery chemicals),Titan Biotech,970.9,802.32,0.05,174.3,3.2,54.35,-8.75,26.47,15.01,15.77,27.91,-151.26,34.79,23.06,16.9,4.82,True,expensive,True,moderate,True,False,weak,True,False,False
+2964,Chemicals & Petrochemicals (battery chemicals),Tuticorin Alkali,65.28,795.35,0.59,318.9,14.33,79.99,-49.31,31.12,40.21,22.11,2.59,0.51,25.19,31.57,37.99,4.96,True,fair,True,strong,True,False,weak,True,True,False
+2965,Chemicals & Petrochemicals (battery chemicals),Indo Borax & Ch.,247.1,792.31,0.0,199.05,12.36,57.85,-8.91,21.19,13.52,21.59,14.26,3.67,20.29,39.04,18.71,2.2,True,fair,True,moderate,True,False,weak,True,False,False
+2968,Chemicals & Petrochemicals (battery chemicals),Nitta Gelatin,820.85,745.33,0.05,540.64,2.5,138.07,0.5,46.2,19.62,19.11,89.95,0.32,9.98,74.67,24.65,1.65,True,fair,True,moderate,True,False,weak,True,False,False
+2970,Chemicals & Petrochemicals (battery chemicals),Sacheerome,324.65,726.33,0.0,107.54,26.37,76.56,50.66,,29.59,21.35,9.78,0.58,30.44,15.97,38.62,5.38,True,expensive,True,strong,True,False,moderate,True,True,False
+2978,Chemicals & Petrochemicals (battery chemicals),Kronox Lab,145.13,537.39,0.03,99.96,7.55,25.53,11.06,24.28,32.57,32.74,6.96,0.9,20.82,25.81,43.82,5.31,True,fair,True,strong,True,False,weak,True,True,False
+2990,Chemicals & Petrochemicals (battery chemicals),Chembond Chemic.,157.45,427.14,0.0,292.27,3.19,73.04,2.97,,19.23,14.37,,0.46,13.83,30.55,26.47,2.29,True,fair,True,moderate,True,False,weak,True,False,False
+2998,Chemicals & Petrochemicals (battery chemicals),Alufluoride,442.55,346.1,0.29,200.2,17.58,54.83,7.55,14.06,20.79,19.79,24.0,0.23,16.87,20.51,23.62,3.07,True,fair,True,moderate,True,False,weak,True,False,False
+3001,Chemicals & Petrochemicals (battery chemicals),ARCL Organics,394.25,315.4,0.39,287.73,29.44,86.19,34.88,37.38,17.25,10.66,23.25,3.14,16.96,18.6,20.33,3.57,True,fair,True,moderate,True,True,strong,True,False,True
+3006,Chemicals & Petrochemicals (battery chemicals),Multibase India,234.35,295.75,0.0,68.39,0.51,18.53,-22.18,14.28,13.78,19.01,9.2,0.79,25.47,11.61,18.56,3.53,True,fair,True,moderate,True,False,weak,True,False,False
+3011,Chemicals & Petrochemicals (battery chemicals),Indian Toners,264.4,274.76,0.0,157.94,3.32,38.85,11.7,13.73,10.78,21.1,25.35,1.83,10.43,26.34,16.26,1.28,True,cheap,True,moderate,True,False,weak,True,False,False
+3019,Chemicals & Petrochemicals (battery chemicals),Narmada Gelatine,345.65,209.1,0.1,194.77,3.78,51.21,30.57,11.76,15.07,15.88,34.88,0.59,9.91,21.1,19.92,1.68,True,fair,True,moderate,True,False,weak,True,False,False
+3021,Chemicals & Petrochemicals (battery chemicals),Indian Emuls,112.9,206.99,0.35,126.71,52.48,76.98,38.37,,24.08,19.31,9.07,0.02,12.48,16.59,23.57,2.24,True,fair,True,moderate,True,False,moderate,True,False,False
+3024,Chemicals & Petrochemicals (battery chemicals),Patel Chem,80.22,199.51,0.22,105.09,27.6,61.16,37.99,,38.49,14.53,5.91,0.26,17.38,10.57,35.22,2.14,True,fair,True,moderate,True,False,moderate,True,False,False
+3025,Chemicals & Petrochemicals (battery chemicals),Rajputana Bio.,271.0,190.61,0.3,82.14,14.88,59.36,-5.94,,21.73,13.51,10.12,0.13,26.77,7.12,20.82,4.14,True,fair,True,moderate,True,False,weak,True,False,False
+3041,Chemicals & Petrochemicals (battery chemicals),Deepak Chemtex,111.95,121.62,0.01,71.52,7.6,30.93,32.38,,25.46,20.65,10.24,0.25,10.94,11.12,33.79,2.04,True,fair,True,strong,True,False,weak,True,True,False
+3042,Chemicals & Petrochemicals (battery chemicals),Renol Polychem,139.25,110.62,0.01,62.3,865.89,40.06,226.8,,45.41,11.48,9.11,,21.36,5.0,46.09,2.88,True,fair,True,moderate,True,False,moderate,True,False,False
+3045,Chemicals & Petrochemicals (battery chemicals),Resonance Speci.,94.05,108.54,0.04,85.24,27.11,21.53,70.78,1.29,11.65,13.0,6.47,-0.86,14.51,7.48,15.4,1.64,True,fair,True,moderate,True,True,strong,True,False,True
+3051,Chemicals & Petrochemicals (battery chemicals),Silkflex Polymer,82.9,96.22,1.41,82.6,16.35,37.59,34.89,82.06,29.23,14.69,6.24,0.11,13.31,7.23,24.08,2.46,True,fair,True,moderate,True,True,moderate,True,False,False
+3054,Chemicals & Petrochemicals (battery chemicals),Snehaa Organics,86.9,88.45,0.11,26.22,10.54,13.79,100.55,,66.07,43.82,9.79,0.21,12.05,7.34,58.77,1.81,True,fair,True,strong,True,False,moderate,True,True,False
+3059,Chemicals & Petrochemicals (battery chemicals),Mehul Colours,80.5,84.92,0.01,22.82,4.01,14.21,72.87,,38.29,30.63,7.29,0.25,13.67,5.48,51.28,2.17,True,fair,True,strong,True,False,weak,True,True,False
+3134,Chemicals & Petrochemicals (battery chemicals),Adani Total Gas,610.5,67143.4,0.45,5465.56,16.61,1451.26,-10.87,8.72,16.82,20.48,5.69,12.26,107.31,625.7,17.47,14.89,True,expensive,True,moderate,True,False,weak,True,False,False
+3135,Chemicals & Petrochemicals (battery chemicals),Petronet LNG,274.25,41144.98,0.12,47431.6,-13.73,11009.13,-7.2,7.44,21.16,10.62,24.46,2.4,11.21,3668.78,25.39,1.95,True,fair,True,moderate,True,False,weak,True,False,False
+3136,Chemicals & Petrochemicals (battery chemicals),Indraprastha Gas,206.56,28915.66,0.01,15643.8,8.89,4023.4,-13.51,6.98,16.39,11.55,11.41,4.07,18.11,1597.03,20.85,2.58,True,fair,True,moderate,True,False,weak,True,False,False
+3137,Chemicals & Petrochemicals (battery chemicals),Gujarat Gas,402.5,27721.38,0.02,15906.19,-2.39,3780.4,-9.2,-0.76,14.25,11.3,16.22,-6.53,24.83,1116.32,19.5,3.19,True,fair,True,moderate,True,False,weak,True,False,False
+3140,Chemicals & Petrochemicals (battery chemicals),Mahanagar Gas,1222.2,12066.36,0.03,7753.14,19.06,2049.33,-14.13,4.26,17.72,19.75,100.27,0.68,12.18,990.49,22.89,1.94,True,fair,True,moderate,True,False,weak,True,False,False
