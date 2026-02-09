@@ -65,7 +65,9 @@ CORE_NUMERIC_COLS = [
 # Max allowed missing ratio for numeric columns (per column)
 # Keep it lenient for public market datasets (some fields legitimately missing)
 MAX_NUMERIC_MISSING_RATIO = 0.30  # 30%
-
+MAX_MISSING_RATIO_BY_COL = {
+    "profit_var_5yrs_pct": 0.35,   # 5Y metric often missing; allow a bit more
+}
 
 # -------------------------
 # HELPERS
@@ -111,8 +113,8 @@ def test_nulls_n1_identifiers_not_null(request, fixture_name, dataset_label):
 def test_nulls_n2_numeric_missing_ratio_ok(request, fixture_name, dataset_label):
     df = request.getfixturevalue(fixture_name)
     for c in CORE_NUMERIC_COLS:
-        assert_missing_ratio_ok(df, c, dataset_label, MAX_NUMERIC_MISSING_RATIO)
-
+        max_ratio = MAX_MISSING_RATIO_BY_COL.get(c, MAX_NUMERIC_MISSING_RATIO)
+        assert_missing_ratio_ok(df, c, dataset_label, max_ratio)
 
 # N3: Feature engineered buckets/flags should be present in feature/screen datasets
 FEATURE_REQUIRED_COLS = [
@@ -138,10 +140,3 @@ SCREEN_FLAG_COLS = ["is_basic_screen_pass", "is_quality_screen_pass", "is_growth
 def test_nulls_n4_screen_flags_not_null(request, fixture_name, dataset_label):
     df = request.getfixturevalue(fixture_name)
     assert_no_nulls(df, SCREEN_FLAG_COLS, dataset_label)
-
-
-
-
-
-
-
